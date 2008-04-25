@@ -1,0 +1,2563 @@
+file {
+	name="thermalDet.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="313"
+	nstr="210"
+	ndynamic="37"
+	nplot="0"
+	nrd="0"
+	nes="0"
+	nkd="1"
+	object {
+		x="0"
+		y="0"
+		width="499"
+		height="660"
+	}
+	clr="1"
+	bclr="17"
+	nwords_dspy="8664"
+	nwords_sta="716"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="6210"
+	osta="5494"
+	odynamic="6210"
+	oplot="8652"
+	ord="8652"
+	oes="8652"
+	okd="8652"
+	opc="58"
+	ostr="3636"
+	ocmap="5494"
+	ocrules="5494"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="static"
+	vismod="static"
+	clrrule="alarm"
+	pv=""
+	cmap="colors.dl"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="250"
+		y="52"
+		width="245"
+		height="201"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="5"
+		y="52"
+		width="237"
+		height="200"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="5"
+		y="58"
+		width="269"
+		height="21"
+		groupid="0"
+	}
+	textix="to Carousel PLC"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="37"
+		y="290"
+		width="92"
+		height="14"
+		groupid="0"
+	}
+	textix="Carousel OFF"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="39"
+		y="312"
+		width="90"
+		height="14"
+		groupid="0"
+	}
+	textix="Carousel MSP"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="38"
+		y="334"
+		width="91"
+		height="14"
+		groupid="0"
+	}
+	textix="Carousel ECS"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="18"
+		y="361"
+		width="111"
+		height="14"
+		groupid="0"
+	}
+	textix="Passive Vents &"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="9"
+		y="404"
+		width="120"
+		height="14"
+		groupid="0"
+	}
+	textix="Lwr.Shell Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="30"
+		y="430"
+		width="99"
+		height="14"
+		groupid="0"
+	}
+	textix="Roof Vents &"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="40"
+		y="471"
+		width="89"
+		height="14"
+		groupid="0"
+	}
+	textix="Shutter Fans"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="294"
+		y="86"
+		width="89"
+		height="14"
+		groupid="0"
+	}
+	textix="Exhaust Fans"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="251"
+		y="59"
+		width="243"
+		height="20"
+		groupid="0"
+	}
+	textix="to Plant Room PLC"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="274"
+		y="108"
+		width="109"
+		height="14"
+		groupid="0"
+	}
+	textix="Exhaust Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="287"
+		y="130"
+		width="96"
+		height="14"
+		groupid="0"
+	}
+	textix="Floor Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="317"
+		y="154"
+		width="66"
+		height="14"
+		groupid="0"
+	}
+	textix="AHU Power"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="308"
+		y="178"
+		width="75"
+		height="14"
+		groupid="0"
+	}
+	textix="New AHU SP"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="298"
+		y="215"
+		width="85"
+		height="14"
+		groupid="0"
+	}
+	textix="New Chill SP"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="312"
+		y="290"
+		width="69"
+		height="14"
+		groupid="0"
+	}
+	textix="Plant OFF"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="248"
+		y="265"
+		width="245"
+		height="21"
+		groupid="0"
+	}
+	textix="from Plant Room PLC"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="314"
+		y="312"
+		width="67"
+		height="14"
+		groupid="0"
+	}
+	textix="Plant MSP"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="314"
+		y="334"
+		width="67"
+		height="14"
+		groupid="0"
+	}
+	textix="Plant ECS"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="7"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="278"
+		y="531"
+		width="103"
+		height="14"
+		groupid="0"
+	}
+	textix="Exhaust Fan Sw"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="292"
+		y="365"
+		width="89"
+		height="14"
+		groupid="0"
+	}
+	textix="Exhaust Fans"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="7"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="258"
+		y="565"
+		width="123"
+		height="14"
+		groupid="0"
+	}
+	textix="Exhaust Damper Sw"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="272"
+		y="387"
+		width="109"
+		height="14"
+		groupid="0"
+	}
+	textix="Exhaust Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="7"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="272"
+		y="600"
+		width="110"
+		height="14"
+		groupid="0"
+	}
+	textix="Floor Damper Sw"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="286"
+		y="408"
+		width="95"
+		height="14"
+		groupid="0"
+	}
+	textix="Floor Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="7"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="292"
+		y="634"
+		width="90"
+		height="14"
+		groupid="0"
+	}
+	textix="AHU Power Sw"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="287"
+		y="429"
+		width="94"
+		height="14"
+		groupid="0"
+	}
+	textix="AHU Power"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="263"
+		y="451"
+		width="119"
+		height="13"
+		groupid="0"
+	}
+	textix="AHU Set Point Ok"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="271"
+		y="472"
+		width="111"
+		height="14"
+		groupid="0"
+	}
+	textix="Chiller S/P Ok"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="39"
+		y="192"
+		width="90"
+		height="14"
+		groupid="0"
+	}
+	textix="Shutter Fans"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="47"
+		y="225"
+		width="82"
+		height="14"
+		groupid="0"
+	}
+	textix="Dome Lights"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="7"
+		y="263"
+		width="234"
+		height="22"
+		groupid="0"
+	}
+	textix="from Carousel PLC"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="5"
+		width="78"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="87"
+		y="14"
+		width="314"
+		height="24"
+		groupid="0"
+	}
+	textix="Thermal PLC Details"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="6"
+		y="6"
+		width="489"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="17"
+		y="6"
+		width="105"
+		height="38"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="249"
+		y="259"
+		width="245"
+		height="234"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="259"
+		width="235"
+		height="233"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="14"
+		y="378"
+		width="115"
+		height="14"
+		groupid="0"
+	}
+	textix="Lwr.Shtr.Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="11"
+		y="443"
+		width="118"
+		height="14"
+		groupid="0"
+	}
+	textix="Upr.Shtr.Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="7"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="18"
+		y="525"
+		width="111"
+		height="14"
+		groupid="0"
+	}
+	textix="Passive Vents &"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="9"
+		y="568"
+		width="120"
+		height="14"
+		groupid="0"
+	}
+	textix="Lwr.Shell Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="30"
+		y="594"
+		width="99"
+		height="14"
+		groupid="0"
+	}
+	textix="Roof Vents &"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="40"
+		y="635"
+		width="89"
+		height="14"
+		groupid="0"
+	}
+	textix="Shutter Fans"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="14"
+		y="542"
+		width="115"
+		height="14"
+		groupid="0"
+	}
+	textix="Lwr.Shtr.Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="11"
+		y="607"
+		width="118"
+		height="14"
+		groupid="0"
+	}
+	textix="Upr.Shtr.Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="148"
+		y="500"
+		width="214"
+		height="16"
+		groupid="0"
+	}
+	textix="Local Control Switches"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="520"
+		width="235"
+		height="136"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="249"
+		y="521"
+		width="244"
+		height="136"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="18"
+		y="88"
+		width="111"
+		height="14"
+		groupid="0"
+	}
+	textix="Passive Vents &"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="14"
+		y="100"
+		width="115"
+		height="14"
+		groupid="0"
+	}
+	textix="Lwr.Shtr.Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="9"
+		y="130"
+		width="120"
+		height="14"
+		groupid="0"
+	}
+	textix="Lwr.Shell Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="30"
+		y="154"
+		width="99"
+		height="14"
+		groupid="0"
+	}
+	textix="Roof Vents &"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="11"
+		y="167"
+		width="118"
+		height="14"
+		groupid="0"
+	}
+	textix="Upr.Shtr.Dampers"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="290"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="312"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="334"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="133"
+		y="533"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit3"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="368"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit4"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="133"
+		y="569"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit5"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="404"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit6"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="133"
+		y="599"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit7"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="438"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit8"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="133"
+		y="634"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit9"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="135"
+		y="471"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit10"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="393"
+		y="86"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)1:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="393"
+		y="108"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)1:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="393"
+		y="130"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)1:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="393"
+		y="154"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)1:bit3"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="393"
+		y="176"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)1:bit4"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="393"
+		y="214"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)1:bit5"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="290"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="312"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="334"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="531"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit3"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="365"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit4"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="565"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit5"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="387"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit6"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="392"
+		y="600"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit7"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="408"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit8"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="392"
+		y="634"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit9"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="391"
+		y="429"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit10"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="392"
+		y="450"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit11"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="392"
+		y="472"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit12"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="134"
+		y="96"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)31:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="134"
+		y="129"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)31:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="134"
+		y="160"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)31:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="133"
+		y="192"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)31:bit3"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="133"
+		y="225"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)31:bit4"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"text update" {
+	object {
+		x="393"
+		y="192"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	monitor {
+		chan="ec:thermalSahuSet"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="392"
+		y="231"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	monitor {
+		chan="ec:thermalSchillSet"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"kill display" {
+	object {
+		x="401"
+		y="10"
+		width="91"
+		height="32"
+		groupid="0"
+	}
+	RISCpad="0"
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

@@ -1,0 +1,834 @@
+file {
+	name="miscFaultSim.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="270"
+	nstr="206"
+	ndynamic="11"
+	nplot="0"
+	nrd="0"
+	nes="0"
+	nkd="1"
+	object {
+		x="0"
+		y="0"
+		width="319"
+		height="374"
+	}
+	clr="1"
+	bclr="17"
+	nwords_dspy="5936"
+	nwords_sta="240"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="5198"
+	osta="4958"
+	odynamic="5198"
+	oplot="5924"
+	ord="5924"
+	oes="5924"
+	okd="5924"
+	opc="58"
+	ostr="3300"
+	ocmap="4958"
+	ocrules="4958"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="static"
+	vismod="static"
+	clrrule="alarm"
+	pv=""
+	cmap="colors.dl"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="5"
+		y="52"
+		width="307"
+		height="317"
+		groupid="0"
+	}
+}
+"text" {
+	object {
+		x="88"
+		y="132"
+		width="36"
+		height="14"
+		groupid="0"
+	}
+	textix="PCU"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="124"
+		y="344"
+		width="51"
+		height="14"
+		groupid="0"
+	}
+	textix="Enable"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="87"
+		y="114"
+		width="36"
+		height="14"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="91"
+		y="96"
+		width="30"
+		height="14"
+		groupid="0"
+	}
+	textix="OFF"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="24"
+		y="67"
+		width="256"
+		height="24"
+		groupid="0"
+	}
+	textix="Carousel Motion Control"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="28"
+		y="320"
+		width="87"
+		height="16"
+		groupid="0"
+	}
+	textix="Carousel"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="6"
+		y="4"
+		width="78"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="87"
+		y="12"
+		width="161"
+		height="22"
+		groupid="0"
+	}
+	textix="PLC Fault Sim"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="5"
+		y="4"
+		width="309"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="16"
+		y="7"
+		width="105"
+		height="33"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="134"
+		y="257"
+		width="36"
+		height="14"
+		groupid="0"
+	}
+	textix="LOCAL"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="17"
+		y="191"
+		width="121"
+		height="16"
+		groupid="0"
+	}
+	textix="Carousel PLC"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="139"
+		y="238"
+		width="37"
+		height="13"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="139"
+		y="218"
+		width="30"
+		height="14"
+		groupid="0"
+	}
+	textix="OFF"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="141"
+		y="191"
+		width="143"
+		height="16"
+		groupid="0"
+	}
+	textix="Plant Room PLC"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="180"
+		y="321"
+		width="106"
+		height="16"
+		groupid="0"
+	}
+	textix="Plant Room"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="78"
+		y="169"
+		width="175"
+		height="20"
+		groupid="0"
+	}
+	textix="Thermal Control"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="69"
+		y="297"
+		width="185"
+		height="20"
+		groupid="0"
+	}
+	textix="PLC Heartbeats"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="128"
+		y="133"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="ec:faultS6:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="25"
+		y="340"
+		width="88"
+		height="18"
+		groupid="0"
+	}
+	control {
+		chan="ec:faultSenable"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="127"
+		y="115"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="ec:faultS6:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="128"
+		y="94"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="ec:faultS6:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="189"
+		y="342"
+		width="88"
+		height="17"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermalSenable"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="188"
+		y="216"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="187"
+		y="255"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="188"
+		y="234"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(pr)0:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="33"
+		y="216"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit0"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="32"
+		y="236"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit2"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"choice button" {
+	object {
+		x="31"
+		y="255"
+		width="88"
+		height="14"
+		groupid="0"
+	}
+	control {
+		chan="$(C)18:bit1"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	stacking="row"
+	RISC_pad="0"
+}
+"kill display" {
+	object {
+		x="245"
+		y="8"
+		width="65"
+		height="32"
+		groupid="0"
+	}
+	RISCpad="0"
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

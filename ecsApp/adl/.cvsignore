@@ -1,0 +1,5 @@
+*.dl
+*%
+*_BAK.adl
+.applTop
+O.solaris

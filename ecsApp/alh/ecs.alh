@@ -1,0 +1,34 @@
+GROUP    NULL                         ECS                         
+GROUP    ECS                          SYSTEM                      
+CHANNEL  SYSTEM                       ec:health                   
+CHANNEL  SYSTEM                       ec:heartbeat                
+CHANNEL  SYSTEM                       ec:simulate                 
+CHANNEL  SYSTEM                       ec:carouselPlcDead          
+CHANNEL  SYSTEM                       ec:plantRoomPlcDead         
+GROUP    ECS                          DOME                        
+CHANNEL  DOME                         ec:domeState                
+CHANNEL  DOME                         ec:domeInPos                  --A--
+GROUP    ECS                          SHUTTERS                        
+CHANNEL  SHUTTERS                     ec:shtrInPos                  --A--
+GROUP    SHUTTERS                     TOP_SHUTTER                 
+CHANNEL  TOP_SHUTTER                  ec:topShtrState             
+CHANNEL  TOP_SHUTTER                  ec:topShtrInPos               --A--
+CHANNEL  TOP_SHUTTER                  ec:topShtrLimOpen           
+CHANNEL  TOP_SHUTTER                  ec:topShtrLimClose          
+GROUP    SHUTTERS                     BOTTOM_SHUTTER              
+CHANNEL  BOTTOM_SHUTTER               ec:botShtrState             
+CHANNEL  BOTTOM_SHUTTER               ec:botShtrInPos               --A--
+CHANNEL  BOTTOM_SHUTTER               ec:botShtrLimOpen             
+CHANNEL  BOTTOM_SHUTTER               ec:botShtrLimClose          
+GROUP    ECS                          VENTGATES                        
+CHANNEL  VENTGATES                    ec:vgateInPos                 --A--
+GROUP    VENTGATES                    EAST_VENTGATE               
+CHANNEL  EAST_VENTGATE                ec:eastVentGateState        
+CHANNEL  EAST_VENTGATE                ec:eastVentGateInPos          --A--
+CHANNEL  EAST_VENTGATE                ec:eastVentGateLimClose     
+GROUP    VENTGATES                    WEST_VENTGATE               
+CHANNEL  WEST_VENTGATE                ec:westVentGateState        
+CHANNEL  WEST_VENTGATE                ec:westVentGateInPos          --A--
+CHANNEL  WEST_VENTGATE                ec:westVentGateLimClose     
+GROUP    ECS                          THERMAL                     
+CHANNEL  THERMAL                      ec:thermalM                 

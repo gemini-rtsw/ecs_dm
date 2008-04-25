@@ -1,0 +1,755 @@
+-------------------------------------------------------------------------
+				V0-6
+-------------------------------------------------------------------------
+
+V0-6 was the first stable version to go into the repository. It did not
+have site support.
+
+-------------------------------------------------------------------------
+				V1-0
+			Added site support
+-------------------------------------------------------------------------
+
+./ecsInstall
+	Added site support to ecsInstall (PG 18/May/01).
+
+src/ecsInitCP.data
+src/ecsInitMK.data
+	Created new copies of the pvload file for Mauna-Kea and Cerro
+	Pachon. The old ecsInit.data file was preserved with the setting
+	for Mauna-Kea (PG 18/May/01).
+
+startup/startup.vws
+startup/startupCP.vws
+startup/startupMK.vws
+	Copied startup.vws to startupCP.vws and startupMK.vws. Modified
+	the prompt to ecs-CP> and ecs-MK> and changed the name of
+	ecsInit.data to src/ecsInitCP.data and src/ecsInitMK.data,
+	respectively. Removed old startup.vws (PG 18/May/01).
+
+------------------------------------+------------------------------------
+				  V1-1
+			       Bug fixes
+		      Bottom shutter skew detection
+-------------------------------------------------------------------------
+
+startup/startup.vws 
+startup/startupCP.vws 
+startup/startupMK.vws 
+	Added Bancomm card code to sync up to the TCS (PG 25/May/01)
+
+startup/.cvsignore
+	Added UAE.dist to the list (PG 25/May/01)
+
+dl/status.adl
+	Fixed the ECS lights and emergency stop record names. There was a
+	missing colon in the record name (PG 25/May/01)
+
+dl/ECS_Display.adl
+	Fixed the names of the channels used in the demands of the shutters
+	and vent gates (PG 25/May/01).
+
+src/devEcsAbDf1.c
+	Updated comments (PG 30/May/01).
+
+src/devEcsAbDf1.c
+	Modified the way PARK is handled when the device is already there.
+	It now checks whether it has already reached the limits, and also
+	it does not check for exact equality of the demand and the position
+	because they are not exactly equal (PG 30/May/01).
+
+src/ecsThermal.c
+	Changed the OPEN_PASSIVE_VENTS, OPEN_SHELL_DAMPERS, and
+	OPEN_ROOF_VENTS macros to clear bits instead of setting them, in
+	order to conform with what the PLC expects (PG 31/may/01).
+
+src/ecsThermal.c
+	Temporary disabled the following routines by adding a return at
+	the beggining of the routine: ahuSetPointAdjust, chillSetPointAdjust,
+	exhaustFans, ahuPower, exhaustDampers, and floorDampers until they
+	can be tested (PG 31/May/01).
+
+src/ecsThermal.c
+	Changed the check for a cardiac arrest in the PRPLC. It now allows
+	for a one count difference between the number coming from the PLC
+	and the one sent back since sometimes there is a delay in the
+	ECS feedback (PG 31/May/01).
+
+capfast/misc.sch
+	Removed explicit definition of "ab" macro since it's inherited
+	from the parent schematic (PG 31/May/01).
+
+capfast/shuttersStatus.sch
+capfast/vgatesStatus.sch
+	Changed schematics to limit the shutter position to zero if the
+	device position is greater than 150 to prevent getting big
+	numbers when the enconders return a negative number (returned
+	as a big number by the PLC). For the vent gates the position
+	should be in the range (0, 100), for the bottom shutter the value
+	should be in the range (0, 60), and for the top shutter it should
+	be in the range (0, 96). The top shutter position is meassured
+	relative from the lowest point it can reach (~10 degrees), and
+	the offset is added afterwards (PG 31/May/01).
+
+src/ecsFault.c
+dl/motorFault.adl
+	Added detection for bottom shutter skewing and the skew encoder
+	fault (PG 12/May/01).
+
+src/ecMisc.c
+	Forced CAR status of the thermal system so activeC will not be in
+	an error condition while the PRPLC is not connected (PG 13/Jun/01).
+
+src/ecCommands.c
+	Removed debug printErr() statements (PG 13/Jun/01).
+
+src/ecsMotor.h
+src/ecsFault.c
+src/devEcsAbDf1.c
+	Added SKEWING define and modified the code to set and check for
+	this new condition (PG 13/Jun/01).
+
+src/ecsInit.data
+src/ecsInitCP.data
+src/ecsInitMK.data
+	Enabled motion interlock. This interlock had beed bypassed in the
+	early days because the interface to the GIS was not ready, but now
+	this si not true anymore. The thermal interlock is still bypassed
+	because there are no interlocks of this type defined (PG 14/Jun/01).
+
+-------------------------------------------------------------------------
+				V1-2
+			     Bug fixes
+-------------------------------------------------------------------------
+
+ecsInstall
+Makefile.subdirs
+	Added "-s Makefile.subdirs" in ecsInstall and cleaned garbage
+	from Makefile.subdirs (PG 10/Aug/01).
+
+-------------------------------------------------------------------------
+				V1-4
+			     Bug fixes
+	NOTE: V1-3 was a dead version because of problems with tags
+-------------------------------------------------------------------------
+
+ecsInstall
+src/ecsInit.data
+	Removed ecsInit.data and modified ecsInstall so it will now copy
+	ecsInitCP.data or ecsInitMK.data to ecsInit.data depending on the
+	site. This is necessary because the code reloads ecsInit.data
+	(fixed name) when an INIT is performed (PG 10/Oct/01).
+
+src/ecsInitCP.data
+	Disabled motion interlock because it was dicovered that the GIS
+	PLC is not sending the intelock signals to the ECS (PG 10/Oct/01).
+
+-------------------------------------------------------------------------
+				V2-0
+			     Port to GEM7
+
+In order to avoid build problems (seen in previous attempts) an empty
+tree was created using applSetup.pl and the code was copied one directory
+at a time. All the CVS directories were tared from the version in the
+repository and restored in the new directory.
+-------------------------------------------------------------------------
+
+adl/*.adl
+adl/*.sh
+	Copied all *.adl files and shel scripts into this directory. The
+	file colors.adl was copied as well since the color rules for the
+	ECS are different (PG 22/Mar/02).
+
+adl/ecs_diag.sh
+adl/ecs_disp.sh
+adl/ecs_dm.sh
+adl/ecsSim_dm.sh
+adl/test_dm.sh
+	Changed dm2.4 to dm2-4 (PG 22/Mar/02).
+
+dbRecType.ascii
+devSup.ascii
+drvSup.ascii
+choiceEcsMotor.h
+choiceRec.ascii
+ecsMotorRecord.ascii
+	Copied files from the ascii directory. These are not needed in
+	GEM7, but they were copied for archiving purposes (PG 22/Mar/02).
+
+capfast/*.sch
+capfast/*.sym
+p216a
+printCF
+printDome
+printEcs
+printMech
+printMotorSim
+printSad
+printShutters
+printSim
+printSoft
+printStatus
+printThermalSim
+printVgates
+	Copied capfast files and auxiliary scripts (PG 22/Mar/02).
+
+capfast/Makefile.Host
+	Added the following line to the flag declarations:
+
+		E2DB_SYSFLAGS = -ate -d ../edb.def
+
+	to make the database include the ECS Motor record. Otherwise
+	the database ends up having fewer records (PG 22/Mar/02).
+
+capfast/Makefile.Host
+	Changed the DATA definition to:
+
+		DATA = ecs.db ecsSim.db ecsSad.db
+
+	to generate the three ECS databases (PG 22/Mar/02).
+
+capfast/edb.def
+	Copied a fresh copy of edb.def from the EPICS tree and added the
+	ECS motor entry from the old file (PG 22/Mar/02).
+
+NOTE:
+	When recompiling the capfast directory it was found that there
+	was one record missing from the database (305 records instead of
+	306). This is okay since the ECS uses the wait record in the
+	parkNew1.sch and this code needs to be replaced anyway.
+
+ecsInstall
+	Copied old file and changed invokation of applSetup to
+
+	    applSetup.pl -T mv167 -T ppc604 \
+			 -I adl -I alh -I capfast -I src -I startup -I db \
+			 -S $site $1 > $2 2>&1
+
+	Also removed cp's of ecsInitCP.data and ecsInitMK.data to
+	ecsInit.data because the INIT file name problem will be handled
+	in a better way (PG 22/Mar/02).
+
+config/CONFIG.Defs
+	Changed APPLIC_IOCPATH and APPLIC_SITE to:
+
+		APPLIC_IOCPATH = icarus:/gemini/epics3.13.4/ecs/V2-0
+		APPLIC_SITE = CP
+
+	This had to be done by hand since it was not done when applSetup
+	was run for the first time (PG 22/Mar/02).
+
+src/*.c
+src/*.h
+src/*.st*
+	Copied files from old version. An old version of ecsThermal.c
+	(ecsThermal.bw) was not copied (PG 22/Mar/02).
+
+src/abDev.dbd
+src/ecsMotorRecord.dbd
+	Added definition files for the ECS motor record and the Allen
+	Bradley device support (PG 22/Mar/02).
+
+src/Makefile.Vx
+	Added
+		RECTYPES = ecsMotorRecord.h
+	and
+		DBDINSTALL  = ecsMotorRecord.dbd
+		DBDINSTALL += abDev.dbd
+	and
+		LIBOBJS += abLog.o
+		LIBOBJS += devEcsAbDf1.o
+		LIBOBJS += drvAbDf1.o
+		LIBOBJS += drvSerial.o
+		LIBOBJS += ecCommands.o
+		LIBOBJS += ecHealth.o
+		LIBOBJS += ecInterlocks.o
+		LIBOBJS += ecMisc.o
+		LIBOBJS += ecSIR.o
+		LIBOBJS += ecsFault.o
+		LIBOBJS += ecsThermal.o
+		LIBOBJS += fakeDevice.o
+		LIBOBJS += recEcsMotor.o
+	and
+		LIBNAME = libEcs
+	and
+		DATA    += ../ecsInitCP.pv
+		DATA    += ../ecsInitMK.pv
+		DATA    += ../ecsSimInit.pv
+
+	to match the old file (PG 22/Mar/02).
+
+startup/startupCP.vws
+startup/startupMK.vws
+startup/startupMK.vws -> startup.vws
+	Created startup files for CP and MK. Both files only differ in
+	the prompt and the INIT file name (PG 25/Mar/02).
+
+src/ecsInitCP.data -> ecsInitCP.pv
+src/ecsInitMK.data -> ecsInitMK.pv
+src/ecsSimInit.data -> ecsSimInit.pv
+	Copied pvload files from old version. The names were changed
+	to use a more standard extension (PG 25/Mar/02).
+
+devEcsAbDf1.c
+ecMisc.c
+ecsThermal.c
+recEcsMotor.c
+	Changed include of car.h to menuCarStates.h and changed CAR_*
+	definitions accordingly (PG 25/Mar/02).
+
+devEcsAbDf1.c
+	Added include of <math.h> to remove fabs() warning. Made definition
+	of LOCAL conditional to the value being defined before since there
+	was a conflict with vxWorks.h (PG 25/Mar/02).
+
+ecCommands.c
+	Changed include of car.h to menuCarStates.h and changed CAR_*
+	definitions accordingly. Added include of cardRecord.h and changed
+	CAD_* definitions accordingly (PG 25/Mar/02).
+
+ecCommands.c
+ecMisc.c
+	Added include of stdio.h and string.h to suppress strcpy and
+	printf warnings. Added (int) type cast to printf calls to
+	suppress warnings (PG 25/Mar/02).
+
+src/fakeDevice.c
+	Added include of logLib.h and tickLib.h to suppress logMsg()
+	and tickGet() warnings (PG 25/Mar/02).
+
+src/ecMisc.c
+	Changed reference to "ecsInit.data" to "ecsInit.pv" to match the
+	change of names in the pvload files (PG 25/Mar/02).
+
+src/ecHealth.c
+src/ecSIR.c
+	Added include of string.h to suppress strcpy warnings (PG 25/Mar/02).
+
+ecInterlocks.c
+	Added include of stdio.h and string.h to suppress strcpy and
+	printf warnings (PG 25/Mar/02).
+
+recEcsMotor.c
+	Added #define GEN_SIZE_OFFSET and #undef GEN_SIZE_OFFSET bracketing
+	the include of ecsMotorRecord.h. This is a standard technique to
+	get the ecsMotorRecordSizeOffset routine inserted automatically
+	from ecsMotorRecord.h, which in turn is generated from the record
+	dbd file (PG 25/Mar/02).
+
+recEcsMotor.c
+	Removed calls to recGblPutFastLink(), recGblInitFastInLink(),
+	dbCaAddOutlink since they are no longer required in the GEM7
+	release (PG 25/Mar/02).
+
+recEcsMotor.c
+	Changed calls to recGblGetFastLink() to dbGetLink(). Note: This
+	was done incorrectly the first time since the calling sequence was
+	wrong. Andy Foster found the problem and fixed it (PG 25/Mar/02).
+
+recEcsMotor.c
+	Changed abs() calls to fabs() (PG 25/Mar/02).
+
+recEcsMotor.c
+	Changed reference to pmr->dol.value.value in initLinks with a
+	call to recGblInitConstantLink() (PG 25/Mar/02).
+	
+drvAbDf1.c
+drvSerial.c
+	The AB and the serial driver both report warnings when compiled.
+	The problem originates in the bad practice of using the return
+	value of a pointer value as a logical expression. This was not
+	changed for now (PG 25/Mar/02).
+
+alh/Makefile.Host
+	Changed TOP to ecs (PG 27/Mar/02).
+
+alh/ecs.alhConfig -> ecs.alh
+	Copied alarm setup file changing its name to ecs.alh to match
+	the Makefile requirements (PG 27/Mar/02).
+
+src/ecMisc.c
+	Increased the stack space of the initialization task since it
+	was too small for the new EPICS release (PG 07/May/02).
+
+src/ecMisc.c
+	Added variables to store the initialization variable name and the
+	database top. Also added routine to set these values from the
+	vxWorks shell (PG 16/May/02).
+
+adl/ECS_Master.adl
+adl/motorFault.adl
+	Reduced the font sizes to make the labels fit in the text
+	boxes (PG 29/May/01).
+
+Makefile.Dirs
+	Added file to CVS (PG 26/Jun/02).
+
+ecsInstall
+	Modified to make the install script to have all the shell script
+	in data have execute permissions. This is not being done by the
+	Makefiles in GEM7 (PG 26/Jun/02).
+
+------------------------------------+------------------------------------
+				  V2-1
+			     Drive currents.
+		       Bottom shutter skew encoder
+-------------------------------------------------------------------------
+
+ecsUnsetup
+	Added script to clean the ECS directory to rerun ecsInstall with
+	a clean directory (PG 29/Jul/02).
+
+capfast/abWordGet.sch
+capfast/abWordGet.sym
+	Added new schematics to read a word from the PLC. This is the same
+	as abWordRead, but it does not give access to the individual bits
+	of the word (PG 29/Jul/02).
+
+capfast/shuttersStatus.sch
+	Added bottom shutter skew encoder read (PG 29/Jul/02).
+
+ecsInstall
+	Added creation of bin/solaris to avoid error messages from
+	"gmake rdist" (PG 29/Jul/02).
+
+capfast/ecs.sch
+	Added word definitions for the drive current words: drv3x,
+	drv3y, drv3z, drv3w, drv3e, drv3f, drv3g, drv3h, in the range
+	from word 41 to word 48 (PG 08/Aug/02).
+
+adl/status.adl
+adl/domecurr.adl
+	Added dome currents screen (PG 08/Aug/02).
+
+capfast/abWordGetScale.sch
+capfast/abWordGetScale.sym
+	Added yet another schematic for reading PLC words. This one provides
+	a way to scale the date being read (PG 03/Oct/02).
+
+capfast/misc.sch
+capfast/domecurr.sch
+capfast/domecurr.sym
+	Added drive currents (PG 03/Oct/02).
+
+capfast/mech.sch
+	Removed properties of the Miscelanus symbol since they were moved
+	one level down in the hierarchy (PG 03/Oct/02).
+
+capfast/thermal.sch
+	Fixed heartbeat channel names from the PCS and GWS. They were using
+	"heartbeat" instead of "present" (PG 03/Oct/02).
+
+adl/status.adl
+	Fixed label in dome currents menu button (PG 03/Oct/02).
+
+adl/status.adl
+	Fixed channel names in PCS and GWS heartbeats (PG 08/Oct/02).
+
+adl/shutters.adl
+	Added skew display of skew encoder (PG 08/Oct/02).
+
+------------------------------------+------------------------------------
+				 V2-1-1
+			   Bottom shutter skew
+-------------------------------------------------------------------------
+
+capfast/shuttersStatus.sch
+	The old record used to display the skew encoder value will be
+	now used to display the skew value in millimiters. The PLC
+	program was changed accordingly. The record was renamed and
+	a calculation record was added to deal with the case of negative
+	skew values (PG 12/Nov/02).
+
+adl/shutters.adl
+	Renamed record to be consistent with database change. Changed
+	the lalel as well (PG 12/Nov/02).
+
+ecsUnsetup
+	Added remove of Distfile (PG 12/Nov/02).
+
+------------------------------------+------------------------------------
+				 V2-2
+			   Vent gate currents
+-------------------------------------------------------------------------
+
+ecsInitCP.pv
+	Changed the top and bottom shutter park position (PG 16/Dec/02).
+
+capfast/ventcurr.sch
+capfast/ventcurr.sym
+capfast/misc.sch
+	Added vent gate drive current interface to the database. The drive
+	currents and read from the PLC from words 49 to 56 as follows:
+
+		N11:49  East Vent Gate drive 4X
+		N11:50  East Vent Gate drive 4Y
+		N11:51  East Vent Gate drive 4Z
+		N11:52  East Vent Gate drive 4W
+
+		N11:53  West Vent Gate drive 5X
+		N11:54  West Vent Gate drive 5Y
+		N11:55  West Vent Gate drive 5Z
+		N11:56  West Vent Gate drive 5W
+
+	the drive currents are sent in tenths of Amper (PG 19/Dec/02).
+
+capfast/domecurr.sch
+	Modified naming convention of dome drive current records to match
+	the conventions introduced in the vent gates (PG 19/Dec/02).
+
+capfast/ecs.sch
+	Added word definitions for the vent gate current words: evg4x,
+	evg4y, evg4z, evg4w, wvg5x, wvg5y, wvg5z and wvg5w. The dome
+	drive current words were renamed dmg4x, dmg4y, dmg4z, dmg4w, dmg4e,
+	dmg4e, dmg4g and dmg4h (19/Dec/02).
+
+adl/status.adl
+adl/ventcurr.adl
+adl/na.adl
+	Added new screen for vent gate currents. The menu was updated
+	in the status window for the dome and vent gate currents. The
+	menu also contains the hooks for the shutter currents, currently
+	pointing to the "not available" screen (PG 19/Dec/02).
+
+------------------------------------+------------------------------------
+				 V2-3
+			   Shutter currents
+		    AB communication error counter
+-------------------------------------------------------------------------
+
+src/devEcsAbDf1.c
+	Removed error action when an Ab communication occurrs and replaced
+	with code that counts the number of errors. A vxWorks callable
+	routine to print the counter and the up time (printErrCount) is
+	also provided (PG 02/Apr/03).
+
+capfast/ecs.sch
+capfast/misc.sch
+capfast/shutcurr.sch
+capfast/shutcurr.sym
+	Added shutter current records (PG 04/Apr/03).
+
+adl/status.adl
+adl/shutcurr.adl
+	Added shutter current screen (PG 04/Apr/03).
+
+adl/ventcurr.adl
+	Fixed drive current labels (PG 04/Apr/03).
+
+------------------------------------+------------------------------------
+				 V2-4
+			Bottom shutter skew encoder
+-------------------------------------------------------------------------
+
+adl/shutters.adl
+capfast/ecs.sch
+capfast/shuttersStatus.sch
+	Added bottom shutter skew encoder word (PG 19/Aug/03).
+
+------------------------------------+------------------------------------
+				 V2-5
+			PRPLC communication with EPICS	
+-------------------------------------------------------------------------
+
+capfast/abWordReadPrev.sch
+capfast/abWordReadPrev.sym
+        Added yet another schematic for reading PLC words. This one is 
+        similar to abWordRead, but previously to access to the individual 
+        bits, there is a bitwise conversion operation of the value 
+        (AA 28/Nov/03).
+
+capfast/chillCool.sym
+capfast/chillCool.sch
+	Added shematic for chillers records (AA 28/Nov/03).
+
+capfast/eFans.sym
+capfast/eFans.sch
+	Added schematic for Exhaust Fans records (AA 28/Nov/03).
+
+capfast/plantStat.sym
+capfast/plantStat.sch
+	Added chillers and Exhaust Fans schematics (AA 28/Nov/03).
+
+capfast/mech.sch
+	Modified to include Plant Room schematic (AA 28/Nov/03).
+
+capfast/ecs.sch
+	Added word definitions for the Plant Room words: 
+	ef1Stat 18, ef2Stat 19, tunTemp 20, outTemp 21, ef2Curr 22, 
+	ef2Volt 23, ef1Soft 24, ch1Cto 26, ch1Cti 27, ch2Cto 28,
+        ch2Cti 29 (AA 28/Nov/03).
+
+
+adl/pr_chillers.adl
+adl/pr_efans.adl
+	Added new screens to display corresponding Chillers and 
+        Exhaust Fans PRPLC information (AA 28/Nov/03).
+
+adl/ECS_Master.adl
+	Included Plant Room menu (AA 28/Nov/03).
+
+------------------------------------+------------------------------------
+				 V2-6
+		Air Handling Units (AHu) Control and Status	
+-------------------------------------------------------------------------
+
+capfast/ahuWordRead.sym
+capfast/ahuWordRead.sch
+        Added yet another schematic for reading PLC words (AA 01/APR/04).
+
+capfast/ecsAhuSeq.sym
+capfast/ecsAhuSeq.sch
+	Added AHUs sequence  schematics (AA 01/APR/04).
+
+capfast/ecsAhuCmd.sym
+capfast/ecsAhuCmd.sch
+	Added AHUs start/stop commands  schematics (AA 01/APR/04).
+
+capfast/ecsAhuState.sym
+capfast/ecsAhuState.sch
+	Added AHUs state  schematics (AA 01/APR/04).
+
+capfast/ecsAhu.sym
+capfast/ecsAhu.sch
+	Added AHUs schematics (AA 01/APR/04). 
+
+capfast/plantStat.sch
+	Modified to include AHU schematic (AA 01/APR/04).
+
+capfast/ecs.sch
+	Added word definitions for the AHUs words (AA 01/APR/04).
+
+adl/ECS_Master.adl
+        Included AHU menu (AA 01/APR/04).
+
+adl/pr_ahus.adl
+	Added new screen to display corresponding AHUs info (AA 01/APR/04).
+
+src/ecsAhu.c
+	Added AHU Gensub functions (AA 01/APR/04).
+
+src/Makefile.Vx
+	Included ecsAhu.o (AA 01/APR/04).
+
+src/ecsABinterface.h
+	Modified Start/Stop timeouts (PG 06/APR/04)
+
+src/ecsInitCP.pv
+src/ecsInitMK.pv
+	modified default parking pos (PG 06/APR/04)
+
+------------------------------------+------------------------------------
+				 V2-6-1
+		Fix on Air Handling Units (AHu) Status	
+-------------------------------------------------------------------------
+
+capfast/ecsAhuState.sch
+	CALC field changed for AHU3-5 (bit shift applied after mask)
+
+src/ecsAhu.c
+	Ahu Gensub function modified in base of AHU values 0-4 (AA 18/APR/04)
+
+adl/colors.adl
+	Added ahustate color rule to list:
+	Warning for  value "3" of AHU step msg (AA 18/APR/04).
+
+adl/pr_ahus.adl
+adl/pr_ahuc.adl
+	Used ahustate color rule (AA 18/APR/04).
+
+------------------------------------+------------------------------------
+				 V2-7
+	Added monitoring and display of power consumption.
+	Changed so that position errors only update in software control.
+-------------------------------------------------------------------------
+
+capfast/ecs.sch
+	Added db monitoring of 75 new Electrical Power Monitoring Channels. (AWE 27/Aug/04)
+
+capfast/shuttersStatus.sch
+	Position Error only updates when in software control (AWE 27/Aug/04)
+
+capfast/ecsElectric.sch
+capfast/ecsElectric.sym
+capfast/ecsElectricSub1.sch
+capfast/ecsElectricSub1.sym
+capfast/ecsElectricSub2.sch
+capfast/ecsElectricSub2.sym
+capfast/ecsElectricSub3.sch
+capfast/ecsElectricSub3.sym
+capfast/mech.scc
+	Added schematics to monitor power consumption. (AWE 27/Aug/04)
+
+adl/pr_ahus.adl
+adl/pr_elec.adl
+adl/ECS_Master.adl
+	Added new dm screen to display power consumption. (AWE 27/Aug/04)
+
+------------------------------------+------------------------------------
+				 V2-7-1
+	Added monitoring and display of Bottom Shutter Brake Currents
+-------------------------------------------------------------------------
+
+capfast/ecs.sch
+	Added definition of 4 new channels to monitor (Bot Shutter Brk Currents) (AWE 01/Dec/04)
+
+capfast/shuttersStatus.sch
+	Added monitoring of 4 shutter brake currents. (AWE 01/Dec/04)
+
+adl/shutcurr.adl
+	Added display of 4 shutter brake currents. (AWE 01/Dec/04)
+
+src/ecsInitMK.pv
+	Changed the dome azimuth offset.
+
+------------------------------------+------------------------------------
+				 V2-7-2
+  Added display of Galil faults and a Fault Reset button for each system.
+-------------------------------------------------------------------------
+
+capfast/ecs.sch
+	Added definition of galil and reset fault word.
+
+capfast/ecsFaultProcessor.sch
+	Added Fault Reset schematic and read support for the galil faults.
+
+capfast/ecsFaultReset.sch
+	New schematic to write reset bits.
+
+capfast/ecsFaultReset.sym
+	Symbol for ecsFaultReset.sch
+
+adl/motorFault.adl
+	Updated DM screen to included Galil fault display and reset buttons.
+
+------------------------------------+------------------------------------
+				 V2-8
+  Added snl code to sequence parking the shuters.
+-------------------------------------------------------------------------
+
+src/cmdParkShutters.st
+	SNL code to sequence parking the shutters.
+
+src/ecsInitMK.pv
+	removed old settings.
+
+src/ecsFault.c
+	Changed so that missing hearbeat is ignored when simulating.
+
+capfast/parkNew1.sch
+	Cleaned out epics park shutter implementation, added trigger for SNL code.
+
+capfast/parkNew1.sym
+	Removed extra inputs from symbol.
+
+capfast/shutterCMDS.sch
+	Removed extra wires to parkNew1.sym
+
+capfast/moveShtrs.sch
+	Added trigger so SNL code is aware of new Move Directives.
+
+capfast/stopShtrs.sch
+	Added trigger so SNL code is aware of new Stop Directives.
+
+startup/startup.vws
+	Added cmdParkShutters.st
