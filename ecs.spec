@@ -2,9 +2,8 @@
 %define gemopt opt
 %define name ecs
 %define version 2.8
-%define release 1
+%define release 2
 %define repository gemini
-%define arch i386
 %define debug_package %{nil}
 
 Summary: %{name} Package
