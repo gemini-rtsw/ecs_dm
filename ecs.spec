@@ -1,10 +1,9 @@
 %define _prefix __auto__
 %define gemopt opt
 %define name ecs
-%define version 2.8
-%define release 0
+%define version __auto__
+%define release __auto__
 %define repository gemini
-%define arch i386
 %define debug_package %{nil}
 
 Summary: %{name} Package
