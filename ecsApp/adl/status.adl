@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="26"
-	npc="49"
-	nstr="100"
-	ndynamic="20"
+	ndyng="27"
+	npc="51"
+	nstr="104"
+	ndynamic="21"
 	nplot="0"
 	nrd="4"
 	nes="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="916"
-		height="498"
+		height="547"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="5704"
-	nwords_sta="608"
+	nwords_dspy="5922"
+	nwords_sta="632"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2252"
-	osta="1644"
-	odynamic="3732"
-	oplot="5052"
-	ord="5052"
-	oes="5692"
-	okd="5692"
-	opd="5704"
-	opo="5704"
+	odyng="2348"
+	osta="1716"
+	odynamic="3884"
+	oplot="5270"
+	ord="5270"
+	oes="5910"
+	okd="5910"
+	opd="5922"
+	opo="5922"
 	opc="68"
-	ostr="754"
-	ocmap="1644"
-	ocrules="1644"
+	ostr="782"
+	ocmap="1716"
+	ocrules="1716"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colors.dl"
-	pixwid="1280"
-	pixht="1024"
-	mmwid="361"
-	mmht="288"
+	pixwid="1920"
+	pixht="1200"
+	mmwid="524"
+	mmht="321"
 }
 "<<basic attribute>>" {
 	attr {
@@ -705,6 +705,28 @@ display {
 		groupid="0"
 	}
 	textix="Emergency stop"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="576"
+		y="457"
+		width="80"
+		height="15"
+		groupid="0"
+	}
+	textix="REOCS"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="559"
+		y="473"
+		width="97"
+		height="15"
+		groupid="0"
+	}
+	textix="Heartbeat"
 	align="horiz. right"
 }
 "<<basic attribute>>" {
@@ -1907,6 +1929,54 @@ display {
 	textix="OFF"
 	align="horiz. centered"
 }
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="rule"
+			vis="static"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)reocsDead.VALB"
+			rulechan[0] = "$(top)reocsDead.VALB"
+			rulechan[1] = "$(top)reocsDead.VALB"
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="user2"
+			clrargs="C=$(top)reocsDead.VALB"
+		}
+	}
+}
+"oval" {
+	object {
+		x="751"
+		y="459"
+		width="23"
+		height="22"
+		groupid="0"
+	}
+}
 "text update" {
 	object {
 		x="84"
@@ -2827,6 +2897,52 @@ display {
 	align="horiz. left"
 	format="decimal"
 }
+"text update" {
+	object {
+		x="661"
+		y="459"
+		width="88"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)reocsHeartbeat"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
 "related display" {
 	object {
 		x="1348"
@@ -3097,8 +3213,8 @@ display {
 }
 "related display" {
 	object {
-		x="730"
-		y="463"
+		x="731"
+		y="497"
 		width="173"
 		height="25"
 		groupid="0"
@@ -3231,8 +3347,8 @@ display {
 }
 "related display" {
 	object {
-		x="550"
-		y="463"
+		x="551"
+		y="497"
 		width="173"
 		height="25"
 		groupid="0"

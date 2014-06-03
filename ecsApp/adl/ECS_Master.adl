@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="1"
 	npc="9"
-	nstr="92"
+	nstr="96"
 	ndynamic="6"
 	nplot="0"
-	nrd="6"
+	nrd="7"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2802"
+	nwords_dspy="3004"
 	nwords_sta="340"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1378"
-	osta="1038"
-	odynamic="1434"
-	oplot="1830"
-	ord="1830"
-	oes="2790"
-	okd="2790"
-	opd="2802"
-	opo="2802"
+	odyng="1420"
+	osta="1080"
+	odynamic="1476"
+	oplot="1872"
+	ord="1872"
+	oes="2992"
+	okd="2992"
+	opd="3004"
+	opo="3004"
 	opc="68"
 	ostr="164"
-	ocmap="1038"
-	ocrules="1038"
+	ocmap="1080"
+	ocrules="1080"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colors.dl"
-	pixwid="2560"
-	pixht="1024"
-	mmwid="722"
-	mmht="289"
+	pixwid="1920"
+	pixht="1200"
+	mmwid="524"
+	mmht="321"
 }
 "<<basic attribute>>" {
 	attr {
@@ -1460,8 +1460,8 @@ display {
 	}
 	selfkill="off"
 	display[0] {
-		label="PR Chillers"
-		name="pr_chillers.dl"
+		label="Air Handling Units"
+		name="pr_ahus.dl"
 		args="top=$(top), dev=pr"
 	}
 	display[1] {
@@ -1470,8 +1470,8 @@ display {
 		args="top=$(top), dev=pr"
 	}
 	display[2] {
-		label="Air Handling Units"
-		name="pr_ahus.dl"
+		label="PR Chillers"
+		name="pr_chillers.dl"
 		args="top=$(top), dev=pr"
 	}
 	display[3] {
@@ -1581,7 +1581,141 @@ display {
 	}
 	clr="0"
 	bclr="6"
-	menu_title="PR Chillers"
+	menu_title="Air Handling Units"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="23"
+		y="183"
+		width="216"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="DRIVERS POWER"
+		name="plc_interface.dl"
+		args="top=$(top), dev=pr"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="DRIVERS POWER"
 	decorate="outward"
 }
 "kill display" {

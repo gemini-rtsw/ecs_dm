@@ -753,3 +753,15 @@ capfast/stopShtrs.sch
 
 startup/startup.vws
 	Added cmdParkShutters.st
+------------------------------------+------------------------------------
+				 V2-8-3
+  Added REOCS display to control remotely drives, AHUs and lights. 
+-------------------------------------------------------------------------
+adl/plc_interface.adl
+	Created DM screen to Power ON/OFF remotely the ECS Drives. Also the dome lights and AHU controls are included.
+
+adl/status.adl
+	Updated DM screen to include REOCS heartbeat.
+
+adl/ECS_Master.adl
+	Updated DM screen to include Power Control Menu.
