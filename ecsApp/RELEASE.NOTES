@@ -765,3 +765,9 @@ adl/status.adl
 
 adl/ECS_Master.adl
 	Updated DM screen to include Power Control Menu.
+------------------------------------+------------------------------------
+				 V2-8-4
+  renamed menu from "DRIVERS POWER" to "Power Control". 
+-------------------------------------------------------------------------
+adl/ECS_Master.adl
+	renamed menu from "DRIVERS POWER" to "Power Control".
