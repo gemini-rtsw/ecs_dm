@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="14"
-	npc="17"
-	nstr="50"
-	ndynamic="17"
+	ndyng="4"
+	npc="23"
+	nstr="52"
+	ndynamic="22"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3108"
+	nwords_dspy="2992"
 	nwords_sta="228"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="910"
-	osta="682"
-	odynamic="1718"
-	oplot="2936"
-	ord="2936"
-	oes="3096"
-	okd="3096"
-	opd="3108"
-	opo="3108"
+	odyng="1032"
+	osta="804"
+	odynamic="1272"
+	oplot="2820"
+	ord="2820"
+	oes="2980"
+	okd="2980"
+	opd="2992"
+	opo="2992"
 	opc="68"
-	ostr="306"
-	ocmap="682"
-	ocrules="682"
+	ostr="410"
+	ocmap="804"
+	ocrules="804"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -375,174 +375,6 @@ display {
 	textix="OFF"
 	align="horiz. left"
 }
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)botShtrDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="388"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. left"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)eastVgateDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="423"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. left"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)westVgateDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="460"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. left"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)domeDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="495"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. left"
-}
 "<<basic attribute>>" {
 	attr {
 		clr="2"
@@ -593,274 +425,6 @@ display {
 	textix="ON"
 	align="horiz. left"
 }
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if greater zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)botShtrDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="388"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="ON"
-	align="horiz. left"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if greater zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)eastVgateDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="423"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="ON"
-	align="horiz. left"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if greater zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)westVgateDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="460"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="ON"
-	align="horiz. left"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if greater zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)domeDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="495"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="ON"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="25"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)topShtrDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="351"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if greater zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)topShtrDrvState"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="201"
-		y="351"
-		width="38"
-		height="17"
-		groupid="0"
-	}
-	textix="ON"
-	align="horiz. left"
-}
 "<<basic attribute>>" {
 	attr {
 		clr="25"
@@ -1155,8 +719,8 @@ display {
 }
 "message button" {
 	object {
-		x="289"
-		y="346"
+		x="403"
+		y="348"
 		width="89"
 		height="25"
 		groupid="0"
@@ -1203,8 +767,8 @@ display {
 }
 "message button" {
 	object {
-		x="378"
-		y="346"
+		x="492"
+		y="348"
 		width="89"
 		height="25"
 		groupid="0"
@@ -1251,7 +815,7 @@ display {
 }
 "message button" {
 	object {
-		x="289"
+		x="403"
 		y="387"
 		width="89"
 		height="25"
@@ -1299,7 +863,7 @@ display {
 }
 "message button" {
 	object {
-		x="378"
+		x="492"
 		y="387"
 		width="89"
 		height="25"
@@ -1347,7 +911,7 @@ display {
 }
 "message button" {
 	object {
-		x="289"
+		x="403"
 		y="424"
 		width="89"
 		height="25"
@@ -1395,7 +959,7 @@ display {
 }
 "message button" {
 	object {
-		x="378"
+		x="492"
 		y="424"
 		width="89"
 		height="25"
@@ -1443,7 +1007,7 @@ display {
 }
 "message button" {
 	object {
-		x="289"
+		x="403"
 		y="458"
 		width="89"
 		height="25"
@@ -1491,7 +1055,7 @@ display {
 }
 "message button" {
 	object {
-		x="378"
+		x="492"
 		y="458"
 		width="89"
 		height="25"
@@ -1539,7 +1103,7 @@ display {
 }
 "message button" {
 	object {
-		x="289"
+		x="403"
 		y="494"
 		width="89"
 		height="25"
@@ -1587,7 +1151,7 @@ display {
 }
 "message button" {
 	object {
-		x="378"
+		x="492"
 		y="494"
 		width="89"
 		height="25"
@@ -1760,6 +1324,236 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="199"
+		y="346"
+		width="194"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)topShtrDrvCtrlState"
+		clr="25"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="driveState"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="199"
+		y="385"
+		width="194"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)botShtrDrvCtrlState"
+		clr="25"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="driveState"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="199"
+		y="422"
+		width="194"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)eastVgateDrvCtrlState"
+		clr="25"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="driveState"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="199"
+		y="456"
+		width="194"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)westVgateDrvCtrlState"
+		clr="25"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="driveState"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="199"
+		y="492"
+		width="194"
+		height="27"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)domeDrvCtrlState"
+		clr="25"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="driveState"
 		clrargs=""
 		rulecolorbg="0"
 		rulecolorfg="0"
