@@ -1715,7 +1715,7 @@ display {
 	}
 	clr="0"
 	bclr="6"
-	menu_title="DRIVERS POWER"
+	menu_title="Power Control"
 	decorate="outward"
 }
 "kill display" {

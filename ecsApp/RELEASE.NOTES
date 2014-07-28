@@ -776,6 +776,13 @@ adl/ECS_Master.adl
 -------------------------------------------------------------------------
 adl/plc_interface.adl: Drives Status updated to new scheme (ON-POWERING-DEPOWERING-OFF)
 adl/colors.adl: Added driveState rule.
-adl/status.adl: Added warning message when the ECS mode is standby (
-not Init allowed)
+adl/status.adl: Added warning message when the ECS mode is standby
+(not Init allowed)
 
+------------------------------------+------------------------------------
+				 V2-8-6
+  renamed main menu option from "DRIVERS POWER" to "Power Control". 
+-------------------------------------------------------------------------
+adl/ECS_Master.adl
+	renamed main menu option from "DRIVERS POWER" to "Power Control".
+------------------------------------+------------------------------------
