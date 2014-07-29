@@ -1348,7 +1348,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)topShtrDrvCtrlState"
+		chan="$(top)topShtrDrvCtrlState.OMSS"
 		clr="25"
 		bclr="13"
 		label="none"
@@ -1394,7 +1394,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)botShtrDrvCtrlState"
+		chan="$(top)botShtrDrvCtrlState.OMSS"
 		clr="25"
 		bclr="13"
 		label="none"
@@ -1440,7 +1440,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)eastVgateDrvCtrlState"
+		chan="$(top)eastVgateDrvCtrlState.OMSS"
 		clr="25"
 		bclr="13"
 		label="none"
@@ -1486,7 +1486,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)westVgateDrvCtrlState"
+		chan="$(top)westVgateDrvCtrlState.OMSS"
 		clr="25"
 		bclr="13"
 		label="none"
@@ -1532,7 +1532,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)domeDrvCtrlState"
+		chan="$(top)domeDrvCtrlState.OMSS"
 		clr="25"
 		bclr="13"
 		label="none"
