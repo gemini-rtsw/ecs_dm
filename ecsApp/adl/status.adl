@@ -2952,7 +2952,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)checkreocsMode.VALD"
+		chan="$(top)checkReocsMode.VALD"
 		clr="11"
 		bclr="13"
 		label="none"
