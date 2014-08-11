@@ -786,3 +786,9 @@ adl/status.adl: Added warning message when the ECS mode is standby
 adl/ECS_Master.adl
 	renamed main menu option from "DRIVERS POWER" to "Power Control".
 ------------------------------------+------------------------------------
+				 V2-8-8
+  Drivers warning message size increased. 
+-------------------------------------------------------------------------
+adl/status.adl: Message size increased. Color changed to Red.
+	renamed main menu option from "DRIVERS POWER" to "Power Control".
+------------------------------------+------------------------------------
