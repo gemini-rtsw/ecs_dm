@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="8"
 	npc="24"
-	nstr="72"
+	nstr="79"
 	ndynamic="15"
 	nplot="0"
-	nrd="4"
+	nrd="5"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="508"
-		height="612"
+		height="605"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3432"
+	nwords_dspy="3644"
 	nwords_sta="292"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1300"
-	osta="1008"
-	odynamic="1772"
-	oplot="2780"
-	ord="2780"
-	oes="3420"
-	okd="3420"
-	opd="3432"
-	opo="3432"
+	odyng="1352"
+	osta="1060"
+	odynamic="1824"
+	oplot="2832"
+	ord="2832"
+	oes="3632"
+	okd="3632"
+	opd="3644"
+	opo="3644"
 	opc="68"
 	ostr="376"
-	ocmap="1008"
-	ocrules="1008"
+	ocmap="1060"
+	ocrules="1060"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colors.dl"
-	pixwid="1280"
-	pixht="1024"
-	mmwid="433"
-	mmht="347"
+	pixwid="5120"
+	pixht="1080"
+	mmwid="1355"
+	mmht="286"
 }
 "<<basic attribute>>" {
 	attr {
@@ -1603,9 +1603,9 @@ display {
 }
 "related display" {
 	object {
-		x="15"
-		y="568"
-		width="140"
+		x="9"
+		y="572"
+		width="123"
 		height="25"
 		groupid="0"
 	}
@@ -1737,9 +1737,9 @@ display {
 }
 "related display" {
 	object {
-		x="351"
-		y="568"
-		width="140"
+		x="271"
+		y="572"
+		width="126"
 		height="25"
 		groupid="0"
 	}
@@ -1871,9 +1871,9 @@ display {
 }
 "related display" {
 	object {
-		x="183"
-		y="568"
-		width="140"
+		x="139"
+		y="572"
+		width="125"
 		height="25"
 		groupid="0"
 	}
@@ -2001,6 +2001,140 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="topShtr status"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="404"
+		y="572"
+		width="95"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Galil"
+		name="shutGalil.dl"
+		args=""
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Galil"
 	decorate="outward"
 }
 "kill display" {
