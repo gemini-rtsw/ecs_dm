@@ -1,14 +1,14 @@
 file {
-	name="pr_chillers.dl"
+	name="pr_chillers.adl"
 }
 display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="7"
-	nstr="45"
-	ndynamic="6"
+	npc="9"
+	nstr="53"
+	ndynamic="8"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="631"
-		height="228"
+		height="250"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="1354"
-	nwords_sta="308"
+	nwords_dspy="1618"
+	nwords_sta="356"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="786"
-	osta="478"
-	odynamic="786"
-	oplot="1182"
-	ord="1182"
-	oes="1342"
-	okd="1342"
-	opd="1354"
-	opo="1354"
+	odyng="918"
+	osta="562"
+	odynamic="918"
+	oplot="1446"
+	ord="1446"
+	oes="1606"
+	okd="1606"
+	opd="1618"
+	opo="1618"
 	opc="68"
-	ostr="144"
-	ocmap="478"
-	ocrules="478"
+	ostr="164"
+	ocmap="562"
+	ocrules="562"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colors.dl"
-	pixwid="1280"
-	pixht="1024"
-	mmwid="361"
-	mmht="288"
+	pixwid="5120"
+	pixht="1080"
+	mmwid="1355"
+	mmht="286"
 }
 "<<basic attribute>>" {
 	attr {
@@ -120,7 +120,7 @@ display {
 		x="9"
 		y="111"
 		width="300"
-		height="110"
+		height="129"
 		groupid="0"
 	}
 }
@@ -222,7 +222,7 @@ display {
 		x="320"
 		y="110"
 		width="300"
-		height="110"
+		height="130"
 		groupid="0"
 	}
 }
@@ -411,6 +411,50 @@ display {
 		groupid="0"
 	}
 	textix="degC"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="17"
+		y="215"
+		width="117"
+		height="14"
+		groupid="0"
+	}
+	textix="Coolant Flow"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="250"
+		y="215"
+		width="38"
+		height="14"
+		groupid="0"
+	}
+	textix="GPM"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="328"
+		y="213"
+		width="117"
+		height="14"
+		groupid="0"
+	}
+	textix="Coolant Flow"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="565"
+		y="214"
+		width="38"
+		height="13"
+		groupid="0"
+	}
+	textix="GPM"
 	align="horiz. left"
 }
 "text update" {
@@ -653,6 +697,98 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)out"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="flashifbusy"
+		clrargs="C=$(top)datumC"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="128"
+		y="211"
+		width="116"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)Chill1"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="flashifbusy"
+		clrargs="C=$(top)datumC"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="443"
+		y="210"
+		width="116"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)Chill2"
 		clr="11"
 		bclr="13"
 		label="none"
