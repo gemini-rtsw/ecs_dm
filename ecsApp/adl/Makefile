@@ -1,10 +1,14 @@
 TOP = ../..
-
 include $(TOP)/configure/CONFIG
+#----------------------------------------
+#  ADD MACRO DEFINITIONS AFTER THIS LINE
+#=============================
+DIRS += MK
+DIRS += CP
 
-DATA    =  colors.dl template.dl \
-           $(patsubst ../%.adl, %.dl, $(wildcard ../*.adl ../*.bit ../*.cfg ../*.tk ../*.test))
+#===========================
 
-SCRIPTS_HOST  += $(wildcard ../*.sh)
+include $(TOP)/configure/RULES_DIRS
+#----------------------------------------
+#  ADD RULES AFTER THIS LINE
 
-include $(TOP)/configure/RULES
