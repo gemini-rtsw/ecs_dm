@@ -1,0 +1,275 @@
+file {
+	name="na.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="16"
+	nstr="67"
+	ndynamic="0"
+	nplot="0"
+	nrd="1"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="529"
+		height="168"
+	}
+	clr="0"
+	bclr="13"
+	nwords_dspy="1070"
+	nwords_sta="56"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="898"
+	osta="842"
+	odynamic="898"
+	oplot="898"
+	ord="898"
+	oes="1058"
+	okd="1058"
+	opd="1070"
+	opo="1070"
+	opc="68"
+	ostr="258"
+	ocmap="842"
+	ocrules="842"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsMK.dl"
+	pixwid="1280"
+	pixht="1024"
+	mmwid="361"
+	mmht="288"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="6"
+		width="78"
+		height="32"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="73"
+		y="69"
+		width="383"
+		height="26"
+		groupid="0"
+	}
+	textix="Not Available Yet"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="7"
+		width="507"
+		height="150"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="7"
+		width="105"
+		height="33"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="418"
+		y="16"
+		width="88"
+		height="25"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

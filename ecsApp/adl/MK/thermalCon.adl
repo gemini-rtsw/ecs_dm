@@ -1,0 +1,655 @@
+file {
+	name="thermalCon.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="232"
+	nstr="190"
+	ndynamic="6"
+	nplot="0"
+	nrd="0"
+	nes="0"
+	nkd="1"
+	object {
+		x="0"
+		y="0"
+		width="420"
+		height="356"
+	}
+	clr="1"
+	bclr="13"
+	nwords_dspy="5464"
+	nwords_sta="584"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="5056"
+	osta="4472"
+	odynamic="5056"
+	oplot="5452"
+	ord="5452"
+	oes="5452"
+	okd="5452"
+	opc="58"
+	ostr="2916"
+	ocmap="4472"
+	ocrules="4472"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="static"
+	vismod="static"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsMK.dl"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="64"
+		y="152"
+		width="226"
+		height="16"
+		groupid="0"
+	}
+	textix="Chiller Set Point (deg.C)"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="136"
+		y="265"
+		width="153"
+		height="16"
+		groupid="0"
+	}
+	textix="Time Constant"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="109"
+		y="83"
+		width="179"
+		height="16"
+		groupid="0"
+	}
+	textix="Wind Velocity (kph)"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="75"
+		y="230"
+		width="216"
+		height="16"
+		groupid="0"
+	}
+	textix="Hi/Lo Break Point (kph)"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="97"
+		y="114"
+		width="191"
+		height="16"
+		groupid="0"
+	}
+	textix="AHU Set Point (deg.C)"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text" {
+	object {
+		x="184"
+		y="51"
+		width="167"
+		height="21"
+		groupid="0"
+	}
+	textix="Default Values"
+	align="horiz. left"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="8"
+		y="5"
+		width="78"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="88"
+		y="14"
+		width="248"
+		height="24"
+		groupid="0"
+	}
+	textix="Thermal Configuration"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="6"
+		width="400"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="18"
+		y="6"
+		width="105"
+		height="38"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="97"
+		y="192"
+		width="248"
+		height="21"
+		groupid="0"
+	}
+	textix="Active Hi/Lo Switching"
+	align="horiz. left"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"line" {
+	object {
+		x="8"
+		y="58"
+		width="400"
+		height="127"
+		groupid="0"
+	}
+	npoints="6"
+	point[0] {
+		x="176"
+		y="58"
+	}
+	point[1] {
+		x="8"
+		y="58"
+	}
+	point[2] {
+		x="8"
+		y="184"
+	}
+	point[3] {
+		x="408"
+		y="185"
+	}
+	point[4] {
+		x="407"
+		y="59"
+	}
+	point[5] {
+		x="340"
+		y="58"
+	}
+	orgpoint[0] {
+		x="420"
+		y="0"
+	}
+	orgpoint[1] {
+		x="0"
+		y="0"
+	}
+	orgpoint[2] {
+		x="0"
+		y="992"
+	}
+	orgpoint[3] {
+		x="1000"
+		y="1000"
+	}
+	orgpoint[4] {
+		x="997"
+		y="7"
+	}
+	orgpoint[5] {
+		x="830"
+		y="0"
+	}
+}
+"line" {
+	object {
+		x="10"
+		y="202"
+		width="398"
+		height="141"
+		groupid="0"
+	}
+	npoints="6"
+	point[0] {
+		x="91"
+		y="202"
+	}
+	point[1] {
+		x="10"
+		y="202"
+	}
+	point[2] {
+		x="10"
+		y="342"
+	}
+	point[3] {
+		x="408"
+		y="341"
+	}
+	point[4] {
+		x="408"
+		y="202"
+	}
+	point[5] {
+		x="341"
+		y="202"
+	}
+	orgpoint[0] {
+		x="206"
+		y="0"
+	}
+	orgpoint[1] {
+		x="0"
+		y="0"
+	}
+	orgpoint[2] {
+		x="0"
+		y="999"
+	}
+	orgpoint[3] {
+		x="1000"
+		y="989"
+	}
+	orgpoint[4] {
+		x="1000"
+		y="0"
+	}
+	orgpoint[5] {
+		x="834"
+		y="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="138"
+		y="305"
+		width="153"
+		height="16"
+		groupid="0"
+	}
+	textix="Hysteresis (kph)"
+	align="horiz. right"
+	RISC_pad="0"
+}
+"text entry" {
+	object {
+		x="297"
+		y="146"
+		width="100"
+		height="32"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermalchilSpDef"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	format="decimal"
+	RISC_pad="0"
+}
+"text entry" {
+	object {
+		x="299"
+		y="260"
+		width="100"
+		height="32"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermaltimeConstant"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	format="decimal"
+	RISC_pad="0"
+}
+"text entry" {
+	object {
+		x="297"
+		y="73"
+		width="100"
+		height="32"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermalwindVelDef"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	format="decimal"
+	RISC_pad="0"
+}
+"text entry" {
+	object {
+		x="299"
+		y="221"
+		width="100"
+		height="32"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermalwindSetPoint"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	format="decimal"
+	RISC_pad="0"
+}
+"text entry" {
+	object {
+		x="297"
+		y="108"
+		width="100"
+		height="32"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermalahuSpDef"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	format="decimal"
+	RISC_pad="0"
+}
+"text entry" {
+	object {
+		x="301"
+		y="300"
+		width="100"
+		height="32"
+		groupid="0"
+	}
+	control {
+		chan="ec:thermalwindHystr"
+		clr="0"
+		bclr="1"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	format="decimal"
+	RISC_pad="0"
+}
+"kill display" {
+	object {
+		x="333"
+		y="10"
+		width="70"
+		height="32"
+		groupid="0"
+	}
+	RISCpad="0"
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

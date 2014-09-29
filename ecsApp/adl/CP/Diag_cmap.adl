@@ -1,0 +1,4678 @@
+file {
+	name="Diag_cmap.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="31"
+	nstr="136"
+	ndynamic="65"
+	nplot="0"
+	nrd="1"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="1006"
+		height="677"
+	}
+	clr="12"
+	bclr="5"
+	nwords_dspy="7516"
+	nwords_sta="1412"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="3054"
+	osta="1642"
+	odynamic="3054"
+	oplot="7344"
+	ord="7344"
+	oes="7504"
+	okd="7504"
+	opd="7516"
+	opo="7516"
+	opc="68"
+	ostr="578"
+	ocmap="1642"
+	ocrules="1642"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsCP.dl"
+	pixwid="1920"
+	pixht="1200"
+	mmwid="524"
+	mmht="321"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="15"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="7"
+		width="80"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="333"
+		y="17"
+		width="339"
+		height="22"
+		groupid="0"
+	}
+	textix="Carousel PLC Memory Map"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="7"
+		y="8"
+		width="989"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="42"
+		y="87"
+		width="955"
+		height="170"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="259"
+		y="57"
+		width="739"
+		height="31"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="20"
+		y="13"
+		width="61"
+		height="33"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="294"
+		y="66"
+		width="70"
+		height="17"
+		groupid="0"
+	}
+	textix="Dome"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="452"
+		y="66"
+		width="70"
+		height="17"
+		groupid="0"
+	}
+	textix="Top"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="583"
+		y="66"
+		width="70"
+		height="17"
+		groupid="0"
+	}
+	textix="Bottom"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="766"
+		y="66"
+		width="70"
+		height="17"
+		groupid="0"
+	}
+	textix="East"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="911"
+		y="66"
+		width="70"
+		height="17"
+		groupid="0"
+	}
+	textix="West"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="181"
+		width="138"
+		height="15"
+		groupid="0"
+	}
+	textix="Motor overload"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="298"
+		width="123"
+		height="15"
+		groupid="0"
+	}
+	textix="End of travel"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="325"
+		width="98"
+		height="15"
+		groupid="0"
+	}
+	textix="Overtravel"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="103"
+		width="99"
+		height="15"
+		groupid="0"
+	}
+	textix="Amplifiers"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="214"
+		y="103"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="2(0-7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="370"
+		y="103"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="0(0-3)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="523"
+		y="103"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="1(0-3)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="682"
+		y="103"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="4(0-3)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="834"
+		y="103"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="5(0-3)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="127"
+		width="117"
+		height="15"
+		groupid="0"
+	}
+	textix="Brakes/Regen"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="155"
+		width="99"
+		height="15"
+		groupid="0"
+	}
+	textix="Contactors"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="214"
+		y="129"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="2(8-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="370"
+		y="129"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="0(4-7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="523"
+		y="129"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="1(4-7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="682"
+		y="129"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="4(4-7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="834"
+		y="129"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="5(4-7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="213"
+		y="156"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="2(12-15)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="369"
+		y="156"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="0(8-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="522"
+		y="156"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="1(8-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="681"
+		y="156"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="4(8-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="833"
+		y="156"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="5(8-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="212"
+		y="182"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="3(0-7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="368"
+		y="182"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="0(12-15)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="521"
+		y="182"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="1(12-15)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="680"
+		y="182"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="4(12-15)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="832"
+		y="182"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="5(12-15)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="233"
+		width="75"
+		height="15"
+		groupid="0"
+	}
+	textix="Encoder"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="212"
+		y="234"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(4)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="368"
+		y="234"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(5)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="521"
+		y="234"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(6)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="680"
+		y="234"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(7)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="832"
+		y="234"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(8)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="272"
+		width="100"
+		height="15"
+		groupid="0"
+	}
+	textix="Slow speed"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="368"
+		y="273"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="16(0,3)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="521"
+		y="273"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="16(6,9)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="678"
+		y="273"
+		width="64"
+		height="12"
+		groupid="0"
+	}
+	textix="16(12,14)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="834"
+		y="273"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(0,2)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="42"
+		y="257"
+		width="955"
+		height="92"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="368"
+		y="299"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="16(1,4)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="521"
+		y="299"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="16(7,10)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="677"
+		y="299"
+		width="65"
+		height="12"
+		groupid="0"
+	}
+	textix="16(13,15)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="834"
+		y="299"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(1,3)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="369"
+		y="326"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="16(2,5)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="522"
+		y="326"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="16(8,11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="684"
+		y="326"
+		width="59"
+		height="12"
+		groupid="0"
+	}
+	textix="17(9)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="835"
+		y="326"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="17(10)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="11"
+		y="664"
+		width="127"
+		height="12"
+		groupid="0"
+	}
+	textix="* PLC word(bits)"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="427"
+		width="138"
+		height="15"
+		groupid="0"
+	}
+	textix="Encoder readout"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="224"
+		y="428"
+		width="49"
+		height="12"
+		groupid="0"
+	}
+	textix="11(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="532"
+		y="428"
+		width="51"
+		height="12"
+		groupid="0"
+	}
+	textix="13(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="378"
+		y="428"
+		width="52"
+		height="12"
+		groupid="0"
+	}
+	textix="12(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="691"
+		y="428"
+		width="53"
+		height="12"
+		groupid="0"
+	}
+	textix="14(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="843"
+		y="428"
+		width="50"
+		height="12"
+		groupid="0"
+	}
+	textix="15(all)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="453"
+		width="92"
+		height="15"
+		groupid="0"
+	}
+	textix="Handshake"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="222"
+		y="454"
+		width="51"
+		height="12"
+		groupid="0"
+	}
+	textix="20(0-8)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="533"
+		y="454"
+		width="50"
+		height="12"
+		groupid="0"
+	}
+	textix="25(0-6)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="376"
+		y="454"
+		width="54"
+		height="12"
+		groupid="0"
+	}
+	textix="23(0-6)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="688"
+		y="454"
+		width="56"
+		height="12"
+		groupid="0"
+	}
+	textix="27(0-6)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="842"
+		y="454"
+		width="51"
+		height="12"
+		groupid="0"
+	}
+	textix="29(0-6)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="42"
+		y="406"
+		width="955"
+		height="81"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="20"
+		y="175"
+		width="11"
+		height="143"
+		groupid="0"
+	}
+	textix="Faults"
+	align="vert. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="87"
+		width="33"
+		height="319"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="22"
+		y="408"
+		width="7"
+		height="76"
+		groupid="0"
+	}
+	textix="Input"
+	align="vert. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="406"
+		width="33"
+		height="81"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="361"
+		width="83"
+		height="15"
+		groupid="0"
+	}
+	textix="Switches"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="438"
+		y="384"
+		width="74"
+		height="12"
+		groupid="0"
+	}
+	textix="6(5,11,12)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="591"
+		y="384"
+		width="75"
+		height="12"
+		groupid="0"
+	}
+	textix="6(6,13,14)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="716"
+		y="362"
+		width="31"
+		height="12"
+		groupid="0"
+	}
+	textix="6(7)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="865"
+		y="362"
+		width="33"
+		height="12"
+		groupid="0"
+	}
+	textix="6(8)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="283"
+		y="384"
+		width="72"
+		height="12"
+		groupid="0"
+	}
+	textix="6(4,9,10)"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="42"
+		y="349"
+		width="955"
+		height="57"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="204"
+		width="83"
+		height="15"
+		groupid="0"
+	}
+	textix="Override"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="212"
+		y="208"
+		width="60"
+		height="12"
+		groupid="0"
+	}
+	textix="3(8-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="702"
+		y="384"
+		width="46"
+		height="12"
+		groupid="0"
+	}
+	textix="7(0-1)"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="852"
+		y="384"
+		width="45"
+		height="12"
+		groupid="0"
+	}
+	textix="7(2-3)"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="498"
+		width="33"
+		height="151"
+		groupid="0"
+	}
+}
+"rectangle" {
+	object {
+		x="43"
+		y="498"
+		width="495"
+		height="151"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="223"
+		y="569"
+		width="50"
+		height="12"
+		groupid="0"
+	}
+	textix="33(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="216"
+		y="543"
+		width="57"
+		height="12"
+		groupid="0"
+	}
+	textix="18(0-10)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="217"
+		y="597"
+		width="56"
+		height="12"
+		groupid="0"
+	}
+	textix="35(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="222"
+		y="622"
+		width="51"
+		height="12"
+		groupid="0"
+	}
+	textix="37(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="371"
+		y="569"
+		width="59"
+		height="12"
+		groupid="0"
+	}
+	textix="34(0-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="374"
+		y="598"
+		width="56"
+		height="12"
+		groupid="0"
+	}
+	textix="36(0-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="372"
+		y="623"
+		width="58"
+		height="12"
+		groupid="0"
+	}
+	textix="38(0-11)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="216"
+		y="518"
+		width="57"
+		height="12"
+		groupid="0"
+	}
+	textix="31(0-4)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="22"
+		y="505"
+		width="9"
+		height="137"
+		groupid="0"
+	}
+	textix="Thermal"
+	align="vert. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="23"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="659"
+		y="608"
+		width="57"
+		height="12"
+		groupid="0"
+	}
+	textix="19(all)"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="659"
+		y="529"
+		width="57"
+		height="12"
+		groupid="0"
+	}
+	textix="32(all)"
+	align="horiz. right"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="52"
+		y="518"
+		width="92"
+		height="15"
+		groupid="0"
+	}
+	textix="Demand"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="540"
+		width="132"
+		height="14"
+		groupid="0"
+	}
+	textix="General status"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="563"
+		width="130"
+		height="15"
+		groupid="0"
+	}
+	textix="Passive vents"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="589"
+		width="130"
+		height="15"
+		groupid="0"
+	}
+	textix="Lower shell"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="52"
+		y="618"
+		width="130"
+		height="15"
+		groupid="0"
+	}
+	textix="Roof vents"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="553"
+		y="499"
+		width="33"
+		height="151"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="565"
+		y="502"
+		width="8"
+		height="145"
+		groupid="0"
+	}
+	textix="Heartbeat"
+	align="vert. top"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="586"
+		y="499"
+		width="236"
+		height="151"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="603"
+		y="527"
+		width="34"
+		height="15"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="603"
+		y="605"
+		width="37"
+		height="15"
+		groupid="0"
+	}
+	textix="PLC"
+	align="horiz. left"
+}
+"text update" {
+	object {
+		x="275"
+		y="97"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word2:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="97"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word0:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="97"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word1:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="97"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word4:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="97"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word5:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="123"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word2:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="123"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word0:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="123"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word1:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="123"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word4:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="123"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word5:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="150"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word2:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="150"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word0:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="150"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word1:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="150"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word4:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="150"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word5:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="176"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word3:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="176"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word0:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="176"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word1:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="176"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word4:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="176"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word5:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="228"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="228"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="228"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="228"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="228"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="267"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="267"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="267"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="267"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="293"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="293"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="293"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="293"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="320"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="320"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word16:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="320"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="320"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word17:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="424"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)domemotor.RRBV"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="432"
+		y="424"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)topShtrmotor.RRBV"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="585"
+		y="424"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)botShtrmotor.RRBV"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="745"
+		y="424"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)eastVentGatemotor.RRBV"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="895"
+		y="424"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)westVentGatemotor.RRBV"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="450"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)domemotor.HSTA"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="432"
+		y="450"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)topShtrmotor.HSTA"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="585"
+		y="450"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)botShtrmotor.HSTA"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="745"
+		y="450"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)eastVentGatemotor.HSTA"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="895"
+		y="450"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)westVentGatemotor.HSTA"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="431"
+		y="358"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word6:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="584"
+		y="358"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word6:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="358"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word6:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="358"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word6:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="358"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word6:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="202"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:word3:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="744"
+		y="380"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)misc:word7:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="894"
+		y="380"
+		width="89"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)misc:word7:word.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="539"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword18:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="565"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword33:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="593"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword35:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="618"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword37:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="432"
+		y="565"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword34:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="432"
+		y="594"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword36:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="432"
+		y="619"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermalword38:word"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="275"
+		y="514"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)thermaldomePlc.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
+}
+"text update" {
+	object {
+		x="718"
+		y="604"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:plcHeartbeat.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="718"
+		y="525"
+		width="87"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)fault:ecsHeartbeat.VAL"
+		clr="10"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="883"
+		y="12"
+		width="109"
+		height="32"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

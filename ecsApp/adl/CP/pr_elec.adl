@@ -1,0 +1,7548 @@
+file {
+	name="pr_elec.adl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="85"
+	nstr="82"
+	ndynamic="84"
+	nplot="0"
+	nrd="1"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="1132"
+		height="850"
+	}
+	clr="11"
+	bclr="5"
+	nwords_dspy="11024"
+	nwords_sta="2152"
+	nwords_cmap="120"
+	nwords_crules="1024"
+	odyng="5308"
+	osta="3156"
+	odynamic="5308"
+	oplot="10852"
+	ord="10852"
+	oes="11012"
+	okd="11012"
+	opd="11024"
+	opo="11024"
+	opc="68"
+	ostr="1324"
+	ocmap="2012"
+	ocrules="2132"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap=""
+	pixwid="1920"
+	pixht="1200"
+	mmwid="524"
+	mmht="321"
+}
+"<<color map>>" {
+	ncolors="29"
+	dl_color {
+		r="255"
+		g="255"
+		b="255"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="0"
+		b="0"
+		inten="255"
+		blink="on"
+	}
+	dl_color {
+		r="255"
+		g="255"
+		b="0"
+		inten="255"
+		blink="on"
+	}
+	dl_color {
+		r="0"
+		g="255"
+		b="0"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="191"
+		g="191"
+		b="191"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="193"
+		g="156"
+		b="128"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="138"
+		g="138"
+		b="138"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="205"
+		g="132"
+		b="64"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="255"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="128"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="218"
+		b="185"
+		inten="251"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="255"
+		b="255"
+		inten="255"
+		blink="on"
+	}
+	dl_color {
+		r="131"
+		g="112"
+		b="255"
+		inten="255"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="255"
+		b="255"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="255"
+		b="255"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="191"
+		g="191"
+		b="191"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="255"
+		b="255"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="0"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="255"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="0"
+		b="255"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="255"
+		b="0"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="255"
+		g="0"
+		b="255"
+		inten="0"
+		blink="off"
+	}
+	dl_color {
+		r="0"
+		g="255"
+		b="255"
+		inten="0"
+		blink="off"
+	}
+}
+"<<color rules>>" {
+	nrules="10"
+	dl_color_rule {
+		name="alarm"
+		info[0] {
+			chan="$(C).SEVR"
+			value="MAJOR"
+			connector="use"
+			comparator="equals"
+			clr="2"
+		}
+		info[1] {
+			chan="$(C).SEVR"
+			value="MINOR"
+			connector="use"
+			comparator="equals"
+			clr="3"
+		}
+		info[2] {
+			chan="$(C).SEVR"
+			value="NO_ALARM"
+			connector="use"
+			comparator="equals"
+			clr="4"
+		}
+		info[3] {
+			chan="$(C).SEVR"
+			value="IVALID"
+			connector="use"
+			comparator="equals"
+			clr="14"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="health"
+		info[0] {
+			chan="$(C).VAL"
+			value="2"
+			connector="use"
+			comparator="equals"
+			clr="2"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="1"
+			connector="use"
+			comparator="equals"
+			clr="3"
+		}
+		info[2] {
+			chan="$(C).VAL"
+			value="0"
+			connector="use"
+			comparator="equals"
+			clr="4"
+		}
+		info[3] {
+			chan="$(C).VAL"
+			value="3"
+			connector="use"
+			comparator="equals"
+			clr="7"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="limit"
+		info[0] {
+			chan="$(C).VAL"
+			value="$(L)"
+			connector="use"
+			comparator="less than"
+			clr="2"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="$(H)"
+			connector="use"
+			comparator="greater than"
+			clr="2"
+		}
+		info[2] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[3] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="flashifbusy"
+		info[0] {
+			chan="$(C).VAL"
+			value="UNAVAILABLE"
+			connector="use"
+			comparator="equals"
+			clr="11"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="ERR"
+			connector="use"
+			comparator="equals"
+			clr="2"
+		}
+		info[2] {
+			chan="$(C).VAL"
+			value="BUSY"
+			connector="use"
+			comparator="equals"
+			clr="14"
+		}
+		info[3] {
+			chan="$(C).VAL"
+			value="PAUSED"
+			connector="use"
+			comparator="equals"
+			clr="15"
+		}
+		info[4] {
+			chan="$(C).VAL"
+			value="IDLE"
+			connector="use"
+			comparator="equals"
+			clr="16"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="greyifbusy"
+		info[0] {
+			chan="$(C).VAL"
+			value="UNAVAILABLE"
+			connector="use"
+			comparator="equals"
+			clr="11"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="ERR"
+			connector="use"
+			comparator="equals"
+			clr="2"
+		}
+		info[2] {
+			chan="$(C).VAL"
+			value="BUSY"
+			connector="use"
+			comparator="equals"
+			clr="18"
+		}
+		info[3] {
+			chan="$(C).VAL"
+			value="PAUSED"
+			connector="use"
+			comparator="equals"
+			clr="15"
+		}
+		info[4] {
+			chan="$(C).VAL"
+			value="IDLE"
+			connector="use"
+			comparator="equals"
+			clr="16"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="greyifnotbusy"
+		info[0] {
+			chan="$(C).VAL"
+			value="UNAVAILABLE"
+			connector="use"
+			comparator="equals"
+			clr="11"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="ERR"
+			connector="use"
+			comparator="equals"
+			clr="2"
+		}
+		info[2] {
+			chan="$(C).VAL"
+			value="BUSY"
+			connector="use"
+			comparator="equals"
+			clr="0"
+		}
+		info[3] {
+			chan="$(C).VAL"
+			value="PAUSED"
+			connector="use"
+			comparator="equals"
+			clr="15"
+		}
+		info[4] {
+			chan="$(C).VAL"
+			value="IDLE"
+			connector="use"
+			comparator="equals"
+			clr="18"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="user1"
+		info[0] {
+			chan="$(C).VAL"
+			value="0"
+			connector="use"
+			comparator="equals"
+			clr="23"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="1"
+			connector="use"
+			comparator="equals"
+			clr="4"
+		}
+		info[2] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[3] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="user2"
+		info[0] {
+			chan="$(C)"
+			value="0"
+			connector="use"
+			comparator="greater than"
+			clr="2"
+		}
+		info[1] {
+			chan="$(C)"
+			value="0"
+			connector="use"
+			comparator="equals"
+			clr="4"
+		}
+		info[2] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[3] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="17"
+		default_bg="18"
+	}
+	dl_color_rule {
+		name="greyifnotpark"
+		info[0] {
+			chan="$(C).VAL"
+			value="0"
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[1] {
+			chan="$(C).VAL"
+			value="1"
+			connector="use"
+			comparator="equals"
+			clr="5"
+		}
+		info[2] {
+			chan="$(C).VAL"
+			value="2"
+			connector="use"
+			comparator="equals"
+			clr="5"
+		}
+		info[3] {
+			chan="$(C).VAL"
+			value="3"
+			connector="use"
+			comparator="equals"
+			clr="5"
+		}
+		info[4] {
+			chan="$(C).VAL"
+			value="4"
+			connector="use"
+			comparator="equals"
+			clr="5"
+		}
+		info[5] {
+			chan="$(C).VAL"
+			value="5"
+			connector="use"
+			comparator="equals"
+			clr="5"
+		}
+		info[6] {
+			chan="$(C).VAL"
+			value="6"
+			connector="use"
+			comparator="equals"
+			clr="5"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="on"
+		default_fg="5"
+		default_bg="5"
+	}
+	dl_color_rule {
+		name="ahustate"
+		info[0] {
+			chan="$(C).VAL"
+			value="3"
+			connector="use"
+			comparator="equals"
+			clr="2"
+		}
+		info[1] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="10"
+		}
+		info[2] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[3] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="off"
+		bg_enable="off"
+		default_fg="25"
+		default_bg="1"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="379"
+		y="72"
+		width="374"
+		height="99"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="16"
+		width="78"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="286"
+		y="21"
+		width="536"
+		height="26"
+		groupid="0"
+	}
+	textix="Observatory Electrical Power"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="16"
+		width="1106"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="187"
+		width="362"
+		height="651"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="21"
+		y="19"
+		width="105"
+		height="37"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="10"
+		y="184"
+		width="364"
+		height="46"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="78"
+		y="198"
+		width="254"
+		height="20"
+		groupid="0"
+	}
+	textix="Real Time Measurements"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="72"
+		width="1108"
+		height="99"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="8"
+		y="256"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Line Voltage"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="279"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V ab"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="302"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V bc"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="325"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V ca"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="348"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Phase Voltage"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="371"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V an"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="395"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V bn"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="418"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V cn"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="441"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Phase Current"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="464"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="487"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="510"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="534"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="557"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="580"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="603"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="626"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="649"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="673"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="696"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="719"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="742"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="765"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="788"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="8"
+		y="812"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Frequency on Va"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="299"
+		y="256"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="279"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="302"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="325"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="348"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="371"
+		width="63"
+		height="15"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="394"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="417"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="441"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="464"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="487"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="510"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="533"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="556"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="579"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="602"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="626"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="649"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="672"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="695"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="718"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="741"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="764"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="787"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="299"
+		y="811"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="Hz"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="387"
+		y="188"
+		width="359"
+		height="651"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="386"
+		y="185"
+		width="361"
+		height="46"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="424"
+		y="200"
+		width="313"
+		height="20"
+		groupid="0"
+	}
+	textix="MIN Real Time Measurements"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="384"
+		y="257"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Line Voltage"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="280"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V ab"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="303"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V bc"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="326"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V ca"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="349"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Phase Voltage"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="372"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V an"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="396"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V bn"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="419"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V cn"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="442"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Phase Current"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="465"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="488"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="511"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="535"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="558"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="581"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="604"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="627"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="650"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="674"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="697"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="720"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="743"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="766"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="789"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="384"
+		y="813"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Frequency on Va"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="675"
+		y="254"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="277"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="300"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="323"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="346"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="369"
+		width="63"
+		height="15"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="392"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="415"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="439"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="462"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="485"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="508"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="531"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="554"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="577"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="600"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="624"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="647"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="670"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="693"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="716"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="739"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="762"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="785"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="675"
+		y="809"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="Hz"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="760"
+		y="188"
+		width="360"
+		height="651"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="759"
+		y="185"
+		width="362"
+		height="46"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="798"
+		y="199"
+		width="310"
+		height="20"
+		groupid="0"
+	}
+	textix="MAX Real Time Measurements"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="757"
+		y="257"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Line Voltage"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="280"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V ab"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="303"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V bc"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="326"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V ca"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="349"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Phase Voltage"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="372"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V an"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="396"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V bn"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="419"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="V cn"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="442"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Average Phase Current"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="465"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="488"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="511"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Current phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="535"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="558"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="581"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="604"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kW phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="627"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="650"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="674"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="697"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="kVA phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="720"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor total"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="743"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase A"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="766"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase B"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="789"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Power factor phase C"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="757"
+		y="813"
+		width="201"
+		height="15"
+		groupid="0"
+	}
+	textix="Frequency on Va"
+	align="horiz. right"
+}
+"text" {
+	object {
+		x="1045"
+		y="258"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="281"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="304"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="327"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="350"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="373"
+		width="63"
+		height="15"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="396"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="419"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="V rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="443"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="466"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="489"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="512"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="A rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="535"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="558"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="581"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="604"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="628"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="651"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="674"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="697"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="720"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="743"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="766"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="789"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="1045"
+		y="813"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="Hz"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="11"
+		y="73"
+		width="1109"
+		height="31"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="16"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="410"
+		y="72"
+		width="339"
+		height="29"
+		groupid="0"
+	}
+	textix="Power Consumption"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="53"
+		y="111"
+		width="54"
+		height="25"
+		groupid="10"
+	}
+	textix="GWh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="167"
+		y="109"
+		width="54"
+		height="25"
+		groupid="8"
+	}
+	textix="MWh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="279"
+		y="111"
+		width="54"
+		height="26"
+		groupid="9"
+	}
+	textix="kWh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="413"
+		y="112"
+		width="80"
+		height="25"
+		groupid="11"
+	}
+	textix="GVARh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="529"
+		y="110"
+		width="81"
+		height="25"
+		groupid="12"
+	}
+	textix="MVARh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="642"
+		y="110"
+		width="82"
+		height="25"
+		groupid="13"
+	}
+	textix="kVARh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="787"
+		y="111"
+		width="80"
+		height="25"
+		groupid="17"
+	}
+	textix="GVAh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="902"
+		y="109"
+		width="81"
+		height="25"
+		groupid="18"
+	}
+	textix="MVAh"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="1010"
+		y="109"
+		width="82"
+		height="25"
+		groupid="19"
+	}
+	textix="kVAh"
+	align="horiz. centered"
+}
+"text update" {
+	object {
+		x="225"
+		y="252"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)alv.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="275"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)alvab.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="298"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)alvbc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="321"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)alvca.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="344"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apv.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="367"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apvan.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="391"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apvbn.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="414"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apvcn.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="437"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="460"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apca.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="483"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apcb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="506"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)apcc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="530"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kwt.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="553"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kwta.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="576"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kwtb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="599"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kwtc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="622"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kvt.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="645"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kvta.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="669"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kvtb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="692"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)kvtc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="715"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)pft.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="738"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)pfpa.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="761"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)pfpb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="784"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)pfpc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="225"
+		y="808"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)freq.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="253"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnalv.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="276"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnalvab.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="299"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnalvbc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="322"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnalvca.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="345"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapv.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="368"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapvan.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="392"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapvbn.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="415"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapvcn.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="438"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="461"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapca.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="484"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapcb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="507"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnapcc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="531"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkwt.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="554"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkwta.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="577"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkwtb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="600"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkwtc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="623"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkvt.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="646"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkvta.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="670"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkvtb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="693"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnkvtc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="716"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnpft.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="739"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnpfpa.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="762"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnpfpb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="785"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnpfpc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="601"
+		y="809"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mnfreq.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="253"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxalv.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="276"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxalvab.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="299"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxalvbc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="322"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxalvca.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="345"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapv.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="368"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapvan.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="392"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapvbn.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="415"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapvcn.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="438"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="461"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapca.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="484"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapcb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="507"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxapcc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="531"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkwt.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="554"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkwta.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="577"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkwtb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="600"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkwtc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="623"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkvt.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="646"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkvta.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="670"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkvtb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="693"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxkvtc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="716"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxpft.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="739"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxpfpa.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="762"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxpfpb.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="785"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxpfpc.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="974"
+		y="809"
+		width="60"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)mxfreq.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="40"
+		y="135"
+		width="81"
+		height="28"
+		groupid="10"
+	}
+	monitor {
+		chan="$(top)$(dev)gwh.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="154"
+		y="134"
+		width="81"
+		height="28"
+		groupid="8"
+	}
+	monitor {
+		chan="$(top)$(dev)mwh.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="266"
+		y="136"
+		width="81"
+		height="28"
+		groupid="9"
+	}
+	monitor {
+		chan="$(top)$(dev)kwh.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="413"
+		y="136"
+		width="81"
+		height="28"
+		groupid="11"
+	}
+	monitor {
+		chan="$(top)$(dev)gvarh.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="530"
+		y="135"
+		width="81"
+		height="28"
+		groupid="12"
+	}
+	monitor {
+		chan="$(top)$(dev)mvarh.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="643"
+		y="135"
+		width="81"
+		height="28"
+		groupid="13"
+	}
+	monitor {
+		chan="$(top)$(dev)kvarh.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="787"
+		y="135"
+		width="81"
+		height="28"
+		groupid="17"
+	}
+	monitor {
+		chan="$(top)$(dev)gvah.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="903"
+		y="134"
+		width="81"
+		height="28"
+		groupid="18"
+	}
+	monitor {
+		chan="$(top)$(dev)mvah.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="1011"
+		y="134"
+		width="81"
+		height="28"
+		groupid="19"
+	}
+	monitor {
+		chan="$(top)$(dev)kvah.VAL"
+		clr="11"
+		bclr="13"
+		label="outline"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule=""
+		clrargs="0"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="0"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. centered"
+	format="decimal"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="1018"
+		y="20"
+		width="94"
+		height="33"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}

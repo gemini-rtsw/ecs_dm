@@ -1,0 +1,405 @@
+file {
+	name="ECS_Sim.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="423"
+	nstr="640"
+	ndynamic="0"
+	nplot="0"
+	nrd="5"
+	nes="0"
+	nkd="1"
+	object {
+		x="0"
+		y="0"
+		width="226"
+		height="166"
+	}
+	clr="0"
+	bclr="17"
+	nwords_dspy="13444"
+	nwords_sta="56"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="13122"
+	osta="13066"
+	odynamic="13122"
+	oplot="13122"
+	ord="13122"
+	oes="13432"
+	okd="13432"
+	opc="58"
+	ostr="6386"
+	ocmap="13066"
+	ocrules="13066"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="rule"
+	vismod="static"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsCP.dl"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="9"
+		y="7"
+		width="63"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="73"
+		y="15"
+		width="91"
+		height="22"
+		groupid="0"
+	}
+	textix="A/B Sim"
+	align="horiz. centered"
+	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="8"
+		y="7"
+		width="211"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="19"
+		y="10"
+		width="57"
+		height="28"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+	RISC_pad="0"
+}
+"related display" {
+	object {
+		x="1348"
+		y="600"
+		width="194"
+		height="80"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="TEST & CONFIG"
+		name="TCS_TestConfig.dl"
+		args="T=ec,B=testblock"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="TEST & CONFIG"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="14"
+		y="109"
+		width="200"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="M1/GWS Simulation"
+		name="thermalSim.dl"
+		args="top=$(top),gws=$(gws),m1=$(m1)"
+	}
+	display[1] {
+		label="Set Thermal Faults"
+		name="thermalDet.dl"
+		args="C=ec:thermalS,pr=$(pr)"
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Thermal Sim"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="14"
+		y="137"
+		width="200"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Interlock Simulation"
+		name="interlocksSim.dl"
+		args="top=$(top)"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Set Interlocks"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="14"
+		y="81"
+		width="200"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Set Dome Faults"
+		name="domeFaultSim.dl"
+		args="top=$(top),dev=faultS"
+	}
+	display[1] {
+		label="Set Top Shutter Faults"
+		name="tshFaultSim.dl"
+		args="top=$(top),dev=faultS"
+	}
+	display[2] {
+		label="Set Bottom Shutter Faults"
+		name="bshFaultSim.dl"
+		args="top=$(top),dev=faultS"
+	}
+	display[3] {
+		label="Set East Vent Gate Faults"
+		name="evgFaultSim.dl"
+		args="top=$(top),dev=faultS"
+	}
+	display[4] {
+		label="Set West Vent Gate Faults"
+		name="wvgFaultSim.dl"
+		args="top=$(top),dev=faultS"
+	}
+	display[5] {
+		label="Current Motor Faults"
+		name="motorFaultSim.dl"
+		args="top=$(top),dev=faultS"
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Motor Fault Sim"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="14"
+		y="53"
+		width="200"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="PLC System Faults"
+		name="miscFaultSim.dl"
+		args="top=$(top),dev=faultS,pr=$(pr),C=ec:thermalS"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="PLC Fault Sim"
+	decorate="outward"
+}
+"kill display" {
+	object {
+		x="165"
+		y="11"
+		width="52"
+		height="32"
+		groupid="0"
+	}
+	RISCpad="0"
+	label="EXIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}
