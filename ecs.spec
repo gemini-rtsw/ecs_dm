@@ -2,7 +2,7 @@
 %define gemopt opt
 %define name ecs
 %define version 2.8
-%define release 14
+%define release 15
 %define repository gemini
 %define debug_package %{nil}
 
@@ -55,14 +55,15 @@ make
 ## Write install instructions here, e.g
 ## install -D zzz/zzz  $RPM_BUILD_ROOT/%{_prefix}/zzz/zzz
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
+mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_CP
+mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_MK
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/alh/ecs
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/bin/
 #mkdir -p $RPM_BUILD_ROOT/%{_prefix}/var/log
 
 cp -r bin/linux-x86/* $RPM_BUILD_ROOT/%{_prefix}/bin/
-cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
-cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
+cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_CP
+cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs/data_MK
 #cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
 cp -r data/*.config $RPM_BUILD_ROOT/%{_prefix}/share/alh/ecs
 
