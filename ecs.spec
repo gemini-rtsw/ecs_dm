@@ -61,7 +61,8 @@ mkdir -p $RPM_BUILD_ROOT/%{_prefix}/bin/
 #mkdir -p $RPM_BUILD_ROOT/%{_prefix}/var/log
 
 cp -r bin/linux-x86/* $RPM_BUILD_ROOT/%{_prefix}/bin/
-cp -r data/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
+cp -r data_CP/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
+cp -r data_MK/*.dl $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
 #cp -r data/*.tk $RPM_BUILD_ROOT/%{_prefix}/share/dl/ecs
 cp -r data/*.config $RPM_BUILD_ROOT/%{_prefix}/share/alh/ecs
 
