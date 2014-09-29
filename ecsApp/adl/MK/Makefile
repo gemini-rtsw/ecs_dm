@@ -1,4 +1,4 @@
-TOP = ../..
+TOP = ../../..
 
 include $(TOP)/configure/CONFIG
 INSTALL_DATA = $(INSTALL_LOCATION)/data_MK
