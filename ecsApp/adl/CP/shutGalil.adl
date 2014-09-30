@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="2690"
-	nwords_sta="100"
+	nwords_dspy="2688"
+	nwords_sta="96"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="934"
-	osta="834"
-	odynamic="934"
-	oplot="2518"
-	ord="2518"
-	oes="2678"
-	okd="2678"
-	opd="2690"
-	opo="2690"
+	odyng="932"
+	osta="836"
+	odynamic="932"
+	oplot="2516"
+	ord="2516"
+	oes="2676"
+	okd="2676"
+	opd="2688"
+	opo="2688"
 	opc="68"
 	ostr="456"
-	ocmap="834"
-	ocrules="834"
+	ocmap="836"
+	ocrules="836"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -145,14 +145,6 @@ display {
 	textix="RPX       TEX    TEY    TEZ    TEW    TI     C1      TTX    TTY    TTZ    TTW    Status"
 	align="horiz. left"
 }
-"<<basic attribute>>" {
-	attr {
-		clr="10"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
 "text" {
 	object {
 		x="12"
@@ -185,8 +177,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -231,8 +223,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALB"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -277,8 +269,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALC"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -323,8 +315,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -369,8 +361,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -415,8 +407,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALF"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -461,8 +453,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -507,8 +499,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALH"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -553,8 +545,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALI"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -599,8 +591,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALJ"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -645,8 +637,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALK"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -691,8 +683,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilTopProc.VALL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -737,8 +729,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -783,8 +775,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALB"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -829,8 +821,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALC"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -875,8 +867,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -921,8 +913,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -967,8 +959,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALF"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1013,8 +1005,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1059,8 +1051,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALH"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1105,8 +1097,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALI"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1151,8 +1143,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALJ"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1197,8 +1189,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALK"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1243,8 +1235,8 @@ display {
 	}
 	monitor {
 		chan="ec:shutGalilBotProc.VALL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

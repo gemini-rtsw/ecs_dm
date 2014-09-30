@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5410"
+	nwords_dspy="5412"
 	nwords_sta="676"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1974"
-	osta="1298"
-	odynamic="3210"
-	oplot="5238"
-	ord="5238"
-	oes="5398"
-	okd="5398"
-	opd="5410"
-	opo="5410"
+	odyng="1976"
+	osta="1300"
+	odynamic="3212"
+	oplot="5240"
+	ord="5240"
+	oes="5400"
+	okd="5400"
+	opd="5412"
+	opo="5412"
 	opc="68"
 	ostr="530"
-	ocmap="1298"
-	ocrules="1298"
+	ocmap="1300"
+	ocrules="1300"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -495,7 +495,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -637,7 +637,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -730,7 +730,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1884,8 +1884,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1930,8 +1930,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B3"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1976,8 +1976,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B4"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2022,8 +2022,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B5"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2068,8 +2068,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B6"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2114,8 +2114,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B7"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2160,8 +2160,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B8"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2206,8 +2206,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.B9"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2252,8 +2252,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.BA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2298,8 +2298,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplantPlc.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2344,8 +2344,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplantPlc.OMSL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2486,8 +2486,8 @@ display {
 	}
 	control {
 		chan="$(top)thermalplantPlcOv.VAL"
-		clr="1"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="rule"
 		rulechan[0] = ""
@@ -2627,8 +2627,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplantPlc.DISV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2673,8 +2673,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplantPlc.DISA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2719,8 +2719,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword$(prstat):bits.BA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2765,8 +2765,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplcHeartbeat"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2811,8 +2811,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplcHeartbeat"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2857,8 +2857,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalahuSetPoint.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2903,8 +2903,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalahuSetPoint.OMSL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3045,8 +3045,8 @@ display {
 	}
 	control {
 		chan="$(top)thermalahuSetPointOv.VAL"
-		clr="1"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="rule"
 		rulechan[0] = ""
@@ -3138,8 +3138,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalahuSetPoint.DISV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3184,8 +3184,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalahuSetPoint.DISA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

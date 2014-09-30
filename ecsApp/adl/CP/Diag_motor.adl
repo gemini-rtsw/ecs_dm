@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="14370"
+	nwords_dspy="14372"
 	nwords_sta="752"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="4298"
-	osta="3546"
-	odynamic="4298"
-	oplot="14198"
-	ord="14198"
-	oes="14358"
-	okd="14358"
-	opd="14370"
-	opo="14370"
+	odyng="4300"
+	osta="3548"
+	odynamic="4300"
+	oplot="14200"
+	ord="14200"
+	oes="14360"
+	okd="14360"
+	opd="14372"
+	opo="14372"
 	opc="68"
 	ostr="2528"
-	ocmap="3546"
-	ocrules="3546"
+	ocmap="3548"
+	ocrules="3548"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -645,7 +645,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="3"
@@ -818,8 +818,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -864,8 +864,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -902,16 +902,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="93"
+		x="433"
+		y="91"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -956,8 +956,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1002,8 +1002,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1048,8 +1048,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.VELO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1094,8 +1094,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.VELO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1132,16 +1132,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="116"
+		x="433"
+		y="114"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.VELO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1186,8 +1186,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.VELO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1232,8 +1232,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.VELO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1278,8 +1278,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MODE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1324,8 +1324,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MODE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1362,16 +1362,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="140"
+		x="433"
+		y="138"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MODE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1416,8 +1416,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MODE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1462,8 +1462,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MODE"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1508,8 +1508,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MDBD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1554,8 +1554,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MDBD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1592,16 +1592,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="163"
+		x="433"
+		y="161"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MDBD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1646,8 +1646,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MDBD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1692,8 +1692,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MDBD"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1738,8 +1738,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.FLT"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1784,8 +1784,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.FLT"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1822,16 +1822,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="187"
+		x="433"
+		y="185"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.FLT"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1876,8 +1876,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.FLT"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1922,8 +1922,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.FLT"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1968,8 +1968,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.STOP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2014,8 +2014,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.STOP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2052,16 +2052,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="211"
+		x="433"
+		y="209"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.STOP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2106,8 +2106,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.STOP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2152,8 +2152,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.STOP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2198,8 +2198,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.SIMM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2244,8 +2244,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.SIMM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2282,16 +2282,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="235"
+		x="433"
+		y="233"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.SIMM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2336,8 +2336,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.SIMM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2382,8 +2382,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.SIMM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2428,8 +2428,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.DBUG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2474,8 +2474,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.DBUG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2512,16 +2512,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="259"
+		x="433"
+		y="257"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.DBUG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2566,8 +2566,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.DBUG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2612,8 +2612,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.DBUG"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2658,8 +2658,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2704,8 +2704,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2742,16 +2742,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="283"
+		x="433"
+		y="281"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2796,8 +2796,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2842,8 +2842,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2888,8 +2888,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.VSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2934,8 +2934,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.VSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2972,16 +2972,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="306"
+		x="433"
+		y="304"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.VSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3026,8 +3026,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.VSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3072,8 +3072,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.VSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3118,8 +3118,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3164,8 +3164,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3202,16 +3202,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="330"
+		x="433"
+		y="328"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3256,8 +3256,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3302,8 +3302,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3348,8 +3348,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.RVEL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3394,8 +3394,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.RVEL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3432,16 +3432,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="354"
+		x="433"
+		y="352"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.RVEL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3486,8 +3486,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.RVEL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3532,8 +3532,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.RVEL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3578,8 +3578,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3624,8 +3624,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3662,16 +3662,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="378"
+		x="433"
+		y="376"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3716,8 +3716,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3762,8 +3762,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3808,8 +3808,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.DSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3854,8 +3854,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.DSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3892,16 +3892,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="402"
+		x="433"
+		y="400"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.DSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3946,8 +3946,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.DSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3992,8 +3992,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.DSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4038,8 +4038,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.DMOV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4084,8 +4084,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4122,16 +4122,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="425"
+		x="433"
+		y="423"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.DMOV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4176,8 +4176,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.DMOV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4222,8 +4222,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.DMOV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4268,8 +4268,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4314,8 +4314,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.DMOV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4352,16 +4352,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="448"
+		x="433"
+		y="446"
 		width="87"
-		height="20"
+		height="21"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4406,8 +4406,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4452,8 +4452,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4498,8 +4498,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MIP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4544,8 +4544,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MIP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4582,16 +4582,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="473"
+		x="433"
+		y="472"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MIP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4636,8 +4636,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MIP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4682,8 +4682,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MIP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4728,8 +4728,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MOVN"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4774,8 +4774,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MOVN"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4812,16 +4812,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="497"
+		x="433"
+		y="496"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MOVN"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4866,8 +4866,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MOVN"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4912,8 +4912,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MOVN"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4958,8 +4958,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5004,8 +5004,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5042,16 +5042,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="521"
+		x="433"
+		y="520"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5096,8 +5096,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5142,8 +5142,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5188,8 +5188,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5234,8 +5234,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5272,16 +5272,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="545"
+		x="433"
+		y="544"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5326,8 +5326,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5372,8 +5372,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5418,8 +5418,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.LVIO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5464,8 +5464,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.LVIO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5502,16 +5502,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="785"
+		x="433"
+		y="784"
 		width="87"
-		height="20"
+		height="21"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.LVIO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5556,8 +5556,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.LVIO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5602,8 +5602,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.LVIO"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5648,8 +5648,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.PP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5694,8 +5694,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.PP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5732,16 +5732,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="569"
+		x="433"
+		y="568"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.PP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5786,8 +5786,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.PP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5832,8 +5832,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.PP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5878,8 +5878,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MMAP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5924,8 +5924,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MMAP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5962,16 +5962,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="593"
+		x="433"
+		y="592"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MMAP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6016,8 +6016,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MMAP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6062,8 +6062,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MMAP"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6108,8 +6108,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.VMS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6154,8 +6154,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.VMS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6192,16 +6192,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="616"
+		x="433"
+		y="615"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.VMS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6246,8 +6246,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.VMS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6292,8 +6292,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.VMS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6338,8 +6338,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.LLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6384,8 +6384,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.LLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6422,16 +6422,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="638"
+		x="433"
+		y="637"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.LLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6476,8 +6476,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.LLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6522,8 +6522,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.LLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6568,8 +6568,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.HLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6614,8 +6614,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.HLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6652,16 +6652,16 @@ display {
 }
 "text update" {
 	object {
-		x="443"
-		y="664"
+		x="434"
+		y="663"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.HLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6706,8 +6706,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.HLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6752,8 +6752,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.HLS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6798,8 +6798,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.LLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6844,8 +6844,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.LLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6882,16 +6882,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="688"
+		x="433"
+		y="687"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.LLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6936,8 +6936,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.LLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6982,8 +6982,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.LLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7028,8 +7028,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.HLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7074,8 +7074,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.HLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7112,16 +7112,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="712"
+		x="433"
+		y="711"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.HLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7166,8 +7166,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.HLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7212,8 +7212,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.HLM"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7258,8 +7258,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.LOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7304,8 +7304,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.LOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7342,16 +7342,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="736"
+		x="433"
+		y="735"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.LOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7396,8 +7396,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.LOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7442,8 +7442,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.LOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7488,8 +7488,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.HOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7534,8 +7534,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.HOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7572,16 +7572,16 @@ display {
 }
 "text update" {
 	object {
-		x="442"
-		y="760"
+		x="433"
+		y="759"
 		width="87"
 		height="20"
 		groupid="0"
 	}
 	monitor {
 		chan="$(top)botShtrmotor.HOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7626,8 +7626,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.HOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7672,8 +7672,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.HOPR"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

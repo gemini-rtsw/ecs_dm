@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5602"
+	nwords_dspy="5604"
 	nwords_sta="556"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2212"
-	osta="1656"
-	odynamic="3224"
-	oplot="5270"
-	ord="5270"
-	oes="5590"
-	okd="5590"
-	opd="5602"
-	opo="5602"
+	odyng="2214"
+	osta="1658"
+	odynamic="3226"
+	oplot="5272"
+	ord="5272"
+	oes="5592"
+	okd="5592"
+	opd="5604"
+	opo="5604"
 	opc="68"
 	ostr="880"
-	ocmap="1656"
-	ocrules="1656"
+	ocmap="1658"
+	ocrules="1658"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -210,7 +210,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="3"
@@ -227,7 +227,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -494,7 +494,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="3"
@@ -569,7 +569,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -660,7 +660,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="3"
@@ -677,7 +677,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1514,8 +1514,8 @@ display {
 	}
 	monitor {
 		chan="$(top)debugL.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1560,8 +1560,8 @@ display {
 	}
 	monitor {
 		chan="$(top)simulateL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1606,8 +1606,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MESS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1652,8 +1652,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MESS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1698,8 +1698,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MESS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1744,8 +1744,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MESS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1790,8 +1790,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MESS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1836,8 +1836,8 @@ display {
 	}
 	monitor {
 		chan="$(top)state.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1882,8 +1882,8 @@ display {
 	}
 	monitor {
 		chan="$(top)present"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1928,8 +1928,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplcHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1974,8 +1974,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:plcHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2020,8 +2020,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveDome.B"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2066,8 +2066,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2112,8 +2112,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2158,8 +2158,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2204,8 +2204,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveShtrs.B"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2250,8 +2250,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrPos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2296,8 +2296,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2342,8 +2342,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2388,8 +2388,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveShtrs.C"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2434,8 +2434,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrPos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2480,8 +2480,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2526,8 +2526,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2572,8 +2572,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveVgates.B"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2618,8 +2618,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2664,8 +2664,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGateC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2710,8 +2710,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2756,8 +2756,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveVgates.C"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2802,8 +2802,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2848,8 +2848,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGateC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2894,8 +2894,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

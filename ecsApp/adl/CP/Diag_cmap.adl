@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="7516"
+	nwords_dspy="7518"
 	nwords_sta="1412"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="3054"
-	osta="1642"
-	odynamic="3054"
-	oplot="7344"
-	ord="7344"
-	oes="7504"
-	okd="7504"
-	opd="7516"
-	opo="7516"
+	odyng="3056"
+	osta="1644"
+	odynamic="3056"
+	oplot="7346"
+	ord="7346"
+	oes="7506"
+	okd="7506"
+	opd="7518"
+	opo="7518"
 	opc="68"
 	ostr="578"
-	ocmap="1642"
-	ocrules="1642"
+	ocmap="1644"
+	ocrules="1644"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -688,7 +688,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -976,7 +976,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1012,7 +1012,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1048,7 +1048,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1147,7 +1147,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1224,7 +1224,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1458,7 +1458,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1494,7 +1494,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1549,8 +1549,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word2:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1595,8 +1595,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word0:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1641,8 +1641,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word1:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1687,8 +1687,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word4:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1733,8 +1733,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word5:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1779,8 +1779,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word2:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1825,8 +1825,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word0:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1871,8 +1871,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word1:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1917,8 +1917,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word4:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1963,8 +1963,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word5:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2009,8 +2009,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word2:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2055,8 +2055,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word0:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2101,8 +2101,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word1:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2147,8 +2147,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word4:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2193,8 +2193,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word5:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2239,8 +2239,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word3:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2285,8 +2285,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word0:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2331,8 +2331,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word1:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2377,8 +2377,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word4:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2423,8 +2423,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word5:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2469,8 +2469,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2515,8 +2515,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2561,8 +2561,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2607,8 +2607,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2653,8 +2653,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2699,8 +2699,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2745,8 +2745,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2791,8 +2791,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2837,8 +2837,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2883,8 +2883,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2929,8 +2929,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2975,8 +2975,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3021,8 +3021,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3067,8 +3067,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3113,8 +3113,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word16:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3159,8 +3159,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3205,8 +3205,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word17:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3251,8 +3251,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3297,8 +3297,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3343,8 +3343,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3389,8 +3389,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3435,8 +3435,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3481,8 +3481,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3528,7 +3528,7 @@ display {
 	monitor {
 		chan="$(top)topShtrmotor.HSTA"
 		clr="10"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3573,8 +3573,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3619,8 +3619,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3665,8 +3665,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.HSTA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3711,8 +3711,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word6:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3757,8 +3757,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word6:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3803,8 +3803,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word6:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3849,8 +3849,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word6:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3895,8 +3895,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word6:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3941,8 +3941,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:word3:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3987,8 +3987,8 @@ display {
 	}
 	monitor {
 		chan="$(top)misc:word7:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4033,8 +4033,8 @@ display {
 	}
 	monitor {
 		chan="$(top)misc:word7:word.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4079,8 +4079,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword18:word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4125,8 +4125,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword33:word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4171,8 +4171,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword35:word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4217,8 +4217,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword37:word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4263,8 +4263,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword34:word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4310,7 +4310,7 @@ display {
 	monitor {
 		chan="$(top)thermalword36:word"
 		clr="10"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4355,8 +4355,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalword38:word"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4401,8 +4401,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermaldomePlc.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4447,8 +4447,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:plcHeartbeat.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4493,8 +4493,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:ecsHeartbeat.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

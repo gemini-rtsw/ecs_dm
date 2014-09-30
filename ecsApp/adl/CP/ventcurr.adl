@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1622"
+	nwords_dspy="1624"
 	nwords_sta="296"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="850"
-	osta="554"
-	odynamic="922"
-	oplot="1450"
-	ord="1450"
-	oes="1610"
-	okd="1610"
-	opd="1622"
-	opo="1622"
+	odyng="852"
+	osta="556"
+	odynamic="924"
+	oplot="1452"
+	ord="1452"
+	oes="1612"
+	okd="1612"
+	opd="1624"
+	opo="1624"
 	opc="68"
 	ostr="152"
-	ocmap="554"
-	ocrules="554"
+	ocmap="556"
+	ocrules="556"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -146,7 +146,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -355,7 +355,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -441,8 +441,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:ev4x"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -487,8 +487,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:ev4y"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -533,8 +533,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:ev4z"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -579,8 +579,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:ev4w"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -625,8 +625,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:wv5x"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -671,8 +671,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:wv5y"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -717,8 +717,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:wv5z"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -763,8 +763,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vg:wv5w"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

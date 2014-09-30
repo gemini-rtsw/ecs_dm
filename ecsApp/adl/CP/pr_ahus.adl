@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3370"
+	nwords_dspy="3372"
 	nwords_sta="524"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1574"
-	osta="1050"
-	odynamic="1574"
-	oplot="3038"
-	ord="3038"
-	oes="3358"
-	okd="3358"
-	opd="3370"
-	opo="3370"
+	odyng="1576"
+	osta="1052"
+	odynamic="1576"
+	oplot="3040"
+	ord="3040"
+	oes="3360"
+	okd="3360"
+	opd="3372"
+	opo="3372"
 	opc="68"
 	ostr="450"
-	ocmap="1050"
-	ocrules="1050"
+	ocmap="1052"
+	ocrules="1052"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -219,7 +219,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -365,7 +365,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -621,8 +621,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)tut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -667,8 +667,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)out"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -713,8 +713,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahlt"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -759,8 +759,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah2t"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -805,8 +805,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah3t"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -851,8 +851,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah4t"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -897,8 +897,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah5t"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -943,8 +943,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah2vp"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -989,8 +989,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah3vp"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1035,8 +1035,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah4vp"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1081,8 +1081,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah5vp"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1127,8 +1127,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah2dt"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1173,8 +1173,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah3dt"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1219,8 +1219,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah4dt"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1265,8 +1265,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ah5dt"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1311,8 +1311,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALA"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu2.VAL"
@@ -1357,8 +1357,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALB"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu3.VAL"
@@ -1403,8 +1403,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALC"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu4.VAL"
@@ -1449,8 +1449,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALD"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu5.VAL"
@@ -1495,8 +1495,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALE"
-		clr="25"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""

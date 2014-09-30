@@ -6,13 +6,15 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="313"
-	nstr="210"
+	npc="38"
+	nstr="70"
 	ndynamic="37"
 	nplot="0"
 	nrd="0"
 	nes="0"
 	nkd="1"
+	npd="0"
+	npo="0"
 	object {
 		x="0"
 		y="0"
@@ -21,33 +23,40 @@ display {
 	}
 	clr="1"
 	bclr="17"
-	nwords_dspy="8664"
-	nwords_sta="716"
+	nwords_dspy="4226"
+	nwords_sta="720"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="6210"
-	osta="5494"
-	odynamic="6210"
-	oplot="8652"
-	ord="8652"
-	oes="8652"
-	okd="8652"
-	opc="58"
-	ostr="3636"
-	ocmap="5494"
-	ocrules="5494"
+	odyng="1772"
+	osta="1052"
+	odynamic="1772"
+	oplot="4214"
+	ord="4214"
+	oes="4214"
+	okd="4214"
+	opd="4226"
+	opo="4226"
+	opc="68"
+	ostr="448"
+	ocmap="1052"
+	ocrules="1052"
 	style="solid"
 	fill="outline"
 	width="0"
 	clrmod="static"
 	vismod="static"
+	precision="-1"
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
+	pixwid="1920"
+	pixht="1200"
+	mmwid="524"
+	mmht="321"
 }
 "<<basic attribute>>" {
 	attr {
-		clr="13"
+		clr="17"
 		style="solid"
 		fill="solid"
 		width="2"
@@ -89,7 +98,6 @@ display {
 	}
 	textix="to Carousel PLC"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -101,7 +109,6 @@ display {
 	}
 	textix="Carousel OFF"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -113,7 +120,6 @@ display {
 	}
 	textix="Carousel MSP"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -125,7 +131,6 @@ display {
 	}
 	textix="Carousel ECS"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -137,7 +142,6 @@ display {
 	}
 	textix="Passive Vents &"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -149,7 +153,6 @@ display {
 	}
 	textix="Lwr.Shell Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -161,7 +164,6 @@ display {
 	}
 	textix="Roof Vents &"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -173,7 +175,6 @@ display {
 	}
 	textix="Shutter Fans"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -185,7 +186,6 @@ display {
 	}
 	textix="Exhaust Fans"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -197,7 +197,6 @@ display {
 	}
 	textix="to Plant Room PLC"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -209,7 +208,6 @@ display {
 	}
 	textix="Exhaust Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -221,7 +219,6 @@ display {
 	}
 	textix="Floor Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -233,7 +230,6 @@ display {
 	}
 	textix="AHU Power"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -245,7 +241,6 @@ display {
 	}
 	textix="New AHU SP"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -257,7 +252,6 @@ display {
 	}
 	textix="New Chill SP"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -269,7 +263,6 @@ display {
 	}
 	textix="Plant OFF"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -281,7 +274,6 @@ display {
 	}
 	textix="from Plant Room PLC"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -293,7 +285,6 @@ display {
 	}
 	textix="Plant MSP"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -305,7 +296,6 @@ display {
 	}
 	textix="Plant ECS"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -325,7 +315,6 @@ display {
 	}
 	textix="Exhaust Fan Sw"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -345,7 +334,6 @@ display {
 	}
 	textix="Exhaust Fans"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -365,7 +353,6 @@ display {
 	}
 	textix="Exhaust Damper Sw"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -385,7 +372,6 @@ display {
 	}
 	textix="Exhaust Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -405,7 +391,6 @@ display {
 	}
 	textix="Floor Damper Sw"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -425,7 +410,6 @@ display {
 	}
 	textix="Floor Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -445,7 +429,6 @@ display {
 	}
 	textix="AHU Power Sw"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -465,7 +448,6 @@ display {
 	}
 	textix="AHU Power"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -477,7 +459,6 @@ display {
 	}
 	textix="AHU Set Point Ok"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -489,7 +470,6 @@ display {
 	}
 	textix="Chiller S/P Ok"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -501,7 +481,6 @@ display {
 	}
 	textix="Shutter Fans"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -513,7 +492,6 @@ display {
 	}
 	textix="Dome Lights"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -525,7 +503,6 @@ display {
 	}
 	textix="from Carousel PLC"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -562,7 +539,6 @@ display {
 	}
 	textix="Thermal PLC Details"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -599,11 +575,10 @@ display {
 	}
 	textix="ECS"
 	align="horiz. left"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -645,7 +620,6 @@ display {
 	}
 	textix="Lwr.Shtr.Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -657,7 +631,6 @@ display {
 	}
 	textix="Upr.Shtr.Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -677,7 +650,6 @@ display {
 	}
 	textix="Passive Vents &"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -689,7 +661,6 @@ display {
 	}
 	textix="Lwr.Shell Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -701,7 +672,6 @@ display {
 	}
 	textix="Roof Vents &"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -713,7 +683,6 @@ display {
 	}
 	textix="Shutter Fans"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -725,7 +694,6 @@ display {
 	}
 	textix="Lwr.Shtr.Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -737,23 +705,29 @@ display {
 	}
 	textix="Upr.Shtr.Dampers"
 	align="horiz. right"
-	RISC_pad="0"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
 }
 "text" {
 	object {
 		x="148"
 		y="500"
-		width="214"
+		width="237"
 		height="16"
 		groupid="0"
 	}
 	textix="Local Control Switches"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -795,7 +769,6 @@ display {
 	}
 	textix="Passive Vents &"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -807,7 +780,6 @@ display {
 	}
 	textix="Lwr.Shtr.Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -819,7 +791,6 @@ display {
 	}
 	textix="Lwr.Shell Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -831,7 +802,6 @@ display {
 	}
 	textix="Roof Vents &"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -843,7 +813,6 @@ display {
 	}
 	textix="Upr.Shtr.Dampers"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -889,7 +858,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -935,7 +903,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -981,7 +948,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1027,7 +993,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1073,7 +1038,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1119,7 +1083,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1165,7 +1128,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1211,7 +1173,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1257,7 +1218,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1303,7 +1263,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1349,7 +1308,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1395,7 +1353,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1441,7 +1398,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1487,7 +1443,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1533,7 +1488,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1579,7 +1533,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1625,7 +1578,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1671,7 +1623,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1717,7 +1668,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1763,7 +1713,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1809,7 +1758,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1855,7 +1803,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1901,7 +1848,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1947,7 +1893,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -1993,7 +1938,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2039,7 +1983,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2085,7 +2028,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2131,7 +2073,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2177,7 +2118,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2223,7 +2163,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2269,7 +2208,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2315,7 +2253,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2361,7 +2298,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2407,7 +2343,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "choice button" {
 	object {
@@ -2453,7 +2388,6 @@ display {
 		convertParams=""
 	}
 	stacking="row"
-	RISC_pad="0"
 }
 "text update" {
 	object {
@@ -2555,7 +2489,6 @@ display {
 		height="32"
 		groupid="0"
 	}
-	RISCpad="0"
 	label="QUIT"
 	clr="1"
 	bclr="9"

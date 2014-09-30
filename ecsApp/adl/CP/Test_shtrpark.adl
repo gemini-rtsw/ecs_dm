@@ -21,8 +21,8 @@ display {
 		width="517"
 		height="698"
 	}
-	clr="0"
-	bclr="13"
+	clr="12"
+	bclr="5"
 	nwords_dspy="3240"
 	nwords_sta="476"
 	nwords_cmap="0"
@@ -608,8 +608,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.DIR"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -702,8 +702,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -748,8 +748,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -794,8 +794,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrEnable"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -840,8 +840,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.VALA"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -886,8 +886,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.VALA"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -932,8 +932,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.VALB"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -978,8 +978,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.VALB"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1024,8 +1024,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.VALC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1070,8 +1070,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.VALC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1116,8 +1116,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.VALD"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1162,8 +1162,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.VALD"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1208,8 +1208,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrWait"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1254,8 +1254,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1300,8 +1300,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1346,8 +1346,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs2.MESS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1392,8 +1392,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.MESS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1438,8 +1438,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MPOS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1484,8 +1484,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MPOS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1530,8 +1530,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)topShtrTrigger"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1576,8 +1576,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)botShtrTrigger"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1622,8 +1622,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)topShtrReset"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1668,8 +1668,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)botShtrReset"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1714,8 +1714,8 @@ display {
 	}
 	monitor {
 		chan="$(top1)parkShtrs.DIR"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

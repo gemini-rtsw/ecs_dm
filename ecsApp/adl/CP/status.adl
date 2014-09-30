@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="6022"
+	nwords_dspy="6024"
 	nwords_sta="632"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2382"
-	osta="1750"
-	odynamic="3918"
-	oplot="5370"
-	ord="5370"
-	oes="6010"
-	okd="6010"
-	opd="6022"
-	opo="6022"
+	odyng="2384"
+	osta="1752"
+	odynamic="3920"
+	oplot="5372"
+	ord="5372"
+	oes="6012"
+	okd="6012"
+	opd="6024"
+	opo="6024"
 	opc="68"
 	ostr="798"
-	ocmap="1750"
-	ocrules="1750"
+	ocmap="1752"
+	ocrules="1752"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -56,7 +56,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -440,7 +440,7 @@ display {
 	object {
 		x="808"
 		y="67"
-		width="67"
+		width="79"
 		height="20"
 		groupid="0"
 	}
@@ -449,9 +449,9 @@ display {
 }
 "text" {
 	object {
-		x="694"
-		y="68"
-		width="57"
+		x="683"
+		y="66"
+		width="78"
 		height="20"
 		groupid="0"
 	}
@@ -553,7 +553,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -579,7 +579,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="13"
+		clr="5"
 		style="solid"
 		fill="solid"
 		width="0"
@@ -589,7 +589,7 @@ display {
 	object {
 		x="19"
 		y="239"
-		width="112"
+		width="131"
 		height="26"
 		groupid="6"
 	}
@@ -606,7 +606,7 @@ display {
 	object {
 		x="21"
 		y="243"
-		width="117"
+		width="126"
 		height="20"
 		groupid="6"
 	}
@@ -615,7 +615,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="13"
+		clr="5"
 		style="solid"
 		fill="solid"
 		width="0"
@@ -625,7 +625,7 @@ display {
 	object {
 		x="22"
 		y="47"
-		width="192"
+		width="208"
 		height="27"
 		groupid="8"
 	}
@@ -642,7 +642,7 @@ display {
 	object {
 		x="24"
 		y="52"
-		width="195"
+		width="205"
 		height="20"
 		groupid="8"
 	}
@@ -651,7 +651,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="13"
+		clr="5"
 		style="solid"
 		fill="solid"
 		width="0"
@@ -661,7 +661,7 @@ display {
 	object {
 		x="289"
 		y="48"
-		width="112"
+		width="129"
 		height="26"
 		groupid="9"
 	}
@@ -678,7 +678,7 @@ display {
 	object {
 		x="291"
 		y="52"
-		width="117"
+		width="142"
 		height="20"
 		groupid="9"
 	}
@@ -1987,8 +1987,8 @@ display {
 	}
 	monitor {
 		chan="$(top)logL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2033,8 +2033,8 @@ display {
 	}
 	monitor {
 		chan="$(top)softC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2079,8 +2079,8 @@ display {
 	}
 	monitor {
 		chan="$(top)activeC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2125,8 +2125,8 @@ display {
 	}
 	monitor {
 		chan="$(top)state.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2171,8 +2171,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2217,8 +2217,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2263,8 +2263,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2309,8 +2309,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2355,8 +2355,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2401,8 +2401,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalsir"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2447,8 +2447,8 @@ display {
 	}
 	monitor {
 		chan="$(top)debugL.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2493,8 +2493,8 @@ display {
 	}
 	monitor {
 		chan="$(top)simulateL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2539,8 +2539,8 @@ display {
 	}
 	monitor {
 		chan="$(top)present"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2585,8 +2585,8 @@ display {
 	}
 	monitor {
 		chan="$(top)historyLog"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2631,8 +2631,8 @@ display {
 	}
 	monitor {
 		chan="$(m1)present"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2677,8 +2677,8 @@ display {
 	}
 	monitor {
 		chan="$(gws)present"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2723,8 +2723,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplcHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2769,8 +2769,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:plcHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2816,7 +2816,7 @@ display {
 	monitor {
 		chan="$(top)softC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2862,7 +2862,7 @@ display {
 	monitor {
 		chan="$(top)activeC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2907,8 +2907,8 @@ display {
 	}
 	monitor {
 		chan="$(top)reocsHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2954,7 +2954,7 @@ display {
 	monitor {
 		chan="$(top)checkReocsMode.VALD"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

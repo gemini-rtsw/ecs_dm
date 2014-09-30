@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5032"
+	nwords_dspy="5034"
 	nwords_sta="240"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1546"
-	osta="1306"
-	odynamic="2442"
-	oplot="4860"
-	ord="4860"
-	oes="5020"
-	okd="5020"
-	opd="5032"
-	opo="5032"
+	odyng="1548"
+	osta="1308"
+	odynamic="2444"
+	oplot="4862"
+	ord="4862"
+	oes="5022"
+	okd="5022"
+	opd="5034"
+	opo="5034"
 	opc="68"
 	ostr="610"
-	ocmap="1306"
-	ocrules="1306"
+	ocmap="1308"
+	ocrules="1308"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -167,7 +167,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1131,7 +1131,7 @@ display {
 	monitor {
 		chan="$(top)debug.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1177,7 +1177,7 @@ display {
 	monitor {
 		chan="$(top)debugC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1268,7 +1268,7 @@ display {
 	monitor {
 		chan="$(top)debugC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1314,7 +1314,7 @@ display {
 	monitor {
 		chan="$(top)simulateC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1453,7 +1453,7 @@ display {
 	monitor {
 		chan="$(top)simulate.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1499,7 +1499,7 @@ display {
 	monitor {
 		chan="$(top)simulateC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1593,7 +1593,7 @@ display {
 	monitor {
 		chan="$(top)init.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1639,7 +1639,7 @@ display {
 	monitor {
 		chan="$(top)initC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1685,7 +1685,7 @@ display {
 	monitor {
 		chan="$(top)initC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1779,7 +1779,7 @@ display {
 	monitor {
 		chan="$(top)datum.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1825,7 +1825,7 @@ display {
 	monitor {
 		chan="$(top)datumC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1871,7 +1871,7 @@ display {
 	monitor {
 		chan="$(top)datumC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1965,7 +1965,7 @@ display {
 	monitor {
 		chan="$(top)log.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2011,7 +2011,7 @@ display {
 	monitor {
 		chan="$(top)logC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2102,7 +2102,7 @@ display {
 	monitor {
 		chan="$(top)logC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2196,7 +2196,7 @@ display {
 	monitor {
 		chan="$(top)reboot.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2242,7 +2242,7 @@ display {
 	monitor {
 		chan="$(top)rebootC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2288,7 +2288,7 @@ display {
 	monitor {
 		chan="$(top)rebootC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2382,7 +2382,7 @@ display {
 	monitor {
 		chan="$(top)test.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2428,7 +2428,7 @@ display {
 	monitor {
 		chan="$(top)testC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2474,7 +2474,7 @@ display {
 	monitor {
 		chan="$(top)testC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2520,7 +2520,7 @@ display {
 	monitor {
 		chan="$(top)softC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2566,7 +2566,7 @@ display {
 	monitor {
 		chan="$(top)activeC.VAL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2612,7 +2612,7 @@ display {
 	monitor {
 		chan="$(top)state.OMSS"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2658,7 +2658,7 @@ display {
 	monitor {
 		chan="$(top)debugL.OMSS"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2704,7 +2704,7 @@ display {
 	monitor {
 		chan="$(top)simulateL"
 		clr="11"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

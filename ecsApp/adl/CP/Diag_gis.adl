@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1104"
+	nwords_dspy="1106"
 	nwords_sta="160"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="668"
-	osta="508"
-	odynamic="668"
-	oplot="932"
-	ord="932"
-	oes="1092"
-	okd="1092"
-	opd="1104"
-	opo="1104"
+	odyng="670"
+	osta="510"
+	odynamic="670"
+	oplot="934"
+	ord="934"
+	oes="1094"
+	okd="1094"
+	opd="1106"
+	opo="1106"
 	opc="68"
 	ostr="132"
-	ocmap="508"
-	ocrules="508"
+	ocmap="510"
+	ocrules="510"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -128,7 +128,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -197,7 +197,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -252,8 +252,8 @@ display {
 	}
 	monitor {
 		chan="$(top)gisMotionPosDmd"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -298,8 +298,8 @@ display {
 	}
 	monitor {
 		chan="$(top)gisThermalPosDmd"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -344,8 +344,8 @@ display {
 	}
 	monitor {
 		chan="$(top)gisMotionNegDmd"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -390,8 +390,8 @@ display {
 	}
 	monitor {
 		chan="$(top)gisThermalNegDmd"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

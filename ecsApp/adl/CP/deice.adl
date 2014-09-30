@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3632"
+	nwords_dspy="3634"
 	nwords_sta="204"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1278"
-	osta="1074"
-	odynamic="2050"
-	oplot="3460"
-	ord="3460"
-	oes="3620"
-	okd="3620"
-	opd="3632"
-	opo="3632"
+	odyng="1280"
+	osta="1076"
+	odynamic="2052"
+	oplot="3462"
+	ord="3462"
+	oes="3622"
+	okd="3622"
+	opd="3634"
+	opo="3634"
 	opc="68"
 	ostr="522"
-	ocmap="1074"
-	ocrules="1074"
+	ocmap="1076"
+	ocrules="1076"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -156,7 +156,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -252,7 +252,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1035,7 +1035,7 @@ display {
 	monitor {
 		chan="$(top)$(sys)loginCad.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1125,8 +1125,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(sys)loginOut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1265,7 +1265,7 @@ display {
 	monitor {
 		chan="$(top)$(sys)pcu2Cad.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1310,8 +1310,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(sys)pcu2Out"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1356,8 +1356,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(sys)powerAck"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1496,7 +1496,7 @@ display {
 	monitor {
 		chan="$(top)$(sys)powerCad.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1541,8 +1541,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(sys)powerOut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1681,7 +1681,7 @@ display {
 	monitor {
 		chan="$(top)$(sys)moveCad.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1726,8 +1726,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(sys)cwOut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1772,8 +1772,8 @@ display {
 	}
 	control {
 		chan="$(top)fault:word6:word"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="rule"
 		rulechan[0] = ""
@@ -1817,8 +1817,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(sys)ccwOut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1863,8 +1863,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

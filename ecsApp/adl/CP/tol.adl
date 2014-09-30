@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="2326"
+	nwords_dspy="2328"
 	nwords_sta="292"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1170"
-	osta="878"
-	odynamic="1290"
-	oplot="2154"
-	ord="2154"
-	oes="2314"
-	okd="2314"
-	opd="2326"
-	opo="2326"
+	odyng="1172"
+	osta="880"
+	odynamic="1292"
+	oplot="2156"
+	ord="2156"
+	oes="2316"
+	okd="2316"
+	opd="2328"
+	opo="2328"
 	opc="68"
 	ostr="258"
-	ocmap="878"
-	ocrules="878"
+	ocmap="880"
+	ocrules="880"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -167,7 +167,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -487,7 +487,7 @@ display {
 	monitor {
 		chan="$(top)toleranceC.OMSS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -581,7 +581,7 @@ display {
 	monitor {
 		chan="$(top)tolerance.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -626,8 +626,8 @@ display {
 	}
 	monitor {
 		chan="$(top)toleranceC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -762,8 +762,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrTol"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -808,8 +808,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGateTol"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -854,8 +854,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeTol"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -945,8 +945,8 @@ display {
 	}
 	monitor {
 		chan="$(top)activeC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -991,8 +991,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrTol"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1037,8 +1037,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGateTol"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

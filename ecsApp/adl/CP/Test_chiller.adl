@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1544"
+	nwords_dspy="1546"
 	nwords_sta="164"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="754"
-	osta="590"
-	odynamic="754"
-	oplot="1372"
-	ord="1372"
-	oes="1532"
-	okd="1532"
-	opd="1544"
-	opo="1544"
+	odyng="756"
+	osta="592"
+	odynamic="756"
+	oplot="1374"
+	ord="1374"
+	oes="1534"
+	okd="1534"
+	opd="1546"
+	opo="1546"
 	opc="68"
 	ostr="172"
-	ocmap="590"
-	ocrules="590"
+	ocmap="592"
+	ocrules="592"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -185,7 +185,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -267,8 +267,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalchillSetPoint.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -313,8 +313,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalchillSetPoint.OMSL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -455,8 +455,8 @@ display {
 	}
 	control {
 		chan="$(top)thermalchillSetPointOv.VAL"
-		clr="1"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="rule"
 		rulechan[0] = ""
@@ -596,8 +596,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalchillSetPoint.DISV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -642,8 +642,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalchillSetPoint.DISA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

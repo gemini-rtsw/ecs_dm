@@ -1455,7 +1455,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1525,7 +1525,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1588,7 +1588,7 @@ display {
 	object {
 		x="78"
 		y="198"
-		width="254"
+		width="276"
 		height="20"
 		groupid="0"
 	}
@@ -1597,7 +1597,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -2172,7 +2172,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -2783,7 +2783,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -2825,9 +2825,9 @@ display {
 }
 "text" {
 	object {
-		x="798"
+		x="778"
 		y="199"
-		width="310"
+		width="330"
 		height="20"
 		groupid="0"
 	}
@@ -3545,8 +3545,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)alv.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3591,8 +3591,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)alvab.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3637,8 +3637,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)alvbc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3683,8 +3683,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)alvca.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3729,8 +3729,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apv.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3775,8 +3775,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apvan.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3821,8 +3821,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apvbn.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3867,8 +3867,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apvcn.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3913,8 +3913,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -3959,8 +3959,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apca.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4005,8 +4005,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apcb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4051,8 +4051,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)apcc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4097,8 +4097,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kwt.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4143,8 +4143,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kwta.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4189,8 +4189,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kwtb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4235,8 +4235,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kwtc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4281,8 +4281,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kvt.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4327,8 +4327,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kvta.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4373,8 +4373,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kvtb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4419,8 +4419,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kvtc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4465,8 +4465,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)pft.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4511,8 +4511,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)pfpa.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4557,8 +4557,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)pfpb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4603,8 +4603,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)pfpc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4649,8 +4649,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)freq.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4695,8 +4695,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnalv.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4741,8 +4741,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnalvab.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4787,8 +4787,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnalvbc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4833,8 +4833,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnalvca.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4879,8 +4879,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapv.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4925,8 +4925,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapvan.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -4971,8 +4971,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapvbn.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5017,8 +5017,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapvcn.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5063,8 +5063,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5109,8 +5109,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapca.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5155,8 +5155,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapcb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5201,8 +5201,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnapcc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5247,8 +5247,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkwt.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5293,8 +5293,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkwta.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5339,8 +5339,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkwtb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5385,8 +5385,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkwtc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5431,8 +5431,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkvt.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5477,8 +5477,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkvta.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5523,8 +5523,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkvtb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5569,8 +5569,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnkvtc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5615,8 +5615,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnpft.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5661,8 +5661,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnpfpa.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5707,8 +5707,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnpfpb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5753,8 +5753,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnpfpc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5799,8 +5799,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mnfreq.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5845,8 +5845,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxalv.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5891,8 +5891,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxalvab.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5937,8 +5937,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxalvbc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -5983,8 +5983,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxalvca.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6029,8 +6029,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapv.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6075,8 +6075,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapvan.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6121,8 +6121,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapvbn.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6167,8 +6167,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapvcn.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6213,8 +6213,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6259,8 +6259,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapca.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6305,8 +6305,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapcb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6351,8 +6351,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxapcc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6397,8 +6397,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkwt.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6443,8 +6443,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkwta.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6489,8 +6489,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkwtb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6535,8 +6535,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkwtc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6581,8 +6581,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkvt.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6627,8 +6627,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkvta.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6673,8 +6673,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkvtb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6719,8 +6719,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxkvtc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6765,8 +6765,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxpft.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6811,8 +6811,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxpfpa.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6857,8 +6857,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxpfpb.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6903,8 +6903,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxpfpc.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6949,8 +6949,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mxfreq.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -6995,8 +6995,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)gwh.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7041,8 +7041,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mwh.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7087,8 +7087,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kwh.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7133,8 +7133,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)gvarh.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7179,8 +7179,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mvarh.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7225,8 +7225,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kvarh.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7271,8 +7271,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)gvah.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7317,8 +7317,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)mvah.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -7363,8 +7363,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)kvah.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
