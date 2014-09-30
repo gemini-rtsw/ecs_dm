@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3228"
+	nwords_dspy="3230"
 	nwords_sta="724"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1520"
-	osta="796"
-	odynamic="1604"
-	oplot="3056"
-	ord="3056"
-	oes="3216"
-	okd="3216"
-	opd="3228"
-	opo="3228"
+	odyng="1522"
+	osta="798"
+	odynamic="1606"
+	oplot="3058"
+	ord="3058"
+	oes="3218"
+	okd="3218"
+	opd="3230"
+	opo="3230"
 	opc="68"
 	ostr="304"
-	ocmap="796"
-	ocrules="796"
+	ocmap="798"
+	ocrules="798"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -146,7 +146,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -355,7 +355,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -493,7 +493,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -663,9 +663,9 @@ display {
 }
 "text" {
 	object {
-		x="38"
+		x="29"
 		y="336"
-		width="118"
+		width="127"
 		height="20"
 		groupid="0"
 	}
@@ -767,9 +767,9 @@ display {
 }
 "text" {
 	object {
-		x="348"
+		x="338"
 		y="335"
-		width="118"
+		width="128"
 		height="20"
 		groupid="0"
 	}
@@ -910,8 +910,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:t1x"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -956,8 +956,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:t1y"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1002,8 +1002,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:t1z"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1048,8 +1048,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:t1w"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1094,8 +1094,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:b2x"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1140,8 +1140,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:b2y"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1186,8 +1186,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:b2z"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1232,8 +1232,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:b2w"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1278,8 +1278,8 @@ display {
 	}
 	monitor {
 		chan="$(top)bsBrk2x"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1324,8 +1324,8 @@ display {
 	}
 	monitor {
 		chan="$(top)bsBrk2y"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1370,8 +1370,8 @@ display {
 	}
 	monitor {
 		chan="$(top)bsBrk2z"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1416,8 +1416,8 @@ display {
 	}
 	monitor {
 		chan="$(top)bsBrk2w"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1462,8 +1462,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:tsum"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1508,8 +1508,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:bsum"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1554,8 +1554,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:tleft"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1600,8 +1600,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:tright"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1646,8 +1646,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:ttop"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1692,8 +1692,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:tbottom"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1738,8 +1738,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:bleft"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1784,8 +1784,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:bright"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1830,8 +1830,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:btop"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1876,8 +1876,8 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:bbottom"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

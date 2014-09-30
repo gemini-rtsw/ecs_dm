@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1640"
+	nwords_dspy="1642"
 	nwords_sta="180"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="786"
-	osta="606"
-	odynamic="906"
-	oplot="1308"
-	ord="1308"
-	oes="1628"
-	okd="1628"
-	opd="1640"
-	opo="1640"
+	odyng="788"
+	osta="608"
+	odynamic="908"
+	oplot="1310"
+	ord="1310"
+	oes="1630"
+	okd="1630"
+	opd="1642"
+	opo="1642"
 	opc="68"
 	ostr="160"
-	ocmap="606"
-	ocrules="606"
+	ocmap="608"
+	ocrules="608"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -145,7 +145,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -247,7 +247,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -440,7 +440,7 @@ display {
 	monitor {
 		chan="$(top)thermal.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -530,8 +530,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -577,7 +577,7 @@ display {
 	monitor {
 		chan="$(top)thermalmsg"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -622,8 +622,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalsir"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

@@ -23,23 +23,23 @@ display {
 	}
 	clr="11"
 	bclr="5"
-	nwords_dspy="2382"
+	nwords_dspy="2384"
 	nwords_sta="272"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1194"
-	osta="922"
-	odynamic="1946"
-	oplot="2210"
-	ord="2210"
-	oes="2370"
-	okd="2370"
-	opd="2382"
-	opo="2382"
+	odyng="1196"
+	osta="924"
+	odynamic="1948"
+	oplot="2212"
+	ord="2212"
+	oes="2372"
+	okd="2372"
+	opd="2384"
+	opo="2384"
 	opc="68"
 	ostr="360"
-	ocmap="922"
-	ocrules="922"
+	ocmap="924"
+	ocrules="924"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -120,7 +120,7 @@ display {
 		x="12"
 		y="113"
 		width="300"
-		height="139"
+		height="140"
 		groupid="0"
 	}
 }
@@ -200,7 +200,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -291,7 +291,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -984,8 +984,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ef2c"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1030,8 +1030,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ef2v"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1076,8 +1076,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)tut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1122,8 +1122,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)out"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

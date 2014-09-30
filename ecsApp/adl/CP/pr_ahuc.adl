@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="2146"
+	nwords_dspy="2148"
 	nwords_sta="236"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1134"
-	osta="898"
-	odynamic="1134"
-	oplot="1974"
-	ord="1974"
-	oes="2134"
-	okd="2134"
-	opd="2146"
-	opo="2146"
+	odyng="1136"
+	osta="900"
+	odynamic="1136"
+	oplot="1976"
+	ord="1976"
+	oes="2136"
+	okd="2136"
+	opd="2148"
+	opo="2148"
 	opc="68"
 	ostr="368"
-	ocmap="898"
-	ocrules="898"
+	ocmap="900"
+	ocrules="900"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -387,8 +387,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALA"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu2.VAL"
@@ -433,8 +433,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALB"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu3.VAL"
@@ -479,8 +479,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALC"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu4.VAL"
@@ -525,8 +525,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ahuproc.VALD"
-		clr="12"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)$(dev)ahuscalcwordahu5.VAL"

@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3288"
+	nwords_dspy="3290"
 	nwords_sta="268"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1288"
-	osta="1020"
-	odynamic="1760"
-	oplot="2636"
-	ord="2636"
-	oes="3276"
-	okd="3276"
-	opd="3288"
-	opo="3288"
+	odyng="1290"
+	osta="1022"
+	odynamic="1762"
+	oplot="2638"
+	ord="2638"
+	oes="3278"
+	okd="3278"
+	opd="3290"
+	opo="3290"
 	opc="68"
 	ostr="370"
-	ocmap="1020"
-	ocrules="1020"
+	ocmap="1022"
+	ocrules="1022"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -147,7 +147,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -192,7 +192,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -259,7 +259,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -810,7 +810,7 @@ display {
 	monitor {
 		chan="$(top)moveVgates.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -949,7 +949,7 @@ display {
 	monitor {
 		chan="$(top)stopVgates.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1088,7 +1088,7 @@ display {
 	monitor {
 		chan="$(top)parkVgates.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1133,8 +1133,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1179,8 +1179,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1225,8 +1225,8 @@ display {
 	}
 	monitor {
 		chan="$(top)vgateC"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1271,8 +1271,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1317,8 +1317,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

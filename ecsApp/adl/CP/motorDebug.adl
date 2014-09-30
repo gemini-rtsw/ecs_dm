@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="926"
+	nwords_dspy="928"
 	nwords_sta="96"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="556"
-	osta="460"
-	odynamic="556"
-	oplot="754"
-	ord="754"
-	oes="914"
-	okd="914"
-	opd="926"
-	opo="926"
+	odyng="558"
+	osta="462"
+	odynamic="558"
+	oplot="756"
+	ord="756"
+	oes="916"
+	okd="916"
+	opd="928"
+	opo="928"
 	opc="68"
 	ostr="110"
-	ocmap="460"
-	ocrules="460"
+	ocmap="462"
+	ocrules="462"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -158,7 +158,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -166,8 +166,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="10"
-		y="51"
+		x="11"
+		y="54"
 		width="367"
 		height="161"
 		groupid="0"
@@ -183,8 +183,8 @@ display {
 	}
 	monitor {
 		chan="$(top)debugL.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -274,8 +274,8 @@ display {
 	}
 	monitor {
 		chan="$(top)debugM.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

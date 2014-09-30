@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5352"
+	nwords_dspy="5354"
 	nwords_sta="496"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1880"
-	osta="1384"
-	odynamic="1880"
-	oplot="5180"
-	ord="5180"
-	oes="5340"
-	okd="5340"
-	opd="5352"
-	opo="5352"
+	odyng="1882"
+	osta="1386"
+	odynamic="1882"
+	oplot="5182"
+	ord="5182"
+	oes="5342"
+	okd="5342"
+	opd="5354"
+	opo="5354"
 	opc="68"
 	ostr="730"
-	ocmap="1384"
-	ocrules="1384"
+	ocmap="1386"
+	ocrules="1386"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -351,7 +351,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="3"
@@ -508,7 +508,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="3"
@@ -604,8 +604,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -650,8 +650,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -696,8 +696,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -742,8 +742,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -788,8 +788,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -834,8 +834,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -880,8 +880,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -926,8 +926,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -972,8 +972,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1018,8 +1018,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.RPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1064,8 +1064,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1110,8 +1110,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1156,8 +1156,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1202,8 +1202,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1248,8 +1248,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.RRBV"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1294,8 +1294,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1340,8 +1340,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1386,8 +1386,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1432,8 +1432,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1478,8 +1478,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.MPOS"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1524,8 +1524,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1570,8 +1570,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1616,8 +1616,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1662,8 +1662,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1708,8 +1708,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1754,8 +1754,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveDome.B"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1800,8 +1800,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveShtrs.B"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1846,8 +1846,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveShtrs.C"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1892,8 +1892,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveVgates.B"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1938,8 +1938,8 @@ display {
 	}
 	monitor {
 		chan="$(top)moveVgates.C"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1984,8 +1984,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeAzOffset.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2030,8 +2030,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrOffset.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2076,8 +2076,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrOffset.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2122,8 +2122,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2168,8 +2168,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrmotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2214,8 +2214,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrmotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2260,8 +2260,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2306,8 +2306,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatemotor.PSCA"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2352,8 +2352,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeAzOffset.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2398,8 +2398,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrOffset.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2444,8 +2444,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrOffset.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2490,8 +2490,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domePos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2536,8 +2536,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrPos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2582,8 +2582,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrPos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2628,8 +2628,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGatePos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2674,8 +2674,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGatePos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2720,8 +2720,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrLimPos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2766,8 +2766,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrLimPos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2812,8 +2812,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentLimPos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2858,8 +2858,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentLimPos.VAL"
-		clr="10"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

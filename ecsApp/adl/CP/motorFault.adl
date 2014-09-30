@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="11812"
+	nwords_dspy="11814"
 	nwords_sta="1892"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="4684"
-	osta="2792"
-	odynamic="11280"
-	oplot="11640"
-	ord="11640"
-	oes="11800"
-	okd="11800"
-	opd="11812"
-	opo="11812"
+	odyng="4686"
+	osta="2794"
+	odynamic="11282"
+	oplot="11642"
+	ord="11642"
+	oes="11802"
+	okd="11802"
+	opd="11814"
+	opo="11814"
 	opc="68"
 	ostr="2226"
-	ocmap="2792"
-	ocrules="2792"
+	ocmap="2794"
+	ocrules="2794"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -1555,7 +1555,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1752,7 +1752,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1810,7 +1810,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -1857,7 +1857,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"

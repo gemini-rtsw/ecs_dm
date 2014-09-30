@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3014"
+	nwords_dspy="3016"
 	nwords_sta="340"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1430"
-	osta="1090"
-	odynamic="1486"
-	oplot="1882"
-	ord="1882"
-	oes="3002"
-	okd="3002"
-	opd="3014"
-	opo="3014"
+	odyng="1432"
+	osta="1092"
+	odynamic="1488"
+	oplot="1884"
+	ord="1884"
+	oes="3004"
+	okd="3004"
+	opd="3016"
+	opo="3016"
 	opc="68"
 	ostr="164"
-	ocmap="1090"
-	ocrules="1090"
+	ocmap="1092"
+	ocrules="1092"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -128,7 +128,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -180,7 +180,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -405,7 +405,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -514,8 +514,8 @@ display {
 	}
 	monitor {
 		chan="$(top)debugL.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -560,8 +560,8 @@ display {
 	}
 	monitor {
 		chan="$(top)simulateL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -606,8 +606,8 @@ display {
 	}
 	monitor {
 		chan="$(top)softC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -652,8 +652,8 @@ display {
 	}
 	monitor {
 		chan="$(top)activeC.VAL"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -698,8 +698,8 @@ display {
 	}
 	monitor {
 		chan="$(top)state.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -744,8 +744,8 @@ display {
 	}
 	monitor {
 		chan="$(top)present"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

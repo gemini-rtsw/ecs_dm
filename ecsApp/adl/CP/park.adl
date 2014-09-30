@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="2488"
+	nwords_dspy="2490"
 	nwords_sta="144"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="928"
-	osta="784"
-	odynamic="1048"
-	oplot="1516"
-	ord="1516"
-	oes="2476"
-	okd="2476"
-	opd="2488"
-	opo="2488"
+	odyng="930"
+	osta="786"
+	odynamic="1050"
+	oplot="1518"
+	ord="1518"
+	oes="2478"
+	okd="2478"
+	opd="2490"
+	opo="2490"
 	opc="68"
 	ostr="188"
-	ocmap="784"
-	ocrules="784"
+	ocmap="786"
+	ocrules="786"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -188,7 +188,7 @@ display {
 	object {
 		x="20"
 		y="300"
-		width="132"
+		width="185"
 		height="15"
 		groupid="0"
 	}
@@ -199,7 +199,7 @@ display {
 	object {
 		x="20"
 		y="345"
-		width="133"
+		width="187"
 		height="15"
 		groupid="0"
 	}
@@ -208,7 +208,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -382,7 +382,7 @@ display {
 	monitor {
 		chan="$(top)park.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -427,8 +427,8 @@ display {
 	}
 	monitor {
 		chan="$(top)topShtrState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -473,8 +473,8 @@ display {
 	}
 	monitor {
 		chan="$(top)botShtrState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -519,8 +519,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domeState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -565,8 +565,8 @@ display {
 	}
 	monitor {
 		chan="$(top)eastVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -611,8 +611,8 @@ display {
 	}
 	monitor {
 		chan="$(top)westVentGateState.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

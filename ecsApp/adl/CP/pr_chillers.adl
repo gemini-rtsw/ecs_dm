@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1846"
+	nwords_dspy="1848"
 	nwords_sta="404"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1014"
-	osta="610"
-	odynamic="1014"
-	oplot="1674"
-	ord="1674"
-	oes="1834"
-	okd="1834"
-	opd="1846"
-	opo="1846"
+	odyng="1016"
+	osta="612"
+	odynamic="1016"
+	oplot="1676"
+	ord="1676"
+	oes="1836"
+	okd="1836"
+	opd="1848"
+	opo="1848"
 	opc="68"
 	ostr="196"
-	ocmap="610"
-	ocrules="610"
+	ocmap="612"
+	ocrules="612"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -211,7 +211,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -313,7 +313,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -511,8 +511,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)c1to"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -557,8 +557,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)c1ti"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -603,8 +603,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)c2to"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -649,8 +649,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)c2ti"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -695,8 +695,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)tut"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -741,8 +741,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)out"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -787,8 +787,8 @@ display {
 	}
 	monitor {
 		chan="$(top)Chiller1Flow"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -833,8 +833,8 @@ display {
 	}
 	monitor {
 		chan="$(top)Chiller2Flow"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -879,8 +879,8 @@ display {
 	}
 	monitor {
 		chan="$(top)Chill1Pwr"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -925,8 +925,8 @@ display {
 	}
 	monitor {
 		chan="$(top)Chill2Pwr"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

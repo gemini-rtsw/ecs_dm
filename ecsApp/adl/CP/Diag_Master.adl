@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3178"
+	nwords_dspy="3180"
 	nwords_sta="292"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1530"
-	osta="1238"
-	odynamic="2278"
-	oplot="2686"
-	ord="2686"
-	oes="3166"
-	okd="3166"
-	opd="3178"
-	opo="3178"
+	odyng="1532"
+	osta="1240"
+	odynamic="2280"
+	oplot="2688"
+	ord="2688"
+	oes="3168"
+	okd="3168"
+	opd="3180"
+	opo="3180"
 	opc="68"
 	ostr="386"
-	ocmap="1238"
-	ocrules="1238"
+	ocmap="1240"
+	ocrules="1240"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -109,7 +109,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -252,7 +252,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -391,7 +391,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -447,7 +447,7 @@ display {
 }
 "oval" {
 	object {
-		x="291"
+		x="292"
 		y="99"
 		width="21"
 		height="22"
@@ -495,7 +495,7 @@ display {
 }
 "oval" {
 	object {
-		x="290"
+		x="291"
 		y="169"
 		width="22"
 		height="22"
@@ -535,7 +535,7 @@ display {
 }
 "oval" {
 	object {
-		x="290"
+		x="291"
 		y="132"
 		width="22"
 		height="22"
@@ -1012,7 +1012,7 @@ display {
 }
 "text update" {
 	object {
-		x="117"
+		x="118"
 		y="206"
 		width="220"
 		height="27"
@@ -1020,8 +1020,8 @@ display {
 	}
 	monitor {
 		chan="$(top)state.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1058,7 +1058,7 @@ display {
 }
 "text update" {
 	object {
-		x="151"
+		x="152"
 		y="97"
 		width="89"
 		height="27"
@@ -1066,8 +1066,8 @@ display {
 	}
 	monitor {
 		chan="$(top)present"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1104,7 +1104,7 @@ display {
 }
 "text update" {
 	object {
-		x="151"
+		x="152"
 		y="166"
 		width="87"
 		height="28"
@@ -1112,8 +1112,8 @@ display {
 	}
 	monitor {
 		chan="$(top)thermalplcHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1150,7 +1150,7 @@ display {
 }
 "text update" {
 	object {
-		x="151"
+		x="152"
 		y="130"
 		width="86"
 		height="27"
@@ -1158,8 +1158,8 @@ display {
 	}
 	monitor {
 		chan="$(top)fault:plcHeartbeat"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="2036"
+	nwords_dspy="2038"
 	nwords_sta="292"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1018"
-	osta="726"
-	odynamic="1074"
-	oplot="1864"
-	ord="1864"
-	oes="2024"
-	okd="2024"
-	opd="2036"
-	opo="2036"
+	odyng="1020"
+	osta="728"
+	odynamic="1076"
+	oplot="1866"
+	ord="1866"
+	oes="2026"
+	okd="2026"
+	opd="2038"
+	opo="2038"
 	opc="68"
 	ostr="250"
-	ocmap="726"
-	ocrules="726"
+	ocmap="728"
+	ocrules="728"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -147,7 +147,7 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
+		clr="12"
 		style="solid"
 		fill="outline"
 		width="2"
@@ -415,8 +415,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)Err"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="limits"
 		clrmod="static"
 		rulechan[0] = ""
@@ -459,8 +459,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)State.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -505,8 +505,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)Tol"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -551,8 +551,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)Pos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -597,8 +597,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)C"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -644,7 +644,7 @@ display {
 	monitor {
 		chan="$(top)$(dev)motor.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -689,8 +689,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)ProcCtr"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -735,8 +735,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)motor.MODE"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -781,8 +781,8 @@ display {
 	}
 	monitor {
 		chan="$(top)move$(fld)"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -827,8 +827,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)LimClose.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -873,8 +873,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)LimOpen.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -919,8 +919,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)Err"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""

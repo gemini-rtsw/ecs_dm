@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3106"
+	nwords_dspy="3108"
 	nwords_sta="220"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1162"
-	osta="942"
-	odynamic="1578"
-	oplot="2454"
-	ord="2454"
-	oes="3094"
-	okd="3094"
-	opd="3106"
-	opo="3106"
+	odyng="1164"
+	osta="944"
+	odynamic="1580"
+	oplot="2456"
+	ord="2456"
+	oes="3096"
+	okd="3096"
+	opd="3108"
+	opo="3108"
 	opc="68"
 	ostr="332"
-	ocmap="942"
-	ocrules="942"
+	ocmap="944"
+	ocrules="944"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -221,7 +221,7 @@ display {
 	object {
 		x="46"
 		y="377"
-		width="88"
+		width="113"
 		height="16"
 		groupid="0"
 	}
@@ -232,7 +232,7 @@ display {
 	object {
 		x="192"
 		y="430"
-		width="148"
+		width="168"
 		height="16"
 		groupid="0"
 	}
@@ -767,7 +767,7 @@ display {
 	control {
 		chan="$(top)parkDome.B"
 		clr="0"
-		bclr="6"
+		bclr="7"
 		label="none"
 		clrmod="rule"
 		rulechan[0] = "$(C).SEVR"
@@ -811,8 +811,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)State.OMSS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -857,8 +857,8 @@ display {
 	}
 	monitor {
 		chan="$(top)domePos"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -903,8 +903,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)C"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -998,7 +998,7 @@ display {
 	monitor {
 		chan="$(top)moveDome.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1044,7 +1044,7 @@ display {
 	control {
 		chan="$(top)moveDome.B"
 		clr="0"
-		bclr="6"
+		bclr="7"
 		label="none"
 		clrmod="rule"
 		rulechan[0] = "$(C).SEVR"
@@ -1137,7 +1137,7 @@ display {
 	monitor {
 		chan="$(top)stopDome.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1183,7 +1183,7 @@ display {
 	monitor {
 		chan="$(top)parkDome.MESS"
 		clr="2"
-		bclr="13"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1228,8 +1228,8 @@ display {
 	}
 	monitor {
 		chan="$(top)$(dev)motor.MPOS"
-		clr="11"
-		bclr="13"
+		clr="0"
+		bclr="7"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
