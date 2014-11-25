@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="1"
 	npc="9"
-	nstr="101"
+	nstr="103"
 	ndynamic="6"
 	nplot="0"
 	nrd="7"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3056"
+	nwords_dspy="3078"
 	nwords_sta="340"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1472"
-	osta="1132"
-	odynamic="1528"
-	oplot="1924"
-	ord="1924"
-	oes="3044"
-	okd="3044"
-	opd="3056"
-	opo="3056"
+	odyng="1494"
+	osta="1154"
+	odynamic="1550"
+	oplot="1946"
+	ord="1946"
+	oes="3066"
+	okd="3066"
+	opd="3078"
+	opo="3078"
 	opc="68"
 	ostr="164"
-	ocmap="1132"
-	ocrules="1132"
+	ocmap="1154"
+	ocrules="1154"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,9 +49,9 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2555"
+	pixwid="2532"
 	pixht="1358"
-	mmwid="676"
+	mmwid="670"
 	mmht="359"
 }
 "<<basic attribute>>" {
@@ -1594,14 +1594,14 @@ display {
 	}
 	selfkill="off"
 	display[0] {
-		label="Power Control"
-		name="plc_interface.dl"
-		args="top=$(top), dev=pr"
-	}
-	display[1] {
 		label="Generator Power"
 		name="power_transfer.dl"
 		args="top=$(top), dev=trans:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
 	}
 	display[2] {
 		label=""
