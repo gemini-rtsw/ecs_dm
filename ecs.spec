@@ -1,8 +1,8 @@
 %define _prefix __auto__
 %define gemopt opt
 %define name ecs
-%define version 2.8
-%define release 16
+%define version 3.0
+%define release 0
 %define repository gemini
 %define debug_package %{nil}
 
