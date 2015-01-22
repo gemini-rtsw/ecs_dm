@@ -12,5 +12,5 @@ export EPICS_CA_ADDR_LIST="10.2.2.255"
 
 # for one plc, where Plant Room PLC addresses are tacked on at the 
 # top of the Carousel PLC by adding a "4" prefix
-dm2-4 -iconic ECS_Master.dl top=ec:,m1=m1:,gws=ws:,sad=ec:sad:,pr=thermalword4 &
+dm2-4 -iconic ECS_Master.dl top=ec:,m1=m1:,gws=ws:,sad=ec:sad:,pr=pr:,th=thermalword4 &
 

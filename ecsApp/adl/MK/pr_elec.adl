@@ -7,8 +7,8 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="85"
-	nstr="82"
-	ndynamic="84"
+	nstr="83"
+	ndynamic="34"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="1132"
-		height="850"
+		width="387"
+		height="967"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="11024"
-	nwords_sta="2152"
+	nwords_dspy="6436"
+	nwords_sta="852"
 	nwords_cmap="120"
 	nwords_crules="1024"
-	odyng="5308"
-	osta="3156"
-	odynamic="5308"
-	oplot="10852"
-	ord="10852"
-	oes="11012"
-	okd="11012"
-	opd="11024"
-	opo="11024"
+	odyng="4020"
+	osta="3168"
+	odynamic="4020"
+	oplot="6264"
+	ord="6264"
+	oes="6424"
+	okd="6424"
+	opd="6436"
+	opo="6436"
 	opc="68"
 	ostr="1324"
-	ocmap="2012"
-	ocrules="2132"
+	ocmap="2024"
+	ocrules="2144"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap=""
-	pixwid="2560"
-	pixht="1024"
-	mmwid="722"
-	mmht="289"
+	pixwid="2541"
+	pixht="1354"
+	mmwid="672"
+	mmht="358"
 }
 "<<color map>>" {
 	ncolors="29"
@@ -1455,23 +1455,6 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="6"
-		style="solid"
-		fill="outline"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="379"
-		y="72"
-		width="374"
-		height="99"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
 		clr="9"
 		style="solid"
 		fill="solid"
@@ -1497,13 +1480,13 @@ display {
 }
 "text" {
 	object {
-		x="286"
-		y="21"
-		width="536"
-		height="26"
+		x="76"
+		y="29"
+		width="219"
+		height="18"
 		groupid="0"
 	}
-	textix="Observatory Electrical Power"
+	textix="Electrical Power"
 	align="horiz. centered"
 }
 "<<basic attribute>>" {
@@ -1518,7 +1501,7 @@ display {
 	object {
 		x="11"
 		y="16"
-		width="1106"
+		width="366"
 		height="40"
 		groupid="0"
 	}
@@ -1533,8 +1516,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="11"
-		y="187"
+		x="13"
+		y="305"
 		width="362"
 		height="651"
 		groupid="0"
@@ -1569,8 +1552,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="10"
-		y="184"
+		x="12"
+		y="302"
 		width="364"
 		height="46"
 		groupid="0"
@@ -1586,9 +1569,9 @@ display {
 }
 "text" {
 	object {
-		x="78"
-		y="198"
-		width="254"
+		x="59"
+		y="316"
+		width="276"
 		height="20"
 		groupid="0"
 	}
@@ -1606,9 +1589,9 @@ display {
 "rectangle" {
 	object {
 		x="12"
-		y="72"
-		width="1108"
-		height="99"
+		y="102"
+		width="363"
+		height="192"
 		groupid="0"
 	}
 }
@@ -1622,8 +1605,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="256"
+		x="10"
+		y="374"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1633,8 +1616,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="279"
+		x="10"
+		y="397"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1644,8 +1627,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="302"
+		x="10"
+		y="420"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1655,8 +1638,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="325"
+		x="10"
+		y="443"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1666,8 +1649,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="348"
+		x="10"
+		y="466"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1677,8 +1660,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="371"
+		x="10"
+		y="489"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1688,8 +1671,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="395"
+		x="10"
+		y="513"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1699,8 +1682,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="418"
+		x="10"
+		y="536"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1710,8 +1693,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="441"
+		x="10"
+		y="559"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1721,8 +1704,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="464"
+		x="10"
+		y="582"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1732,8 +1715,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="487"
+		x="10"
+		y="605"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1743,8 +1726,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="510"
+		x="10"
+		y="628"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1754,8 +1737,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="534"
+		x="10"
+		y="652"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1765,8 +1748,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="557"
+		x="10"
+		y="675"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1776,8 +1759,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="580"
+		x="10"
+		y="698"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1787,8 +1770,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="603"
+		x="10"
+		y="721"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1798,8 +1781,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="626"
+		x="10"
+		y="744"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1809,8 +1792,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="649"
+		x="10"
+		y="767"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1820,8 +1803,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="673"
+		x="10"
+		y="791"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1831,8 +1814,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="696"
+		x="10"
+		y="814"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1842,8 +1825,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="719"
+		x="10"
+		y="837"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1853,8 +1836,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="742"
+		x="10"
+		y="860"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1864,8 +1847,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="765"
+		x="10"
+		y="883"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1875,8 +1858,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="788"
+		x="10"
+		y="906"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1886,8 +1869,8 @@ display {
 }
 "text" {
 	object {
-		x="8"
-		y="812"
+		x="10"
+		y="930"
 		width="201"
 		height="15"
 		groupid="0"
@@ -1897,8 +1880,8 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="256"
+		x="301"
+		y="374"
 		width="63"
 		height="14"
 		groupid="0"
@@ -1908,8 +1891,8 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="279"
+		x="301"
+		y="397"
 		width="63"
 		height="14"
 		groupid="0"
@@ -1919,8 +1902,8 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="302"
+		x="301"
+		y="420"
 		width="63"
 		height="14"
 		groupid="0"
@@ -1930,1406 +1913,151 @@ display {
 }
 "text" {
 	object {
-		x="299"
-		y="325"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="348"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="371"
-		width="63"
-		height="15"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="394"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="417"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="441"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="464"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="487"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="510"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="533"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="556"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="579"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="602"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="626"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="649"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="672"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="695"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="718"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="741"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="764"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="787"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="299"
-		y="811"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="Hz"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="outline"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="387"
-		y="188"
-		width="359"
-		height="651"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="386"
-		y="185"
-		width="361"
-		height="46"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="13"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="424"
-		y="200"
-		width="313"
-		height="20"
-		groupid="0"
-	}
-	textix="MIN Real Time Measurements"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="1"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="384"
-		y="257"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Average Line Voltage"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="280"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V ab"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="303"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V bc"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="326"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V ca"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="349"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Average Phase Voltage"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="372"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V an"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="396"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V bn"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="419"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V cn"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="442"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Average Phase Current"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="465"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Current phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="488"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Current phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="511"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Current phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="535"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW total"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="558"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="581"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="604"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="627"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA total"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="650"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="674"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="697"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="720"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor total"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="743"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="766"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="789"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="384"
-		y="813"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Frequency on Va"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="675"
-		y="254"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="277"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="300"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="323"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="346"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="369"
-		width="63"
-		height="15"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="392"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="415"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="439"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="462"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="485"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="508"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="A rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="531"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="554"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="577"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="600"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kW rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="624"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="647"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="670"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="693"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="kVA rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="716"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="739"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="762"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="785"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="675"
-		y="809"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="Hz"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="outline"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="760"
-		y="188"
-		width="360"
-		height="651"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="759"
-		y="185"
-		width="362"
-		height="46"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="13"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="798"
-		y="199"
-		width="310"
-		height="20"
-		groupid="0"
-	}
-	textix="MAX Real Time Measurements"
-	align="horiz. left"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="1"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="757"
-		y="257"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Average Line Voltage"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="280"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V ab"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="303"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V bc"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="326"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V ca"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="349"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Average Phase Voltage"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="372"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V an"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="396"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V bn"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="419"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="V cn"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="442"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Average Phase Current"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="465"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Current phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="488"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Current phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="511"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Current phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="535"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW total"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="558"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="581"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="604"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kW phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="627"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA total"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="650"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="674"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="697"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="kVA phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="720"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor total"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="743"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor phase A"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="766"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor phase B"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="789"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Power factor phase C"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="757"
-		y="813"
-		width="201"
-		height="15"
-		groupid="0"
-	}
-	textix="Frequency on Va"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="1045"
-		y="258"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="281"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="304"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="327"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="350"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="373"
-		width="63"
-		height="15"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="396"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="419"
-		width="63"
-		height="14"
-		groupid="0"
-	}
-	textix="V rms"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
+		x="301"
 		y="443"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="A rms"
+	textix="V rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="466"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="A rms"
+	textix="V rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="489"
 		width="63"
-		height="14"
+		height="15"
 		groupid="0"
 	}
-	textix="A rms"
+	textix="V rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="512"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="A rms"
+	textix="V rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="535"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kW rms"
+	textix="V rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
-		y="558"
+		x="301"
+		y="559"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kW rms"
+	textix="A rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
-		y="581"
+		x="301"
+		y="582"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kW rms"
+	textix="A rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
-		y="604"
+		x="301"
+		y="605"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kW rms"
+	textix="A rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="628"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kVA rms"
+	textix="A rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="651"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kVA rms"
+	textix="kW rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="674"
 		width="63"
 		height="14"
 		groupid="0"
 	}
-	textix="kVA rms"
+	textix="kW rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
+		x="301"
 		y="697"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="720"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kW rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="744"
 		width="63"
 		height="14"
 		groupid="0"
@@ -3339,52 +2067,85 @@ display {
 }
 "text" {
 	object {
-		x="1045"
-		y="720"
-		width="62"
-		height="17"
+		x="301"
+		y="767"
+		width="63"
+		height="14"
 		groupid="0"
 	}
-	textix="%"
+	textix="kVA rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
-		y="743"
-		width="62"
-		height="17"
+		x="301"
+		y="790"
+		width="63"
+		height="14"
 		groupid="0"
 	}
-	textix="%"
+	textix="kVA rms"
 	align="horiz. left"
 }
 "text" {
 	object {
-		x="1045"
-		y="766"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
-		y="789"
-		width="62"
-		height="17"
-		groupid="0"
-	}
-	textix="%"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="1045"
+		x="301"
 		y="813"
+		width="63"
+		height="14"
+		groupid="0"
+	}
+	textix="kVA rms"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="836"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="859"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="882"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="905"
+		width="62"
+		height="17"
+		groupid="0"
+	}
+	textix="%"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="301"
+		y="929"
 		width="62"
 		height="17"
 		groupid="0"
@@ -3402,16 +2163,16 @@ display {
 }
 "rectangle" {
 	object {
-		x="11"
-		y="73"
-		width="1109"
+		x="10"
+		y="71"
+		width="366"
 		height="31"
 		groupid="0"
 	}
 }
 "<<basic attribute>>" {
 	attr {
-		clr="16"
+		clr="13"
 		style="solid"
 		fill="solid"
 		width="0"
@@ -3419,9 +2180,9 @@ display {
 }
 "text" {
 	object {
-		x="410"
+		x="45"
 		y="72"
-		width="339"
+		width="330"
 		height="29"
 		groupid="0"
 	}
@@ -3438,8 +2199,8 @@ display {
 }
 "text" {
 	object {
-		x="53"
-		y="111"
+		x="45"
+		y="115"
 		width="54"
 		height="25"
 		groupid="10"
@@ -3449,8 +2210,8 @@ display {
 }
 "text" {
 	object {
-		x="167"
-		y="109"
+		x="159"
+		y="113"
 		width="54"
 		height="25"
 		groupid="8"
@@ -3460,8 +2221,8 @@ display {
 }
 "text" {
 	object {
-		x="279"
-		y="111"
+		x="271"
+		y="115"
 		width="54"
 		height="26"
 		groupid="9"
@@ -3471,8 +2232,8 @@ display {
 }
 "text" {
 	object {
-		x="413"
-		y="112"
+		x="31"
+		y="174"
 		width="80"
 		height="25"
 		groupid="11"
@@ -3482,8 +2243,8 @@ display {
 }
 "text" {
 	object {
-		x="529"
-		y="110"
+		x="147"
+		y="172"
 		width="81"
 		height="25"
 		groupid="12"
@@ -3493,8 +2254,8 @@ display {
 }
 "text" {
 	object {
-		x="642"
-		y="110"
+		x="260"
+		y="172"
 		width="82"
 		height="25"
 		groupid="13"
@@ -3504,8 +2265,8 @@ display {
 }
 "text" {
 	object {
-		x="787"
-		y="111"
+		x="33"
+		y="232"
 		width="80"
 		height="25"
 		groupid="17"
@@ -3515,8 +2276,8 @@ display {
 }
 "text" {
 	object {
-		x="902"
-		y="109"
+		x="148"
+		y="230"
 		width="81"
 		height="25"
 		groupid="18"
@@ -3526,8 +2287,8 @@ display {
 }
 "text" {
 	object {
-		x="1010"
-		y="109"
+		x="256"
+		y="230"
 		width="82"
 		height="25"
 		groupid="19"
@@ -3537,8 +2298,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="252"
+		x="227"
+		y="370"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3583,8 +2344,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="275"
+		x="227"
+		y="393"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3629,8 +2390,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="298"
+		x="227"
+		y="416"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3675,8 +2436,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="321"
+		x="227"
+		y="439"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3721,8 +2482,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="344"
+		x="227"
+		y="462"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3767,8 +2528,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="367"
+		x="227"
+		y="485"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3813,8 +2574,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="391"
+		x="227"
+		y="509"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3859,8 +2620,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="414"
+		x="227"
+		y="532"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3905,8 +2666,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="437"
+		x="227"
+		y="555"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3951,8 +2712,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="460"
+		x="227"
+		y="578"
 		width="60"
 		height="20"
 		groupid="0"
@@ -3997,8 +2758,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="483"
+		x="227"
+		y="601"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4043,8 +2804,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="506"
+		x="227"
+		y="624"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4089,8 +2850,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="530"
+		x="227"
+		y="648"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4135,8 +2896,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="553"
+		x="227"
+		y="671"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4181,8 +2942,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="576"
+		x="227"
+		y="694"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4227,8 +2988,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="599"
+		x="227"
+		y="717"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4273,8 +3034,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="622"
+		x="227"
+		y="740"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4319,8 +3080,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="645"
+		x="227"
+		y="763"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4365,8 +3126,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="669"
+		x="227"
+		y="787"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4411,8 +3172,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="692"
+		x="227"
+		y="810"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4457,8 +3218,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="715"
+		x="227"
+		y="833"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4503,8 +3264,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="738"
+		x="227"
+		y="856"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4549,8 +3310,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="761"
+		x="227"
+		y="879"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4595,8 +3356,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="784"
+		x="227"
+		y="902"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4641,8 +3402,8 @@ display {
 }
 "text update" {
 	object {
-		x="225"
-		y="808"
+		x="227"
+		y="926"
 		width="60"
 		height="20"
 		groupid="0"
@@ -4687,2308 +3448,8 @@ display {
 }
 "text update" {
 	object {
-		x="601"
-		y="253"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnalv.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="276"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnalvab.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="299"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnalvbc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="322"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnalvca.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="345"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapv.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="368"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapvan.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="392"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapvbn.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="415"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapvcn.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="438"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="461"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapca.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="484"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapcb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="507"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnapcc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="531"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkwt.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="554"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkwta.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="577"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkwtb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="600"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkwtc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="623"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkvt.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="646"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkvta.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="670"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkvtb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="693"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnkvtc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="716"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnpft.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="739"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnpfpa.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="762"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnpfpb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="785"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnpfpc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="601"
-		y="809"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mnfreq.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="253"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxalv.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="276"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxalvab.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="299"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxalvbc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="322"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxalvca.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="345"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapv.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="368"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapvan.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="392"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapvbn.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="415"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapvcn.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="438"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="461"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapca.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="484"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapcb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="507"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxapcc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="531"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkwt.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="554"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkwta.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="577"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkwtb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="600"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkwtc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="623"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkvt.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="646"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkvta.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="670"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkvtb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="693"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxkvtc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="716"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxpft.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="739"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxpfpa.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="762"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxpfpb.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="785"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxpfpc.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="974"
-		y="809"
-		width="60"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)$(dev)mxfreq.VAL"
-		clr="11"
-		bclr="13"
-		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule=""
-		clrargs="0"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="0"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="40"
-		y="135"
+		x="32"
+		y="139"
 		width="81"
 		height="28"
 		groupid="10"
@@ -7033,8 +3494,8 @@ display {
 }
 "text update" {
 	object {
-		x="154"
-		y="134"
+		x="146"
+		y="138"
 		width="81"
 		height="28"
 		groupid="8"
@@ -7079,8 +3540,8 @@ display {
 }
 "text update" {
 	object {
-		x="266"
-		y="136"
+		x="258"
+		y="140"
 		width="81"
 		height="28"
 		groupid="9"
@@ -7125,8 +3586,8 @@ display {
 }
 "text update" {
 	object {
-		x="413"
-		y="136"
+		x="31"
+		y="198"
 		width="81"
 		height="28"
 		groupid="11"
@@ -7171,8 +3632,8 @@ display {
 }
 "text update" {
 	object {
-		x="530"
-		y="135"
+		x="148"
+		y="197"
 		width="81"
 		height="28"
 		groupid="12"
@@ -7217,8 +3678,8 @@ display {
 }
 "text update" {
 	object {
-		x="643"
-		y="135"
+		x="261"
+		y="197"
 		width="81"
 		height="28"
 		groupid="13"
@@ -7263,8 +3724,8 @@ display {
 }
 "text update" {
 	object {
-		x="787"
-		y="135"
+		x="33"
+		y="256"
 		width="81"
 		height="28"
 		groupid="17"
@@ -7309,8 +3770,8 @@ display {
 }
 "text update" {
 	object {
-		x="903"
-		y="134"
+		x="149"
+		y="255"
 		width="81"
 		height="28"
 		groupid="18"
@@ -7355,8 +3816,8 @@ display {
 }
 "text update" {
 	object {
-		x="1011"
-		y="134"
+		x="257"
+		y="255"
 		width="81"
 		height="28"
 		groupid="19"
@@ -7535,9 +3996,9 @@ display {
 }
 "kill display" {
 	object {
-		x="1018"
-		y="20"
-		width="94"
+		x="286"
+		y="21"
+		width="88"
 		height="33"
 		groupid="0"
 	}

@@ -1,5 +1,5 @@
 file {
-	name="pr_ahus.adl"
+	name="pr_ahus.dl"
 }
 display {
 	magic="305419896"
@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="27"
-	nstr="69"
+	nstr="75"
 	ndynamic="22"
 	nplot="0"
 	nrd="2"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3352"
+	nwords_dspy="3422"
 	nwords_sta="524"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1556"
-	osta="1032"
-	odynamic="1556"
-	oplot="3020"
-	ord="3020"
-	oes="3340"
-	okd="3340"
-	opd="3352"
-	opo="3352"
+	odyng="1626"
+	osta="1102"
+	odynamic="1626"
+	oplot="3090"
+	ord="3090"
+	oes="3410"
+	okd="3410"
+	opd="3422"
+	opo="3422"
 	opc="68"
-	ostr="450"
-	ocmap="1032"
-	ocrules="1032"
+	ostr="446"
+	ocmap="1102"
+	ocrules="1102"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2560"
-	pixht="1024"
-	mmwid="722"
-	mmht="289"
+	pixwid="2541"
+	pixht="1354"
+	mmwid="672"
+	mmht="358"
 }
 "<<basic attribute>>" {
 	attr {
@@ -620,7 +620,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)tut"
+		chan="$(top)ef:tut"
 		clr="11"
 		bclr="13"
 		label="none"
@@ -666,7 +666,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)out"
+		chan="$(top)ef:out"
 		clr="11"
 		bclr="13"
 		label="none"
@@ -1773,7 +1773,7 @@ display {
 	display[0] {
 		label="AHUs Manual Control"
 		name="pr_ahuc.dl"
-		args="top=$(top), dev=pr"
+		args="top=$(top), dev=ahu:"
 	}
 	display[1] {
 		label=""

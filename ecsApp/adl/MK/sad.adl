@@ -6,13 +6,15 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="695"
-	nstr="748"
-	ndynamic="58"
+	npc="59"
+	nstr="73"
+	ndynamic="57"
 	nplot="0"
 	nrd="0"
 	nes="0"
 	nkd="1"
+	npd="0"
+	npo="0"
 	object {
 		x="0"
 		y="0"
@@ -21,29 +23,36 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="21902"
-	nwords_sta="524"
+	nwords_dspy="5680"
+	nwords_sta="500"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="18062"
-	osta="17538"
-	odynamic="18062"
-	oplot="21890"
-	ord="21890"
-	oes="21890"
-	okd="21890"
-	opc="58"
-	ostr="9982"
-	ocmap="17538"
-	ocrules="17538"
+	odyng="1906"
+	osta="1406"
+	odynamic="1906"
+	oplot="5668"
+	ord="5668"
+	oes="5668"
+	okd="5668"
+	opd="5680"
+	opo="5680"
+	opc="68"
+	ostr="820"
+	ocmap="1406"
+	ocrules="1406"
 	style="solid"
 	fill="outline"
 	width="0"
 	clrmod="rule"
 	vismod="static"
+	precision="-1"
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
+	pixwid="2541"
+	pixht="1354"
+	mmwid="672"
+	mmht="358"
 }
 "<<basic attribute>>" {
 	attr {
@@ -80,7 +89,6 @@ display {
 	}
 	textix="Status and Alarm Database"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -117,7 +125,6 @@ display {
 	}
 	textix="ECS"
 	align="horiz. left"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -137,7 +144,6 @@ display {
 	}
 	textix="Logging"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -157,7 +163,6 @@ display {
 	}
 	textix="Dome"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -169,7 +174,6 @@ display {
 	}
 	textix="Top"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -181,7 +185,6 @@ display {
 	}
 	textix="East"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -193,7 +196,6 @@ display {
 	}
 	textix="West"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -205,19 +207,6 @@ display {
 	}
 	textix="Bottom"
 	align="horiz. centered"
-	RISC_pad="0"
-}
-"text" {
-	object {
-		x="0"
-		y="571"
-		width="80"
-		height="16"
-		groupid="0"
-	}
-	textix="Thermal"
-	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -229,7 +218,6 @@ display {
 	}
 	textix="Health"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -249,7 +237,6 @@ display {
 	}
 	textix="Simulation"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -261,7 +248,6 @@ display {
 	}
 	textix="Level"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -273,7 +259,6 @@ display {
 	}
 	textix="Level"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -285,7 +270,6 @@ display {
 	}
 	textix="Debug"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -297,7 +281,6 @@ display {
 	}
 	textix="ECS IOC"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -309,7 +292,6 @@ display {
 	}
 	textix="ECS"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -321,7 +303,6 @@ display {
 	}
 	textix="Heartbeat"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -333,7 +314,6 @@ display {
 	}
 	textix="Shutter Seal State"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -345,7 +325,6 @@ display {
 	}
 	textix="Position Error"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -357,7 +336,6 @@ display {
 	}
 	textix="In Position"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -369,7 +347,6 @@ display {
 	}
 	textix="Current Position"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -381,7 +358,6 @@ display {
 	}
 	textix="Current State"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -393,7 +369,6 @@ display {
 	}
 	textix="In Position Tolerance"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -405,7 +380,6 @@ display {
 	}
 	textix="Max MOVE Limit"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -417,7 +391,6 @@ display {
 	}
 	textix="Min MOVE Limit"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -429,7 +402,6 @@ display {
 	}
 	textix="Max PARK Limit"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -441,7 +413,6 @@ display {
 	}
 	textix="Min PARK Limit"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -453,7 +424,6 @@ display {
 	}
 	textix="Close Direction Lims"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -465,7 +435,6 @@ display {
 	}
 	textix="Open Direction Lims"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -485,7 +454,6 @@ display {
 	}
 	textix="Name"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -497,7 +465,6 @@ display {
 	}
 	textix="Health"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -509,7 +476,6 @@ display {
 	}
 	textix="Message"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -521,7 +487,6 @@ display {
 	}
 	textix="Shutters"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -533,7 +498,6 @@ display {
 	}
 	textix="Vent Gates"
 	align="horiz. centered"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -553,7 +517,6 @@ display {
 	}
 	textix="State"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -565,18 +528,6 @@ display {
 }
 "text" {
 	object {
-		x="11"
-		y="584"
-		width="69"
-		height="16"
-		groupid="0"
-	}
-	textix="State"
-	align="horiz. right"
-	RISC_pad="0"
-}
-"text" {
-	object {
 		x="266"
 		y="620"
 		width="70"
@@ -585,7 +536,6 @@ display {
 	}
 	textix="History"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "text" {
 	object {
@@ -597,7 +547,6 @@ display {
 	}
 	textix="Log"
 	align="horiz. right"
-	RISC_pad="0"
 }
 "<<basic attribute>>" {
 	attr {
@@ -752,52 +701,6 @@ display {
 		convertParams=""
 	}
 	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="90"
-		y="571"
-		width="157"
-		height="27"
-		groupid="0"
-	}
-	monitor {
-		chan="$(sad)thermalM"
-		clr="11"
-		bclr="13"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
 	format="decimal"
 }
 "text update" {
@@ -3292,7 +3195,6 @@ display {
 		height="31"
 		groupid="0"
 	}
-	RISCpad="0"
 	label="QUIT"
 	clr="1"
 	bclr="9"
