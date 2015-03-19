@@ -1360,7 +1360,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)1:bit0"
+		chan="$(th)1:bit0"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1406,7 +1406,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)1:bit1"
+		chan="$(th)1:bit1"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1452,7 +1452,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)1:bit2"
+		chan="$(th)1:bit2"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1498,7 +1498,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)1:bit3"
+		chan="$(th)1:bit3"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1544,7 +1544,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)1:bit4"
+		chan="$(th)1:bit4"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1590,7 +1590,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)1:bit5"
+		chan="$(th)1:bit5"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1636,7 +1636,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit0"
+		chan="$(th)0:bit0"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1682,7 +1682,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit1"
+		chan="$(th)0:bit1"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1728,7 +1728,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit2"
+		chan="$(th)0:bit2"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1774,7 +1774,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit3"
+		chan="$(th)0:bit3"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1820,7 +1820,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit4"
+		chan="$(th)0:bit4"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1866,7 +1866,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit5"
+		chan="$(th)0:bit5"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1912,7 +1912,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit6"
+		chan="$(th)0:bit6"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -1958,7 +1958,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit7"
+		chan="$(th)0:bit7"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -2004,7 +2004,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit8"
+		chan="$(th)0:bit8"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -2050,7 +2050,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit9"
+		chan="$(th)0:bit9"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -2096,7 +2096,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit10"
+		chan="$(th)0:bit10"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -2142,7 +2142,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit11"
+		chan="$(th)0:bit11"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -2188,7 +2188,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit12"
+		chan="$(th)0:bit12"
 		clr="0"
 		bclr="1"
 		label="none"

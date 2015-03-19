@@ -190,7 +190,7 @@ display {
 	display[1] {
 		label="Set Thermal Faults"
 		name="thermalDet.dl"
-		args="C=ec:thermalS,pr=$(pr)"
+		args="C=ec:thermalS,th=$(th)"
 	}
 	display[2] {
 		label=""
@@ -347,7 +347,7 @@ display {
 	display[0] {
 		label="PLC System Faults"
 		name="miscFaultSim.dl"
-		args="top=$(top),dev=faultS,pr=$(pr),C=ec:thermalS"
+		args="top=$(top),dev=faultS,th=$(th),C=ec:thermalS"
 	}
 	display[1] {
 		label=""

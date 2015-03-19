@@ -551,7 +551,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit0"
+		chan="$(th)0:bit0"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -597,7 +597,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit1"
+		chan="$(th)0:bit1"
 		clr="0"
 		bclr="1"
 		label="none"
@@ -643,7 +643,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(pr)0:bit2"
+		chan="$(th)0:bit2"
 		clr="0"
 		bclr="1"
 		label="none"

@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="1"
 	npc="9"
-	nstr="102"
+	nstr="106"
 	ndynamic="6"
 	nplot="0"
 	nrd="7"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3062"
+	nwords_dspy="3114"
 	nwords_sta="340"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1478"
-	osta="1138"
-	odynamic="1534"
-	oplot="1930"
-	ord="1930"
-	oes="3050"
-	okd="3050"
-	opd="3062"
-	opo="3062"
+	odyng="1530"
+	osta="1190"
+	odynamic="1586"
+	oplot="1982"
+	ord="1982"
+	oes="3102"
+	okd="3102"
+	opd="3114"
+	opo="3114"
 	opc="68"
 	ostr="164"
-	ocmap="1138"
-	ocrules="1138"
+	ocmap="1190"
+	ocrules="1190"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2550"
-	pixht="1353"
-	mmwid="675"
-	mmht="358"
+	pixwid="2554"
+	pixht="1359"
+	mmwid="676"
+	mmht="360"
 }
 "<<basic attribute>>" {
 	attr {
@@ -916,140 +916,6 @@ display {
 }
 "related display" {
 	object {
-		x="23"
-		y="134"
-		width="216"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Thermal Control"
-		name="thermal.dl"
-		args="top=$(top)"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Thermal Control"
-	decorate="outward"
-}
-"related display" {
-	object {
 		x="279"
 		y="95"
 		width="216"
@@ -1318,8 +1184,8 @@ display {
 }
 "related display" {
 	object {
-		x="24"
-		y="99"
+		x="23"
+		y="101"
 		width="216"
 		height="25"
 		groupid="0"
@@ -1462,22 +1328,22 @@ display {
 	display[0] {
 		label="Air Handling Units"
 		name="pr_ahus.dl"
-		args="top=$(top), dev=pr"
+		args="top=$(pr), dev=ahu:"
 	}
 	display[1] {
 		label="PR Exhaust Fans"
 		name="pr_efans.dl"
-		args="top=$(top), dev=pr"
+		args="top=$(pr), dev=ef:"
 	}
 	display[2] {
 		label="PR Chillers"
 		name="pr_chillers.dl"
-		args="top=$(top), dev=pr"
+		args="top=$(pr), dev=ch:"
 	}
 	display[3] {
 		label="Electric Power"
 		name="pr_elec.dl"
-		args="top=$(top), dev=elec:"
+		args="top=$(pr), dev=elec:"
 	}
 	display[4] {
 		label=""
@@ -1587,21 +1453,21 @@ display {
 "related display" {
 	object {
 		x="24"
-		y="181"
+		y="148"
 		width="216"
 		height="25"
 		groupid="0"
 	}
 	selfkill="off"
 	display[0] {
-		label="Generator Power"
-		name="power_transfer.dl"
-		args="top=$(top), dev=trans:"
+		label="Drive Power Control"
+		name="drivePowerCtrl.dl"
+		args="top=$(top)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="Generator Power"
+		name="power_transfer.dl"
+		args="top=$(pr), dev=trans:"
 	}
 	display[2] {
 		label=""
@@ -1716,6 +1582,140 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="Power Control"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="25"
+		y="192"
+		width="216"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Control Lights"
+		name="lightCtrl.dl"
+		args="top=$(top)"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Light Control"
 	decorate="outward"
 }
 "kill display" {
