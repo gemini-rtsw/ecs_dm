@@ -1207,29 +1207,29 @@ display {
 		args="top=$(top)"
 	}
 	display[3] {
-		label="Park (dome, shutters & vent gates)"
-		name="park.dl"
-		args="top=$(top)"
-	}
-	display[4] {
 		label="Motor Debug Level"
 		name="motorDebug.dl"
 		args="top=$(top)"
 	}
-	display[5] {
+	display[4] {
 		label="Carousel Motion Faults"
 		name="motorFault.dl"
 		args="top=$(top),dev=fault:"
 	}
-	display[6] {
+	display[5] {
 		label="Display Summary"
 		name="ECS_Display.dl"
 		args="top=$(top)"
 	}
-	display[7] {
+	display[6] {
 		label="Auto-Close"
 		name="close.dl"
 		args="top=$(top)"
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
 	}
 	display[8] {
 		label=""
