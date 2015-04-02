@@ -261,7 +261,7 @@ display {
 	}
 }
 "<<color rules>>" {
-	nrules="10"
+	nrules="11"
 	dl_color_rule {
 		name="alarm"
 		info[0] {
@@ -1448,6 +1448,125 @@ display {
 			clr="1"
 		}
 		fg_enable="off"
+		bg_enable="off"
+		default_fg="25"
+		default_bg="1"
+	}
+	dl_color_rule {
+		name="disabled"
+		info[0] {
+			chan="$(C)"
+			value="1"
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[1] {
+			chan="$(C)"
+			value="0"
+			connector="use"
+			comparator="equals"
+			clr="7"
+		}
+		info[2] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[3] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
 		bg_enable="off"
 		default_fg="25"
 		default_bg="1"

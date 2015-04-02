@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="5"
-	npc="6"
-	nstr="49"
-	ndynamic="1"
+	ndyng="7"
+	npc="10"
+	nstr="53"
+	ndynamic="2"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="524"
-		height="344"
+		width="508"
+		height="467"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="1150"
-	nwords_sta="108"
+	nwords_dspy="1464"
+	nwords_sta="120"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="606"
-	osta="498"
-	odynamic="906"
-	oplot="978"
-	ord="978"
-	oes="1138"
-	okd="1138"
-	opd="1150"
-	opo="1150"
+	odyng="728"
+	osta="608"
+	odynamic="1148"
+	oplot="1292"
+	ord="1292"
+	oes="1452"
+	okd="1452"
+	opd="1464"
+	opo="1464"
 	opc="68"
-	ostr="134"
-	ocmap="498"
-	ocrules="498"
+	ostr="194"
+	ocmap="608"
+	ocrules="608"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,8 +49,8 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2554"
-	pixht="1359"
+	pixwid="2555"
+	pixht="1360"
 	mmwid="676"
 	mmht="360"
 }
@@ -137,7 +137,7 @@ display {
 		x="10"
 		y="106"
 		width="492"
-		height="219"
+		height="353"
 		groupid="0"
 	}
 }
@@ -188,6 +188,17 @@ display {
 		groupid="0"
 	}
 	textix="Observatory Mode:"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="62"
+		y="324"
+		width="269"
+		height="26"
+		groupid="0"
+	}
+	textix="Vestibule Lights"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -440,6 +451,106 @@ display {
 	textix="BASE"
 	align="horiz. centered"
 }
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="gis:tsrs:lightState"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="355"
+		y="323"
+		width="86"
+		height="34"
+		groupid="0"
+	}
+	textix="ON"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="11"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="gis:tsrs:lightState"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="357"
+		y="325"
+		width="78"
+		height="32"
+		groupid="0"
+	}
+	textix="OFF"
+	align="horiz. centered"
+}
 "message button" {
 	object {
 		x="149"
@@ -453,9 +564,9 @@ display {
 		clr="8"
 		bclr="9"
 		label="outline"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
+		clrmod="rule"
+		rulechan[0] = "$(top)lightCmd.DISA"
+		rulechan[1] = "$(top)lightCmd.DISA"
 		rulechan[2] = ""
 		rulechan[3] = ""
 		rulechan[4] = ""
@@ -470,8 +581,56 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule=""
-		clrargs=""
+		clrrule="disabled"
+		clrargs="C=$(top)lightCmd.DISA"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	inactive_label="TOGGLE"
+	pressed_label="TOGGLE"
+	press_msg=""
+	release_msg="1"
+}
+"message button" {
+	object {
+		x="154"
+		y="378"
+		width="235"
+		height="38"
+		groupid="0"
+	}
+	control {
+		chan="gis:tsrs:lightCmd.PROC"
+		clr="8"
+		bclr="9"
+		label="outline"
+		clrmod="rule"
+		rulechan[0] = "gis:tsrs:lightCmd.DISA"
+		rulechan[1] = "gis:tsrs:lightCmd.DISA"
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="disabled"
+		clrargs="C=gis:tsrs:lightCmd.DISA"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
