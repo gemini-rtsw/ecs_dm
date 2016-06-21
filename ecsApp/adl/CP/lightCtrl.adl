@@ -561,8 +561,8 @@ display {
 	}
 	control {
 		chan="$(top)lightCmd.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="9"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)lightCmd.DISA"
@@ -609,8 +609,8 @@ display {
 	}
 	control {
 		chan="gis:tsrs:lightCmd.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="9"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "gis:tsrs:lightCmd.DISA"
