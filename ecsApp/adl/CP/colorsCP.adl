@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="1"
-	nstr="36"
+	nstr="37"
 	ndynamic="0"
 	nplot="0"
 	nrd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="1"
 	bclr="20"
-	nwords_dspy="1456"
+	nwords_dspy="1566"
 	nwords_sta="0"
 	nwords_cmap="120"
-	nwords_crules="1024"
-	odyng="1456"
-	osta="1456"
-	odynamic="1456"
-	oplot="1456"
-	ord="1456"
-	oes="1456"
-	okd="1456"
-	opd="1456"
-	opo="1456"
+	nwords_crules="1126"
+	odyng="1566"
+	osta="1566"
+	odynamic="1566"
+	oplot="1566"
+	ord="1566"
+	oes="1566"
+	okd="1566"
+	opd="1566"
+	opo="1566"
 	opc="68"
 	ostr="72"
-	ocmap="312"
-	ocrules="432"
+	ocmap="320"
+	ocrules="440"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -261,7 +261,7 @@ display {
 	}
 }
 "<<color rules>>" {
-	nrules="10"
+	nrules="11"
 	dl_color_rule {
 		name="alarm"
 		info[0] {
@@ -1450,6 +1450,125 @@ display {
 		fg_enable="off"
 		bg_enable="off"
 		default_fg="25"
+		default_bg="1"
+	}
+	dl_color_rule {
+		name="disabled"
+		info[0] {
+			chan="$(C)"
+			value="1"
+			connector="use"
+			comparator="equals"
+			clr="1"
+		}
+		info[1] {
+			chan="$(C)"
+			value="0"
+			connector="use"
+			comparator="equals"
+			clr="7"
+		}
+		info[2] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[3] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[4] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[5] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[6] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[7] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[8] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[9] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[10] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[11] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[12] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[13] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[14] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		info[15] {
+			chan=""
+			value=""
+			connector="use"
+			comparator="less than"
+			clr="1"
+		}
+		fg_enable="on"
+		bg_enable="off"
+		default_fg="11"
 		default_bg="1"
 	}
 }

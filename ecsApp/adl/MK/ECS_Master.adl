@@ -10,7 +10,7 @@ display {
 	nstr="106"
 	ndynamic="6"
 	nplot="0"
-	nrd="7"
+	nrd="6"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3114"
-	nwords_sta="340"
+	nwords_dspy="2902"
+	nwords_sta="300"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1530"
-	osta="1190"
-	odynamic="1586"
-	oplot="1982"
-	ord="1982"
-	oes="3102"
-	okd="3102"
-	opd="3114"
-	opo="3114"
+	odyng="1478"
+	osta="1178"
+	odynamic="1534"
+	oplot="1930"
+	ord="1930"
+	oes="2890"
+	okd="2890"
+	opd="2902"
+	opo="2902"
 	opc="68"
 	ostr="164"
-	ocmap="1190"
-	ocrules="1190"
+	ocmap="1178"
+	ocrules="1178"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2554"
-	pixht="1359"
-	mmwid="676"
-	mmht="360"
+	pixwid="2558"
+	pixht="1357"
+	mmwid="677"
+	mmht="359"
 }
 "<<basic attribute>>" {
 	attr {
@@ -401,59 +401,6 @@ display {
 		groupid="0"
 	}
 	textix="System Status"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="6"
-		style="solid"
-		fill="outline"
-		width="2"
-	}
-}
-"rectangle" {
-	object {
-		x="266"
-		y="147"
-		width="241"
-		height="79"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="9"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="266"
-		y="145"
-		width="242"
-		height="32"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="13"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="266"
-		y="148"
-		width="243"
-		height="21"
-		groupid="0"
-	}
-	textix="Plant Room"
 	align="horiz. centered"
 }
 "<<basic attribute>>" {
@@ -1318,140 +1265,6 @@ display {
 }
 "related display" {
 	object {
-		x="280"
-		y="186"
-		width="216"
-		height="25"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="Air Handling Units"
-		name="pr_ahus.dl"
-		args="top=$(pr), dev=ahu:"
-	}
-	display[1] {
-		label="PR Exhaust Fans"
-		name="pr_efans.dl"
-		args="top=$(pr), dev=ef:"
-	}
-	display[2] {
-		label="PR Chillers"
-		name="pr_chillers.dl"
-		args="top=$(pr), dev=ch:"
-	}
-	display[3] {
-		label="Electric Power"
-		name="pr_elec.dl"
-		args="top=$(pr), dev=elec:"
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="Air Handling Units"
-	decorate="outward"
-}
-"related display" {
-	object {
 		x="24"
 		y="148"
 		width="216"
@@ -1465,9 +1278,9 @@ display {
 		args="top=$(top)"
 	}
 	display[1] {
-		label="Generator Power"
-		name="power_transfer.dl"
-		args="top=$(pr), dev=trans:"
+		label=""
+		name=""
+		args=""
 	}
 	display[2] {
 		label=""
