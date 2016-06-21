@@ -792,3 +792,13 @@ adl/ECS_Master.adl
 adl/status.adl: Message size increased. Color changed to Red.
 	renamed main menu option from "DRIVERS POWER" to "Power Control".
 ------------------------------------+------------------------------------
+				 V3-4r
+A    ecsApp/adl/CP/lightCtrl.adl: Added light controls.
+A    ecsApp/adl/CP/close.adl: Added Autoclose DM screen
+A    ecsApp/adl/CP/drivePowerCtrl.adl: Added new DM screen for Drives Power Cont
+rol.
+M    ecsApp/adl/CP/colorsCP.adl: Added "disabled" color rule.
+M    ecsApp/adl/CP/status.adl: Removed REOCS heartbeat.
+M    ecsApp/adl/CP/ECS_Master.adl: renamed main menu option from "DRIVERS POWER" to "Power Control". Added Autoclose and light control.
+
+------------------------------------+------------------------------------

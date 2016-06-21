@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="1"
 	npc="9"
-	nstr="98"
+	nstr="105"
 	ndynamic="6"
 	nplot="0"
-	nrd="7"
+	nrd="8"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3016"
+	nwords_dspy="3248"
 	nwords_sta="340"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1432"
-	osta="1092"
-	odynamic="1488"
-	oplot="1884"
-	ord="1884"
-	oes="3004"
-	okd="3004"
-	opd="3016"
-	opo="3016"
+	odyng="1504"
+	osta="1164"
+	odynamic="1560"
+	oplot="1956"
+	ord="1956"
+	oes="3236"
+	okd="3236"
+	opd="3248"
+	opo="3248"
 	opc="68"
 	ostr="164"
-	ocmap="1092"
-	ocrules="1092"
+	ocmap="1164"
+	ocrules="1164"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -916,8 +916,8 @@ display {
 }
 "related display" {
 	object {
-		x="23"
-		y="134"
+		x="22"
+		y="126"
 		width="216"
 		height="25"
 		groupid="0"
@@ -1318,8 +1318,8 @@ display {
 }
 "related display" {
 	object {
-		x="24"
-		y="99"
+		x="22"
+		y="95"
 		width="216"
 		height="25"
 		groupid="0"
@@ -1361,9 +1361,9 @@ display {
 		args="top=$(top)"
 	}
 	display[7] {
-		label=""
-		name=""
-		args=""
+		label="Auto-Close"
+		name="close.dl"
+		args="top=$(top)"
 	}
 	display[8] {
 		label=""
@@ -1586,8 +1586,8 @@ display {
 }
 "related display" {
 	object {
-		x="23"
-		y="183"
+		x="22"
+		y="158"
 		width="216"
 		height="25"
 		groupid="0"
@@ -1595,8 +1595,8 @@ display {
 	selfkill="off"
 	display[0] {
 		label="Power Control"
-		name="plc_interface.dl"
-		args="top=$(top), dev=pr"
+		name="drivePowerCtrl.dl"
+		args="top=$(top)"
 	}
 	display[1] {
 		label=""
@@ -1716,6 +1716,140 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="Power Control"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="22"
+		y="192"
+		width="216"
+		height="25"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Control Lights"
+		name="lightCtrl.dl"
+		args="top=$(top)"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Light Control"
 	decorate="outward"
 }
 "kill display" {
