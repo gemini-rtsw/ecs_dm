@@ -397,7 +397,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef1sword18:bits.B1"
+			chan="$(pr)$(ef)ef1sword18:bits.B1"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -439,7 +439,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef1sword18:bits.B2"
+			chan="$(pr)$(ef)ef1sword18:bits.B2"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -481,7 +481,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef1soword24:bits.B0"
+			chan="$(pr)$(ef)ef1soword24:bits.B0"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -531,7 +531,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef1soword24:bits.B0"
+			chan="$(pr)$(ef)ef1soword24:bits.B0"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -573,7 +573,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B0"
+			chan="$(pr)$(ef)ef2sword19:bits.B0"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -623,7 +623,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B1"
+			chan="$(pr)$(ef)ef2sword19:bits.B1"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -665,7 +665,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B2"
+			chan="$(pr)$(ef)ef2sword19:bits.B2"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -715,7 +715,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B6"
+			chan="$(pr)$(ef)ef2sword19:bits.B6"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -757,7 +757,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B7"
+			chan="$(pr)$(ef)ef2sword19:bits.B7"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -807,7 +807,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B3"
+			chan="$(pr)$(ef)ef2sword19:bits.B3"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -849,7 +849,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B4"
+			chan="$(pr)$(ef)ef2sword19:bits.B4"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -891,7 +891,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef2sword19:bits.B5"
+			chan="$(pr)$(ef)ef2sword19:bits.B5"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -941,7 +941,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)$(dev)ef1sword18:bits.B0"
+			chan="$(pr)$(ef)ef1sword18:bits.B0"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -983,7 +983,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ef2c"
+		chan="$(pr)$(ef)ef2c"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1005,7 +1005,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1029,7 +1029,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ef2v"
+		chan="$(pr)$(ef)ef2v"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1051,7 +1051,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1075,7 +1075,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)tut"
+		chan="$(pr)$(ef)tut"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1097,7 +1097,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1121,7 +1121,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)out"
+		chan="$(pr)$(ef)out"
 		clr="0"
 		bclr="7"
 		label="none"

@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="27"
-	nstr="71"
+	nstr="72"
 	ndynamic="22"
 	nplot="0"
 	nrd="2"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3372"
+	nwords_dspy="3362"
 	nwords_sta="524"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1576"
-	osta="1052"
-	odynamic="1576"
-	oplot="3040"
-	ord="3040"
-	oes="3360"
-	okd="3360"
-	opd="3372"
-	opo="3372"
+	odyng="1566"
+	osta="1042"
+	odynamic="1566"
+	oplot="3030"
+	ord="3030"
+	oes="3350"
+	okd="3350"
+	opd="3362"
+	opo="3362"
 	opc="68"
-	ostr="450"
-	ocmap="1052"
-	ocrules="1052"
+	ostr="444"
+	ocmap="1042"
+	ocrules="1042"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -620,7 +620,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)tut"
+		chan="$(pr)$(ef)tut"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -642,7 +642,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -666,7 +666,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)out"
+		chan="$(pr)$(ef)out"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -688,7 +688,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -712,7 +712,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahlt"
+		chan="$(pr)$(ef)ahlt"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -734,7 +734,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -758,7 +758,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah2t"
+		chan="$(pr)$(ahu)ah2t"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -780,7 +780,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -804,7 +804,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah3t"
+		chan="$(pr)$(ahu)ah3t"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -826,7 +826,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -850,7 +850,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah4t"
+		chan="$(pr)$(ahu)ah4t"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -872,7 +872,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -896,7 +896,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah5t"
+		chan="$(pr)$(ahu)ah5t"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -918,7 +918,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -942,7 +942,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah2vp"
+		chan="$(pr)$(ahu)ah2vp"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -964,7 +964,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -988,7 +988,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah3vp"
+		chan="$(pr)$(ahu)ah3vp"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1010,7 +1010,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1034,7 +1034,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah4vp"
+		chan="$(pr)$(ahu)ah4vp"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1056,7 +1056,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1080,7 +1080,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah5vp"
+		chan="$(pr)$(ahu)ah5vp"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1102,7 +1102,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1126,7 +1126,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah2dt"
+		chan="$(pr)$(ahu)ah2dt"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1148,7 +1148,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1172,7 +1172,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah3dt"
+		chan="$(pr)$(ahu)ah3dt"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1194,7 +1194,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1218,7 +1218,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah4dt"
+		chan="$(pr)$(ahu)ah4dt"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1240,7 +1240,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1264,7 +1264,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ah5dt"
+		chan="$(pr)$(ahu)ah5dt"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1286,7 +1286,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
+		clrargs="C=$(pr)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1310,12 +1310,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALA"
+		chan="$(pr)$(ahu)ahuproc.VALA"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu2.VAL"
+		rulechan[0] = "$(pr)$(ahu)ahuscalcwordahu2.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -1332,7 +1332,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu2"
+		clrargs="C=$(pr)$(ahu)ahuscalcwordahu2"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1356,12 +1356,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALB"
+		chan="$(pr)$(ahu)ahuproc.VALB"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu3.VAL"
+		rulechan[0] = "$(pr)$(ahu)ahuscalcwordahu3.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -1378,7 +1378,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu3"
+		clrargs="C=$(pr)$(ahu)ahuscalcwordahu3"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1402,12 +1402,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALC"
+		chan="$(pr)$(ahu)ahuproc.VALC"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu4.VAL"
+		rulechan[0] = "$(pr)$(ahu)ahuscalcwordahu4.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -1424,7 +1424,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu4"
+		clrargs="C=$(pr)$(ahu)ahuscalcwordahu4"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1448,12 +1448,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALD"
+		chan="$(pr)$(ahu)ahuproc.VALD"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu5.VAL"
+		rulechan[0] = "$(pr)$(ahu)ahuscalcwordahu5.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -1470,7 +1470,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu5"
+		clrargs="C=$(pr)$(ahu)ahuscalcwordahu5"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -1494,7 +1494,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALE"
+		chan="$(pr)$(ahu)ahuproc.VALE"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -1540,7 +1540,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStartbit0.PROC"
+		chan="$(pr)$(ahu)ahucStartbit0.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1588,7 +1588,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStopbit1.PROC"
+		chan="$(pr)$(ahu)ahucSprbit1.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -1773,7 +1773,7 @@ display {
 	display[0] {
 		label="AHUs Manual Control"
 		name="pr_ahuc.dl"
-		args="top=$(top), dev=pr"
+		args="pr=$(pr), ahu=pr"
 	}
 	display[1] {
 		label=""

@@ -6,9 +6,9 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="11"
-	nstr="55"
-	ndynamic="10"
+	npc="23"
+	nstr="56"
+	ndynamic="6"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="631"
-		height="279"
+		height="225"
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1848"
-	nwords_sta="404"
+	nwords_dspy="1636"
+	nwords_sta="308"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1016"
-	osta="612"
-	odynamic="1016"
-	oplot="1676"
-	ord="1676"
-	oes="1836"
-	okd="1836"
-	opd="1848"
-	opo="1848"
+	odyng="1068"
+	osta="760"
+	odynamic="1068"
+	oplot="1464"
+	ord="1464"
+	oes="1624"
+	okd="1624"
+	opd="1636"
+	opo="1636"
 	opc="68"
-	ostr="196"
-	ocmap="612"
-	ocrules="612"
+	ostr="336"
+	ocmap="760"
+	ocrules="760"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -120,7 +120,7 @@ display {
 		x="9"
 		y="111"
 		width="300"
-		height="156"
+		height="105"
 		groupid="0"
 	}
 }
@@ -222,7 +222,7 @@ display {
 		x="320"
 		y="110"
 		width="300"
-		height="157"
+		height="106"
 		groupid="0"
 	}
 }
@@ -413,94 +413,6 @@ display {
 	textix="degC"
 	align="horiz. left"
 }
-"text" {
-	object {
-		x="17"
-		y="215"
-		width="117"
-		height="14"
-		groupid="0"
-	}
-	textix="Coolant Flow"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="250"
-		y="215"
-		width="38"
-		height="14"
-		groupid="0"
-	}
-	textix="GPM"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="328"
-		y="213"
-		width="117"
-		height="14"
-		groupid="0"
-	}
-	textix="Coolant Flow"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="565"
-		y="214"
-		width="38"
-		height="13"
-		groupid="0"
-	}
-	textix="GPM"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="16"
-		y="243"
-		width="117"
-		height="14"
-		groupid="0"
-	}
-	textix="Coolant Power"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="249"
-		y="243"
-		width="55"
-		height="14"
-		groupid="0"
-	}
-	textix="Watts"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="327"
-		y="241"
-		width="117"
-		height="14"
-		groupid="0"
-	}
-	textix="Coolant Power"
-	align="horiz. left"
-}
-"text" {
-	object {
-		x="564"
-		y="242"
-		width="48"
-		height="13"
-		groupid="0"
-	}
-	textix="Watts"
-	align="horiz. left"
-}
 "text update" {
 	object {
 		x="128"
@@ -510,7 +422,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)c1to"
+		chan="$(pr)$(ch)c1to"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -556,7 +468,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)c1ti"
+		chan="$(pr)$(ch)c1ti"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -602,7 +514,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)c2to"
+		chan="$(pr)$(ch)c2to"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -648,7 +560,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)c2ti"
+		chan="$(pr)$(ch)c2ti"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -694,7 +606,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)tut"
+		chan="$(pr)$(ef)tut"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -740,191 +652,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)out"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="128"
-		y="211"
-		width="116"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)Chiller1Flow"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="443"
-		y="210"
-		width="116"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)Chiller2Flow"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="127"
-		y="239"
-		width="116"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)Chill1Pwr"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="442"
-		y="238"
-		width="116"
-		height="20"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)Chill2Pwr"
+		chan="$(pr)$(ef)out"
 		clr="0"
 		bclr="7"
 		label="none"
