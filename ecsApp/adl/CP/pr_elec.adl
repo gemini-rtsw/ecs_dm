@@ -3544,7 +3544,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)alv.VAL"
+		chan="$(pr)$(elec)alv.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3590,7 +3590,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)alvab.VAL"
+		chan="$(pr)$(elec)alvab.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3636,7 +3636,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)alvbc.VAL"
+		chan="$(pr)$(elec)alvbc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3682,7 +3682,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)alvca.VAL"
+		chan="$(pr)$(elec)alvca.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3728,7 +3728,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apv.VAL"
+		chan="$(pr)$(elec)apv.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3774,7 +3774,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apvan.VAL"
+		chan="$(pr)$(elec)apvan.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3820,7 +3820,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apvbn.VAL"
+		chan="$(pr)$(elec)apvbn.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3866,7 +3866,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apvcn.VAL"
+		chan="$(pr)$(elec)apvcn.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3912,7 +3912,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apc.VAL"
+		chan="$(pr)$(elec)apc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -3958,7 +3958,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apca.VAL"
+		chan="$(pr)$(elec)apca.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4004,7 +4004,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apcb.VAL"
+		chan="$(pr)$(elec)apcb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4050,7 +4050,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)apcc.VAL"
+		chan="$(pr)$(elec)apcc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4096,7 +4096,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kwt.VAL"
+		chan="$(pr)$(elec)kwt.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4142,7 +4142,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kwta.VAL"
+		chan="$(pr)$(elec)kwta.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4188,7 +4188,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kwtb.VAL"
+		chan="$(pr)$(elec)kwtb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4234,7 +4234,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kwtc.VAL"
+		chan="$(pr)$(elec)kwtc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4280,7 +4280,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kvt.VAL"
+		chan="$(pr)$(elec)kvt.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4326,7 +4326,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kvta.VAL"
+		chan="$(pr)$(elec)kvta.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4372,7 +4372,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kvtb.VAL"
+		chan="$(pr)$(elec)kvtb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4418,7 +4418,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)kvtc.VAL"
+		chan="$(pr)$(elec)kvtc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4464,7 +4464,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)pft.VAL"
+		chan="$(pr)$(elec)pft.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4510,7 +4510,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)pfpa.VAL"
+		chan="$(pr)$(elec)pfpa.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4556,7 +4556,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)pfpb.VAL"
+		chan="$(pr)$(elec)pfpb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4602,7 +4602,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)pfpc.VAL"
+		chan="$(pr)$(elec)pfpc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4648,7 +4648,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)freq.VAL"
+		chan="$(pr)$(elec)freq.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4694,7 +4694,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnalv.VAL"
+		chan="$(pr)$(elec)mnalv.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4740,7 +4740,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnalvab.VAL"
+		chan="$(pr)$(elec)mnalvab.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4786,7 +4786,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnalvbc.VAL"
+		chan="$(pr)$(elec)mnalvbc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4832,7 +4832,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnalvca.VAL"
+		chan="$(pr)$(elec)mnalvca.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4878,7 +4878,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapv.VAL"
+		chan="$(pr)$(elec)mnapv.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4924,7 +4924,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapvan.VAL"
+		chan="$(pr)$(elec)mnapvan.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -4970,7 +4970,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapvbn.VAL"
+		chan="$(pr)$(elec)mnapvbn.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5016,7 +5016,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapvcn.VAL"
+		chan="$(pr)$(elec)mnapvcn.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5062,7 +5062,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapc.VAL"
+		chan="$(pr)$(elec)mnapc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5108,7 +5108,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapca.VAL"
+		chan="$(pr)$(elec)mnapca.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5154,7 +5154,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapcb.VAL"
+		chan="$(pr)$(elec)mnapcb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5200,7 +5200,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnapcc.VAL"
+		chan="$(pr)$(elec)mnapcc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5246,7 +5246,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkwt.VAL"
+		chan="$(pr)$(elec)mnkwt.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5292,7 +5292,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkwta.VAL"
+		chan="$(pr)$(elec)mnkwta.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5338,7 +5338,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkwtb.VAL"
+		chan="$(pr)$(elec)mnkwtb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5384,7 +5384,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkwtc.VAL"
+		chan="$(pr)$(elec)mnkwtc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5430,7 +5430,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkvt.VAL"
+		chan="$(pr)$(elec)mnkvt.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5476,7 +5476,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkvta.VAL"
+		chan="$(pr)$(elec)mnkvta.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5522,7 +5522,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkvtb.VAL"
+		chan="$(pr)$(elec)mnkvtb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5568,7 +5568,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnkvtc.VAL"
+		chan="$(pr)$(elec)mnkvtc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5614,7 +5614,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnpft.VAL"
+		chan="$(pr)$(elec)mnpft.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5660,7 +5660,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnpfpa.VAL"
+		chan="$(pr)$(elec)mnpfpa.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5706,7 +5706,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnpfpb.VAL"
+		chan="$(pr)$(elec)mnpfpb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5752,7 +5752,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnpfpc.VAL"
+		chan="$(pr)$(elec)mnpfpc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5798,7 +5798,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mnfreq.VAL"
+		chan="$(pr)$(elec)mnfreq.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5844,7 +5844,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxalv.VAL"
+		chan="$(pr)$(elec)mxalv.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5890,7 +5890,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxalvab.VAL"
+		chan="$(pr)$(elec)mxalvab.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5936,7 +5936,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxalvbc.VAL"
+		chan="$(pr)$(elec)mxalvbc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -5982,7 +5982,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxalvca.VAL"
+		chan="$(pr)$(elec)mxalvca.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6028,7 +6028,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapv.VAL"
+		chan="$(pr)$(elec)mxapv.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6074,7 +6074,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapvan.VAL"
+		chan="$(pr)$(elec)mxapvan.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6120,7 +6120,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapvbn.VAL"
+		chan="$(pr)$(elec)mxapvbn.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6166,7 +6166,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapvcn.VAL"
+		chan="$(pr)$(elec)mxapvcn.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6212,7 +6212,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapc.VAL"
+		chan="$(pr)$(elec)mxapc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6258,7 +6258,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapca.VAL"
+		chan="$(pr)$(elec)mxapca.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6304,7 +6304,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapcb.VAL"
+		chan="$(pr)$(elec)mxapcb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6350,7 +6350,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxapcc.VAL"
+		chan="$(pr)$(elec)mxapcc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6396,7 +6396,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkwt.VAL"
+		chan="$(pr)$(elec)mxkwt.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6442,7 +6442,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkwta.VAL"
+		chan="$(pr)$(elec)mxkwta.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6488,7 +6488,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkwtb.VAL"
+		chan="$(pr)$(elec)mxkwtb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6534,7 +6534,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkwtc.VAL"
+		chan="$(pr)$(elec)mxkwtc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6580,7 +6580,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkvt.VAL"
+		chan="$(pr)$(elec)mxkvt.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6626,7 +6626,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkvta.VAL"
+		chan="$(pr)$(elec)mxkvta.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6672,7 +6672,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkvtb.VAL"
+		chan="$(pr)$(elec)mxkvtb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6718,7 +6718,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxkvtc.VAL"
+		chan="$(pr)$(elec)mxkvtc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6764,7 +6764,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxpft.VAL"
+		chan="$(pr)$(elec)mxpft.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6810,7 +6810,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxpfpa.VAL"
+		chan="$(pr)$(elec)mxpfpa.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6856,7 +6856,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxpfpb.VAL"
+		chan="$(pr)$(elec)mxpfpb.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6902,7 +6902,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxpfpc.VAL"
+		chan="$(pr)$(elec)mxpfpc.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6948,7 +6948,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)mxfreq.VAL"
+		chan="$(pr)$(elec)mxfreq.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -6994,7 +6994,7 @@ display {
 		groupid="10"
 	}
 	monitor {
-		chan="$(top)$(dev)gwh.VAL"
+		chan="$(pr)$(elec)gwh.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7040,7 +7040,7 @@ display {
 		groupid="8"
 	}
 	monitor {
-		chan="$(top)$(dev)mwh.VAL"
+		chan="$(pr)$(elec)mwh.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7086,7 +7086,7 @@ display {
 		groupid="9"
 	}
 	monitor {
-		chan="$(top)$(dev)kwh.VAL"
+		chan="$(pr)$(elec)kwh.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7132,7 +7132,7 @@ display {
 		groupid="11"
 	}
 	monitor {
-		chan="$(top)$(dev)gvarh.VAL"
+		chan="$(pr)$(elec)gvarh.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7178,7 +7178,7 @@ display {
 		groupid="12"
 	}
 	monitor {
-		chan="$(top)$(dev)mvarh.VAL"
+		chan="$(pr)$(elec)mvarh.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7224,7 +7224,7 @@ display {
 		groupid="13"
 	}
 	monitor {
-		chan="$(top)$(dev)kvarh.VAL"
+		chan="$(pr)$(elec)kvarh.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7270,7 +7270,7 @@ display {
 		groupid="17"
 	}
 	monitor {
-		chan="$(top)$(dev)gvah.VAL"
+		chan="$(pr)$(elec)gvah.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7316,7 +7316,7 @@ display {
 		groupid="18"
 	}
 	monitor {
-		chan="$(top)$(dev)mvah.VAL"
+		chan="$(pr)$(elec)mvah.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"
@@ -7362,7 +7362,7 @@ display {
 		groupid="19"
 	}
 	monitor {
-		chan="$(top)$(dev)kvah.VAL"
+		chan="$(pr)$(elec)kvah.VAL"
 		clr="0"
 		bclr="7"
 		label="outline"

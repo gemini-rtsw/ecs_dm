@@ -338,7 +338,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStartbit2.PROC"
+		chan="$(pr)$(dev)ahucStartbit2.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -386,12 +386,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALA"
+		chan="$(pr)$(dev)ahuproc.VALA"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu2.VAL"
+		rulechan[0] = "$(pr)$(dev)ahuscalcwordahu2.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -408,7 +408,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu2"
+		clrargs="C=$(pr)$(dev)ahuscalcwordahu2"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -432,12 +432,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALB"
+		chan="$(pr)$(dev)ahuproc.VALB"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu3.VAL"
+		rulechan[0] = "$(pr)$(dev)ahuscalcwordahu3.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -454,7 +454,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu3"
+		clrargs="C=$(pr)$(dev)ahuscalcwordahu3"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -478,12 +478,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALC"
+		chan="$(pr)$(dev)ahuproc.VALC"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu4.VAL"
+		rulechan[0] = "$(pr)$(dev)ahuscalcwordahu4.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -500,7 +500,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu4"
+		clrargs="C=$(pr)$(dev)ahuscalcwordahu4"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -524,12 +524,12 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ahuproc.VALD"
+		chan="$(pr)$(dev)ahuproc.VALD"
 		clr="0"
 		bclr="7"
 		label="outline"
 		clrmod="rule"
-		rulechan[0] = "$(top)$(dev)ahuscalcwordahu5.VAL"
+		rulechan[0] = "$(pr)$(dev)ahuscalcwordahu5.VAL"
 		rulechan[1] = ""
 		rulechan[2] = ""
 		rulechan[3] = ""
@@ -546,7 +546,7 @@ display {
 		rulechan[14] = ""
 		rulechan[15] = ""
 		clrrule="ahustate"
-		clrargs="C=$(top)$(dev)ahuscalcwordahu5"
+		clrargs="C=$(pr)$(dev)ahuscalcwordahu5"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -570,7 +570,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStopbit3.PROC"
+		chan="$(pr)$(dev)ahucStopbit3.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -618,7 +618,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStartbit4.PROC"
+		chan="$(pr)$(dev)ahucStartbit4.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -666,7 +666,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStopbit5.PROC"
+		chan="$(pr)$(dev)ahucStopbit5.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -714,7 +714,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStartbit6.PROC"
+		chan="$(pr)$(dev)ahucStartbit6.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -762,7 +762,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStopbit7.PROC"
+		chan="$(pr)$(dev)ahucStopbit7.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -810,7 +810,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStartbit8.PROC"
+		chan="$(pr)$(dev)ahucStartbit8.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
@@ -858,7 +858,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="$(top)$(dev)ahucStopbit9.PROC"
+		chan="$(pr)$(dev)ahucStopbit9.PROC"
 		clr="8"
 		bclr="9"
 		label="outline"
