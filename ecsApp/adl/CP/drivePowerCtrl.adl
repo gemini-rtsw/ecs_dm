@@ -1753,8 +1753,8 @@ display {
 	}
 	control {
 		chan="$(top)tsPowerOn.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)tsPowerOn.DISA"
@@ -1801,8 +1801,8 @@ display {
 	}
 	control {
 		chan="$(top)tsPowerOff.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1849,8 +1849,8 @@ display {
 	}
 	control {
 		chan="$(top)bsPowerOn.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)bsPowerOn.DISA"
@@ -1897,8 +1897,8 @@ display {
 	}
 	control {
 		chan="$(top)bsPowerOff.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1945,8 +1945,8 @@ display {
 	}
 	control {
 		chan="$(top)evgPowerOn.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)evgPowerOn.DISA"
@@ -1993,8 +1993,8 @@ display {
 	}
 	control {
 		chan="$(top)evgPowerOff.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2041,8 +2041,8 @@ display {
 	}
 	control {
 		chan="$(top)wvgPowerOn.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)wvgPowerOn.DISA"
@@ -2089,8 +2089,8 @@ display {
 	}
 	control {
 		chan="$(top)wvgPowerOff.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2137,8 +2137,8 @@ display {
 	}
 	control {
 		chan="$(top)domePowerOn.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)domePowerOn.DISA"
@@ -2185,8 +2185,8 @@ display {
 	}
 	control {
 		chan="$(top)domePowerOff.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
@@ -2233,8 +2233,8 @@ display {
 	}
 	control {
 		chan="$(top)allDrivesOn.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="rule"
 		rulechan[0] = "$(top)allDrivesOn.DISA"
@@ -2281,8 +2281,8 @@ display {
 	}
 	control {
 		chan="$(top)allDrivesOff.PROC"
-		clr="0"
-		bclr="7"
+		clr="1"
+		bclr="6"
 		label="outline"
 		clrmod="static"
 		rulechan[0] = ""
