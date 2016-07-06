@@ -6,8 +6,8 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="126"
-	npc="132"
-	nstr="81"
+	npc="137"
+	nstr="82"
 	ndynamic="5"
 	nplot="0"
 	nrd="1"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="11814"
+	nwords_dspy="11902"
 	nwords_sta="1892"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="4686"
-	osta="2794"
-	odynamic="11282"
-	oplot="11642"
-	ord="11642"
-	oes="11802"
-	okd="11802"
-	opd="11814"
-	opo="11814"
+	odyng="4774"
+	osta="2882"
+	odynamic="11370"
+	oplot="11730"
+	ord="11730"
+	oes="11890"
+	okd="11890"
+	opd="11902"
+	opo="11902"
 	opc="68"
-	ostr="2226"
-	ocmap="2794"
-	ocrules="2794"
+	ostr="2306"
+	ocmap="2882"
+	ocrules="2882"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -7009,7 +7009,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="ec:fault:dmReset.PROC"
+		chan="$(top)fault:dmReset.PROC"
 		clr="1"
 		bclr="13"
 		label="none"
@@ -7057,7 +7057,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="ec:fault:tsReset.PROC"
+		chan="$(top)fault:tsReset.PROC"
 		clr="1"
 		bclr="13"
 		label="none"
@@ -7105,7 +7105,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="ec:fault:bsReset.PROC"
+		chan="$(top)fault:bsReset.PROC"
 		clr="1"
 		bclr="13"
 		label="none"
@@ -7153,7 +7153,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="ec:fault:egReset.PROC"
+		chan="$(top)fault:egReset.PROC"
 		clr="1"
 		bclr="13"
 		label="none"
@@ -7201,7 +7201,7 @@ display {
 		groupid="0"
 	}
 	control {
-		chan="ec:fault:wgReset.PROC"
+		chan="$(top)fault:wgReset.PROC"
 		clr="1"
 		bclr="13"
 		label="none"
