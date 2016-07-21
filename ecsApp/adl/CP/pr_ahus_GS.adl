@@ -6,11 +6,11 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="2"
-	npc="8"
+	npc="6"
 	nstr="56"
 	ndynamic="5"
 	nplot="0"
-	nrd="2"
+	nrd="1"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="663"
-		height="317"
+		height="275"
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="1610"
+	nwords_dspy="1426"
 	nwords_sta="224"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="816"
-	osta="592"
-	odynamic="936"
-	oplot="1278"
-	ord="1278"
-	oes="1598"
-	okd="1598"
-	opd="1610"
-	opo="1610"
+	odyng="792"
+	osta="568"
+	odynamic="912"
+	oplot="1254"
+	ord="1254"
+	oes="1414"
+	okd="1414"
+	opd="1426"
+	opo="1426"
 	opc="68"
-	ostr="152"
-	ocmap="592"
-	ocrules="592"
+	ostr="128"
+	ocmap="568"
+	ocrules="568"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -777,140 +777,6 @@ display {
 	clr="0"
 	bclr="6"
 	menu_title="TEST & CONFIG"
-	decorate="outward"
-}
-"related display" {
-	object {
-		x="448"
-		y="273"
-		width="198"
-		height="28"
-		groupid="0"
-	}
-	selfkill="off"
-	display[0] {
-		label="AHUs Manual Control"
-		name="pr_ahuc.dl"
-		args="pr=$(pr), ahu=ahu:"
-	}
-	display[1] {
-		label=""
-		name=""
-		args=""
-	}
-	display[2] {
-		label=""
-		name=""
-		args=""
-	}
-	display[3] {
-		label=""
-		name=""
-		args=""
-	}
-	display[4] {
-		label=""
-		name=""
-		args=""
-	}
-	display[5] {
-		label=""
-		name=""
-		args=""
-	}
-	display[6] {
-		label=""
-		name=""
-		args=""
-	}
-	display[7] {
-		label=""
-		name=""
-		args=""
-	}
-	display[8] {
-		label=""
-		name=""
-		args=""
-	}
-	display[9] {
-		label=""
-		name=""
-		args=""
-	}
-	display[10] {
-		label=""
-		name=""
-		args=""
-	}
-	display[11] {
-		label=""
-		name=""
-		args=""
-	}
-	display[12] {
-		label=""
-		name=""
-		args=""
-	}
-	display[13] {
-		label=""
-		name=""
-		args=""
-	}
-	display[14] {
-		label=""
-		name=""
-		args=""
-	}
-	display[15] {
-		label=""
-		name=""
-		args=""
-	}
-	display[16] {
-		label=""
-		name=""
-		args=""
-	}
-	display[17] {
-		label=""
-		name=""
-		args=""
-	}
-	display[18] {
-		label=""
-		name=""
-		args=""
-	}
-	display[19] {
-		label=""
-		name=""
-		args=""
-	}
-	display[20] {
-		label=""
-		name=""
-		args=""
-	}
-	display[21] {
-		label=""
-		name=""
-		args=""
-	}
-	display[22] {
-		label=""
-		name=""
-		args=""
-	}
-	display[23] {
-		label=""
-		name=""
-		args=""
-	}
-	clr="0"
-	bclr="6"
-	menu_title="AHUs Manual Control"
 	decorate="outward"
 }
 "kill display" {
