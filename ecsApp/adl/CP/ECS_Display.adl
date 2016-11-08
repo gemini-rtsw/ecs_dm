@@ -6,8 +6,8 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="18"
-	npc="56"
-	nstr="85"
+	npc="59"
+	nstr="87"
 	ndynamic="31"
 	nplot="0"
 	nrd="2"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5604"
+	nwords_dspy="5700"
 	nwords_sta="556"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2214"
-	osta="1658"
-	odynamic="3226"
-	oplot="5272"
-	ord="5272"
-	oes="5592"
-	okd="5592"
-	opd="5604"
-	opo="5604"
+	odyng="2310"
+	osta="1754"
+	odynamic="3322"
+	oplot="5368"
+	ord="5368"
+	oes="5688"
+	okd="5688"
+	opd="5700"
+	opo="5700"
 	opc="68"
-	ostr="880"
-	ocmap="1658"
-	ocrules="1658"
+	ostr="934"
+	ocmap="1754"
+	ocrules="1754"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -1379,7 +1379,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)thermalword0:bits.B0"
+			chan="$(top)thermalword40:bits.B0"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -1403,7 +1403,7 @@ display {
 }
 "text" {
 	object {
-		x="579"
+		x="577"
 		y="160"
 		width="87"
 		height="34"
@@ -1421,7 +1421,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)thermalword0:bits.B1"
+			chan="$(top)thermalword40:bits.B1"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -1445,7 +1445,7 @@ display {
 }
 "text" {
 	object {
-		x="579"
+		x="577"
 		y="160"
 		width="87"
 		height="34"
@@ -1471,7 +1471,7 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)thermalword0:bits.B2"
+			chan="$(top)thermalword40:bits.B2"
 			rulechan[0] = ""
 			rulechan[1] = ""
 			rulechan[2] = ""
@@ -1495,7 +1495,7 @@ display {
 }
 "text" {
 	object {
-		x="579"
+		x="577"
 		y="160"
 		width="87"
 		height="34"
@@ -3076,7 +3076,7 @@ display {
 	display[0] {
 		label="Status"
 		name="status.dl"
-		args="top=$(top),gws=$(gws),m1=$(m1),sad=$(sad),pr=$(pr)"
+		args="top=$(top),gws=$(gws),m1=$(m1),sad=$(sad),pr=$(pr), th=$(th)"
 	}
 	display[1] {
 		label="Carousel Motion Faults"
