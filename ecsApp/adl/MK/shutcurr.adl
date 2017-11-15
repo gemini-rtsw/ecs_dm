@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="3"
-	npc="24"
-	nstr="63"
-	ndynamic="22"
+	ndyng="4"
+	npc="30"
+	nstr="70"
+	ndynamic="26"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -19,27 +19,27 @@ display {
 		x="0"
 		y="0"
 		width="631"
-		height="595"
+		height="594"
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="3226"
-	nwords_sta="724"
+	nwords_dspy="3744"
+	nwords_sta="852"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1518"
-	osta="794"
-	odynamic="1602"
-	oplot="3054"
-	ord="3054"
-	oes="3214"
-	okd="3214"
-	opd="3226"
-	opo="3226"
+	odyng="1760"
+	osta="908"
+	odynamic="1856"
+	oplot="3572"
+	ord="3572"
+	oes="3732"
+	okd="3732"
+	opd="3744"
+	opo="3744"
 	opc="68"
-	ostr="316"
-	ocmap="794"
-	ocrules="794"
+	ostr="374"
+	ocmap="908"
+	ocrules="908"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="2560"
-	pixht="1024"
-	mmwid="722"
-	mmht="289"
+	pixwid="2556"
+	pixht="1357"
+	mmwid="676"
+	mmht="359"
 }
 "<<basic attribute>>" {
 	attr {
@@ -830,6 +830,144 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="13"
+		y="420"
+		width="302"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="37"
+		y="464"
+		width="118"
+		height="20"
+		groupid="0"
+	}
+	textix="Brake 1X"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="37"
+		y="494"
+		width="118"
+		height="20"
+		groupid="0"
+	}
+	textix="Brake 1Y"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="37"
+		y="521"
+		width="118"
+		height="20"
+		groupid="0"
+	}
+	textix="Brake 1Z"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="37"
+		y="549"
+		width="118"
+		height="20"
+		groupid="0"
+	}
+	textix="Brake 1W"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="278"
+		y="465"
+		width="20"
+		height="20"
+		groupid="0"
+	}
+	textix="A"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="278"
+		y="495"
+		width="20"
+		height="20"
+		groupid="0"
+	}
+	textix="A"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="278"
+		y="522"
+		width="20"
+		height="20"
+		groupid="0"
+	}
+	textix="A"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="278"
+		y="550"
+		width="21"
+		height="20"
+		groupid="0"
+	}
+	textix="A"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="6"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="14"
+		y="447"
+		width="300"
+		height="140"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
 		clr="13"
 		style="solid"
 		fill="outline"
@@ -898,6 +1036,17 @@ display {
 		groupid="0"
 	}
 	textix="Bottom"
+	align="horiz. centered"
+}
+"text" {
+	object {
+		x="90"
+		y="423"
+		width="149"
+		height="21"
+		groupid="0"
+	}
+	textix="Top"
 	align="horiz. centered"
 }
 "text update" {
@@ -1876,6 +2025,190 @@ display {
 	}
 	monitor {
 		chan="$(top)sh:bbottom"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="flashifbusy"
+		clrargs="C=$(top)datumC"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="151"
+		y="464"
+		width="116"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)tsBrk1x"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="flashifbusy"
+		clrargs="C=$(top)datumC"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="151"
+		y="494"
+		width="116"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)tsBrk1y"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="flashifbusy"
+		clrargs="C=$(top)datumC"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="151"
+		y="521"
+		width="116"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)tsBrk1z"
+		clr="11"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="flashifbusy"
+		clrargs="C=$(top)datumC"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. right"
+	format="decimal"
+}
+"text update" {
+	object {
+		x="151"
+		y="549"
+		width="116"
+		height="20"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)tsBrk1w"
 		clr="11"
 		bclr="13"
 		label="none"
