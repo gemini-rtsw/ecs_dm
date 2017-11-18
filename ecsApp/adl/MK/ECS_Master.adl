@@ -5,9 +5,9 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="1"
-	npc="9"
-	nstr="93"
+	ndyng="3"
+	npc="10"
+	nstr="94"
 	ndynamic="6"
 	nplot="0"
 	nrd="6"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="13"
-	nwords_dspy="2778"
+	nwords_dspy="2910"
 	nwords_sta="300"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1354"
-	osta="1054"
-	odynamic="1410"
-	oplot="1806"
-	ord="1806"
-	oes="2766"
-	okd="2766"
-	opd="2778"
-	opo="2778"
+	odyng="1370"
+	osta="1070"
+	odynamic="1542"
+	oplot="1938"
+	ord="1938"
+	oes="2898"
+	okd="2898"
+	opd="2910"
+	opo="2910"
 	opc="68"
-	ostr="164"
-	ocmap="1054"
-	ocrules="1054"
+	ostr="176"
+	ocmap="1070"
+	ocrules="1070"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsMK.dl"
-	pixwid="3840"
-	pixht="1200"
-	mmwid="1014"
-	mmht="317"
+	pixwid="2556"
+	pixht="1357"
+	mmwid="676"
+	mmht="359"
 }
 "<<basic attribute>>" {
 	attr {
@@ -450,6 +450,98 @@ display {
 		height="39"
 		groupid="0"
 	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)tsBrkFlt"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="271"
+		y="150"
+		width="238"
+		height="21"
+		groupid="0"
+	}
+	textix="Top Shutter Brake "
+	align="horiz. left"
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)tsBrkFlt"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule=""
+			clrargs=""
+		}
+	}
+}
+"text" {
+	object {
+		x="268"
+		y="178"
+		width="238"
+		height="21"
+		groupid="0"
+	}
+	textix="Failure! Call TTM"
+	align="horiz. left"
 }
 "text update" {
 	object {
