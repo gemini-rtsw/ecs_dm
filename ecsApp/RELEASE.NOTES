@@ -802,3 +802,7 @@ M    ecsApp/adl/CP/status.adl: Removed REOCS heartbeat.
 M    ecsApp/adl/CP/ECS_Master.adl: renamed main menu option from "DRIVERS POWER" to "Power Control". Added Autoclose and light control.
 
 ------------------------------------+------------------------------------
+                                 V3-6CP
+-   ecsApp/adl/CP/ECS_Master.dl: Removed Thermal Control and Plant Room (AHUs)
+------------------------------------+------------------------------------
+
