@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="26"
-	npc="52"
+	ndyng="18"
+	npc="49"
 	nstr="105"
-	ndynamic="20"
+	ndynamic="18"
 	nplot="0"
 	nrd="4"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5808"
-	nwords_sta="608"
+	nwords_dspy="5066"
+	nwords_sta="500"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2356"
-	osta="1748"
-	odynamic="3836"
-	oplot="5156"
-	ord="5156"
-	oes="5796"
-	okd="5796"
-	opd="5808"
-	opo="5808"
+	odyng="2206"
+	osta="1706"
+	odynamic="3226"
+	oplot="4414"
+	ord="4414"
+	oes="5054"
+	okd="5054"
+	opd="5066"
+	opo="5066"
 	opc="68"
-	ostr="808"
-	ocmap="1748"
-	ocrules="1748"
+	ostr="766"
+	ocmap="1706"
+	ocrules="1706"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="1920"
-	pixht="1200"
-	mmwid="524"
-	mmht="321"
+	pixwid="3840"
+	pixht="1080"
+	mmwid="1016"
+	mmht="285"
 }
 "<<basic attribute>>" {
 	attr {
@@ -249,28 +249,6 @@ display {
 }
 "text" {
 	object {
-		x="584"
-		y="245"
-		width="81"
-		height="15"
-		groupid="0"
-	}
-	textix="Thermal"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="561"
-		y="345"
-		width="94"
-		height="15"
-		groupid="0"
-	}
-	textix="Plant Room"
-	align="horiz. right"
-}
-"text" {
-	object {
 		x="575"
 		y="380"
 		width="80"
@@ -362,72 +340,6 @@ display {
 	textix="Carousel Motion"
 	align="horiz. right"
 }
-"text" {
-	object {
-		x="40"
-		y="136"
-		width="113"
-		height="15"
-		groupid="0"
-	}
-	textix="Ventilation"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="65"
-		y="123"
-		width="89"
-		height="15"
-		groupid="0"
-	}
-	textix="Carousel"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="52"
-		y="150"
-		width="101"
-		height="15"
-		groupid="0"
-	}
-	textix="Control via"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="35"
-		y="190"
-		width="117"
-		height="15"
-		groupid="0"
-	}
-	textix="Ventilation"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="53"
-		y="177"
-		width="100"
-		height="15"
-		groupid="0"
-	}
-	textix="Plant Room"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="41"
-		y="204"
-		width="111"
-		height="15"
-		groupid="0"
-	}
-	textix="Control via"
-	align="horiz. right"
-}
 "<<basic attribute>>" {
 	attr {
 		clr="1"
@@ -498,17 +410,6 @@ display {
 		fill="solid"
 		width="0"
 	}
-}
-"text" {
-	object {
-		x="580"
-		y="360"
-		width="75"
-		height="15"
-		groupid="0"
-	}
-	textix="PLC Link"
-	align="horiz. right"
 }
 "text" {
 	object {
@@ -854,338 +755,6 @@ display {
 		height="258"
 		groupid="0"
 	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="rule"
-			vis="static"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)plantRoomPlcDead"
-			rulechan[0] = "$(top)plantRoomPlcDead"
-			rulechan[1] = "$(top)plantRoomPlcDead"
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="user2"
-			clrargs="C=$(top)plantRoomPlcDead"
-		}
-	}
-}
-"oval" {
-	object {
-		x="750"
-		y="351"
-		width="23"
-		height="22"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)thermalword18:bits.B0"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="174"
-		y="130"
-		width="87"
-		height="34"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. centered"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)thermalword18:bits.B1"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="174"
-		y="130"
-		width="87"
-		height="34"
-		groupid="0"
-	}
-	textix="MSP"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="11"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)thermalword18:bits.B2"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="174"
-		y="129"
-		width="87"
-		height="34"
-		groupid="0"
-	}
-	textix="ECS"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)thermalword40:bits.B0"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="174"
-		y="181"
-		width="87"
-		height="34"
-		groupid="0"
-	}
-	textix="OFF"
-	align="horiz. centered"
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)thermalword40:bits.B1"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="174"
-		y="181"
-		width="87"
-		height="34"
-		groupid="0"
-	}
-	textix="MSP"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="11"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)thermalword40:bits.B2"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs=""
-		}
-	}
-}
-"text" {
-	object {
-		x="174"
-		y="180"
-		width="87"
-		height="34"
-		groupid="0"
-	}
-	textix="ECS"
-	align="horiz. centered"
 }
 "<<basic attribute>>" {
 	attr {
@@ -1544,46 +1113,6 @@ display {
 		y="313"
 		width="25"
 		height="138"
-		groupid="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="rule"
-			vis="static"
-		}
-		param {
-			rulecolorfg="1"
-			rulecolorbg="1"
-			chan="$(top)thermalHealth"
-			rulechan[0] = "$(top)thermalHealth.VAL"
-			rulechan[1] = "$(top)thermalHealth.VAL"
-			rulechan[2] = "$(top)thermalHealth.VAL"
-			rulechan[3] = "$(top)thermalHealth.VAL"
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="health"
-			clrargs="C=$(top)thermalHealth"
-		}
-	}
-}
-"oval" {
-	object {
-		x="805"
-		y="242"
-		width="24"
-		height="25"
 		groupid="0"
 	}
 }
@@ -2323,52 +1852,6 @@ display {
 }
 "text update" {
 	object {
-		x="672"
-		y="243"
-		width="102"
-		height="23"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)thermalsir"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
 		x="400"
 		y="245"
 		width="100"
@@ -2629,52 +2112,6 @@ display {
 		rulechan[15] = ""
 		clrrule="alarm"
 		clrargs="R"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="661"
-		y="347"
-		width="87"
-		height="28"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)thermalplcHeartbeat"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs="C=$(top)present.SEVR"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
