@@ -802,3 +802,23 @@ M    ecsApp/adl/CP/status.adl: Removed REOCS heartbeat.
 M    ecsApp/adl/CP/ECS_Master.adl: renamed main menu option from "DRIVERS POWER" to "Power Control". Added Autoclose and light control.
 
 ------------------------------------+------------------------------------
+                                 V3-6CP
+-   ecsApp/adl/CP/ECS_Master.dl: Removed Thermal Control and Plant Room (AHUs)
+
+------------------------------------+------------------------------------
+                                 V3-6-2 CP
+CP screens : Removed more Plant Room elements and obsoletes like Thermal Control 
+			 and Dome ventilation (REL-3216 and RTUPG-212)
+M       adl/CP/ECS_Display.adl
+M       adl/CP/interlocks.adl
+M       adl/CP/status.adl
++       .svnignore: Added this file to ignore unrelevant files
+-       ecsApp/adl/CP/pr_ahu*: Removed AHU files that should now only be on PR module
+
+------------------------------------+------------------------------------
+                                 V3-6-3 CP
+CP screens : Add direct access to Carousel Faults on Main Screen (RTUPG-244)
++	adl/CP/ECS_Master.adl
+-----------------------------+------------------------------------
+
+
