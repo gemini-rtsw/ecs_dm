@@ -808,7 +808,7 @@ M    ecsApp/adl/CP/ECS_Master.adl: renamed main menu option from "DRIVERS POWER"
 ------------------------------------+------------------------------------
                                  V3-6-2 CP
 CP screens : Removed more Plant Room elements and obsoletes like Thermal Control 
-			 and Dome ventilation
+			 and Dome ventilation (REL-3216 and RTUPG-212)
 M       adl/CP/ECS_Display.adl
 M       adl/CP/interlocks.adl
 M       adl/CP/status.adl
@@ -816,3 +816,9 @@ M       adl/CP/status.adl
 -       ecsApp/adl/CP/pr_ahu*: Removed AHU files that should now only be on PR module
 
 ------------------------------------+------------------------------------
+                                 V3-6-3 CP
+CP screens : Add direct access to Carousel Faults on Main Screen (RTUPG-244)
++	adl/CP/ECS_Master.adl
+-----------------------------+------------------------------------
+
+

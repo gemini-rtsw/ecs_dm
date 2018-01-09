@@ -7,10 +7,10 @@ display {
 	mnrv="4"
 	ndyng="1"
 	npc="9"
-	nstr="107"
+	nstr="108"
 	ndynamic="6"
 	nplot="0"
-	nrd="6"
+	nrd="7"
 	nes="0"
 	nkd="1"
 	npd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="2936"
-	nwords_sta="300"
+	nwords_dspy="3148"
+	nwords_sta="340"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1512"
-	osta="1212"
-	odynamic="1568"
-	oplot="1964"
-	ord="1964"
-	oes="2924"
-	okd="2924"
-	opd="2936"
-	opo="2936"
+	odyng="1564"
+	osta="1224"
+	odynamic="1620"
+	oplot="2016"
+	ord="2016"
+	oes="3136"
+	okd="3136"
+	opd="3148"
+	opo="3148"
 	opc="68"
 	ostr="164"
-	ocmap="1212"
-	ocrules="1212"
+	ocmap="1224"
+	ocrules="1224"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -52,7 +52,7 @@ display {
 	pixwid="3840"
 	pixht="1080"
 	mmwid="1016"
-	mmht="286"
+	mmht="285"
 }
 "<<basic attribute>>" {
 	attr {
@@ -401,6 +401,59 @@ display {
 		groupid="0"
 	}
 	textix="System Status"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="266"
+		y="147"
+		width="241"
+		height="79"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="266"
+		y="145"
+		width="242"
+		height="32"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="266"
+		y="148"
+		width="243"
+		height="21"
+		groupid="0"
+	}
+	textix="System Faults"
 	align="horiz. centered"
 }
 "<<basic attribute>>" {
@@ -866,7 +919,7 @@ display {
 		x="279"
 		y="95"
 		width="216"
-		height="25"
+		height="30"
 		groupid="0"
 	}
 	selfkill="off"
@@ -1131,10 +1184,10 @@ display {
 }
 "related display" {
 	object {
-		x="22"
-		y="101"
+		x="21"
+		y="97"
 		width="216"
-		height="25"
+		height="30"
 		groupid="0"
 	}
 	selfkill="off"
@@ -1265,10 +1318,144 @@ display {
 }
 "related display" {
 	object {
-		x="23"
+		x="280"
+		y="186"
+		width="216"
+		height="30"
+		groupid="0"
+	}
+	selfkill="off"
+	display[0] {
+		label="Carousel Faults"
+		name="motorFault.dl"
+		args="top=$(top), dev=fault:"
+	}
+	display[1] {
+		label=""
+		name=""
+		args=""
+	}
+	display[2] {
+		label=""
+		name=""
+		args=""
+	}
+	display[3] {
+		label=""
+		name=""
+		args=""
+	}
+	display[4] {
+		label=""
+		name=""
+		args=""
+	}
+	display[5] {
+		label=""
+		name=""
+		args=""
+	}
+	display[6] {
+		label=""
+		name=""
+		args=""
+	}
+	display[7] {
+		label=""
+		name=""
+		args=""
+	}
+	display[8] {
+		label=""
+		name=""
+		args=""
+	}
+	display[9] {
+		label=""
+		name=""
+		args=""
+	}
+	display[10] {
+		label=""
+		name=""
+		args=""
+	}
+	display[11] {
+		label=""
+		name=""
+		args=""
+	}
+	display[12] {
+		label=""
+		name=""
+		args=""
+	}
+	display[13] {
+		label=""
+		name=""
+		args=""
+	}
+	display[14] {
+		label=""
+		name=""
+		args=""
+	}
+	display[15] {
+		label=""
+		name=""
+		args=""
+	}
+	display[16] {
+		label=""
+		name=""
+		args=""
+	}
+	display[17] {
+		label=""
+		name=""
+		args=""
+	}
+	display[18] {
+		label=""
+		name=""
+		args=""
+	}
+	display[19] {
+		label=""
+		name=""
+		args=""
+	}
+	display[20] {
+		label=""
+		name=""
+		args=""
+	}
+	display[21] {
+		label=""
+		name=""
+		args=""
+	}
+	display[22] {
+		label=""
+		name=""
+		args=""
+	}
+	display[23] {
+		label=""
+		name=""
+		args=""
+	}
+	clr="0"
+	bclr="6"
+	menu_title="Carousel Faults"
+	decorate="outward"
+}
+"related display" {
+	object {
+		x="21"
 		y="140"
 		width="216"
-		height="25"
+		height="30"
 		groupid="0"
 	}
 	selfkill="off"
@@ -1399,10 +1586,10 @@ display {
 }
 "related display" {
 	object {
-		x="23"
-		y="179"
+		x="21"
+		y="183"
 		width="216"
-		height="25"
+		height="30"
 		groupid="0"
 	}
 	selfkill="off"
