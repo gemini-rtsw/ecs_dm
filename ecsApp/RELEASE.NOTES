@@ -819,6 +819,9 @@ M       adl/CP/status.adl
                                  V3-6-3 CP
 CP screens : Add direct access to Carousel Faults on Main Screen (RTUPG-244)
 +	adl/CP/ECS_Master.adl
------------------------------+------------------------------------
 
-
+------------------------------------+------------------------------------
+                                 V3-6-4 CP
+CP screens : Show status of drives on main DM screen, after REL-2623 SOS
+		have a urgent need to see the status of this here.
+M ecsApp/adl/CP/ECS_Master.adl

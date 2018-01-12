@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="1"
-	npc="9"
-	nstr="108"
-	ndynamic="6"
+	ndyng="11"
+	npc="11"
+	nstr="96"
+	ndynamic="3"
 	nplot="0"
 	nrd="7"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="511"
-		height="452"
+		width="518"
+		height="521"
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3148"
-	nwords_sta="340"
+	nwords_dspy="3406"
+	nwords_sta="348"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1564"
-	osta="1224"
-	odynamic="1620"
-	oplot="2016"
-	ord="2016"
-	oes="3136"
-	okd="3136"
-	opd="3148"
-	opo="3148"
+	odyng="1460"
+	osta="1112"
+	odynamic="2076"
+	oplot="2274"
+	ord="2274"
+	oes="3394"
+	okd="3394"
+	opd="3406"
+	opo="3406"
 	opc="68"
-	ostr="164"
-	ocmap="1224"
-	ocrules="1224"
+	ostr="194"
+	ocmap="1112"
+	ocrules="1112"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="3840"
-	pixht="1080"
-	mmwid="1016"
-	mmht="285"
+	pixwid="1680"
+	pixht="1050"
+	mmwid="445"
+	mmht="278"
 }
 "<<basic attribute>>" {
 	attr {
@@ -106,25 +106,6 @@ display {
 		height="39"
 		groupid="0"
 	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="1"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="32"
-		y="397"
-		width="91"
-		height="15"
-		groupid="0"
-	}
-	textix="Simulation"
-	align="horiz. right"
 }
 "<<basic attribute>>" {
 	attr {
@@ -188,10 +169,10 @@ display {
 }
 "rectangle" {
 	object {
-		x="11"
-		y="235"
+		x="14"
+		y="272"
 		width="495"
-		height="205"
+		height="232"
 		groupid="0"
 	}
 }
@@ -241,8 +222,8 @@ display {
 }
 "text" {
 	object {
-		x="317"
-		y="364"
+		x="315"
+		y="425"
 		width="114"
 		height="16"
 		groupid="0"
@@ -250,72 +231,12 @@ display {
 	textix="ECS Health"
 	align="horiz. centered"
 }
-"<<basic attribute>>" {
-	attr {
-		clr="1"
-		style="solid"
-		fill="outline"
-		width="0"
-	}
-}
 "text" {
 	object {
-		x="78"
-		y="412"
-		width="45"
-		height="15"
-		groupid="0"
-	}
-	textix="Level"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="75"
-		y="374"
-		width="49"
-		height="15"
-		groupid="0"
-	}
-	textix="Level"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="70"
-		y="359"
-		width="54"
-		height="15"
-		groupid="0"
-	}
-	textix="Debug"
-	align="horiz. right"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="1"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="69"
-		y="328"
-		width="54"
-		height="15"
-		groupid="0"
-	}
-	textix="softC"
-	align="horiz. right"
-}
-"text" {
-	object {
-		x="50"
-		y="291"
+		x="286"
+		y="333"
 		width="74"
-		height="14"
+		height="16"
 		groupid="0"
 	}
 	textix="activeC"
@@ -331,8 +252,8 @@ display {
 }
 "text" {
 	object {
-		x="266"
-		y="286"
+		x="265"
+		y="292"
 		width="35"
 		height="15"
 		groupid="0"
@@ -342,8 +263,8 @@ display {
 }
 "text" {
 	object {
-		x="306"
-		y="321"
+		x="311"
+		y="375"
 		width="55"
 		height="15"
 		groupid="0"
@@ -353,8 +274,8 @@ display {
 }
 "text" {
 	object {
-		x="279"
-		y="332"
+		x="284"
+		y="386"
 		width="82"
 		height="15"
 		groupid="0"
@@ -394,8 +315,8 @@ display {
 }
 "text" {
 	object {
-		x="128"
-		y="244"
+		x="139"
+		y="239"
 		width="237"
 		height="21"
 		groupid="0"
@@ -464,6 +385,88 @@ display {
 		width="0"
 	}
 }
+"text" {
+	object {
+		x="86"
+		y="353"
+		width="137"
+		height="20"
+		groupid="0"
+	}
+	textix="Top Shutter"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="85"
+		y="390"
+		width="178"
+		height="20"
+		groupid="0"
+	}
+	textix="Bottom Shutter"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="86"
+		y="425"
+		width="164"
+		height="20"
+		groupid="0"
+	}
+	textix="East Ventgate"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="85"
+		y="463"
+		width="178"
+		height="20"
+		groupid="0"
+	}
+	textix="West Ventgate"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="85"
+		y="314"
+		width="164"
+		height="20"
+		groupid="0"
+	}
+	textix="Dome"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="36"
+		y="284"
+		width="158"
+		height="20"
+		groupid="0"
+	}
+	textix="Drives power"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
 "<<dynamic attribute>>" {
 	attr {
 		mod {
@@ -497,155 +500,497 @@ display {
 }
 "oval" {
 	object {
-		x="438"
-		y="351"
+		x="436"
+		y="412"
 		width="37"
 		height="39"
 		groupid="0"
 	}
 }
-"text update" {
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)tsDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
 	object {
-		x="133"
-		y="361"
-		width="87"
+		x="43"
+		y="350"
+		width="27"
 		height="27"
 		groupid="0"
 	}
-	monitor {
-		chan="$(top)debugL.OMSS"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="1"
-		rulecolorfg="1"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
 }
-"text update" {
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)tsDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
 	object {
-		x="133"
-		y="398"
-		width="87"
+		x="43"
+		y="350"
+		width="27"
 		height="27"
 		groupid="0"
 	}
-	monitor {
-		chan="$(top)simulateL"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="1"
-		rulecolorfg="1"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
 }
-"text update" {
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)bsDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
 	object {
-		x="132"
-		y="321"
-		width="87"
+		x="43"
+		y="390"
+		width="27"
 		height="27"
 		groupid="0"
 	}
-	monitor {
-		chan="$(top)softC.VAL"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)softC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
 	}
-	align="horiz. left"
-	format="decimal"
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)bsDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="390"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)evgDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="425"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)evgDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="425"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)wvgDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="461"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)wvgDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="461"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="24"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if not zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)domeDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="311"
+		width="27"
+		height="27"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="2"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"<<dynamic attribute>>" {
+	attr {
+		mod {
+			clrmod="static"
+			vis="if zero"
+		}
+		param {
+			rulecolorfg="0"
+			rulecolorbg="0"
+			chan="$(top)domeDriveStat"
+			rulechan[0] = ""
+			rulechan[1] = ""
+			rulechan[2] = ""
+			rulechan[3] = ""
+			rulechan[4] = ""
+			rulechan[5] = ""
+			rulechan[6] = ""
+			rulechan[7] = ""
+			rulechan[8] = ""
+			rulechan[9] = ""
+			rulechan[10] = ""
+			rulechan[11] = ""
+			rulechan[12] = ""
+			rulechan[13] = ""
+			rulechan[14] = ""
+			rulechan[15] = ""
+			clrrule="alarm"
+			clrargs=""
+		}
+	}
+}
+"oval" {
+	object {
+		x="43"
+		y="311"
+		width="26"
+		height="26"
+		groupid="0"
+	}
 }
 "text update" {
 	object {
-		x="132"
-		y="283"
+		x="368"
+		y="327"
 		width="87"
 		height="27"
 		groupid="0"
@@ -690,8 +1035,8 @@ display {
 }
 "text update" {
 	object {
-		x="307"
-		y="280"
+		x="306"
+		y="286"
 		width="185"
 		height="27"
 		groupid="0"
@@ -736,8 +1081,8 @@ display {
 }
 "text update" {
 	object {
-		x="371"
-		y="319"
+		x="376"
+		y="373"
 		width="113"
 		height="27"
 		groupid="0"
@@ -1050,8 +1395,8 @@ display {
 }
 "related display" {
 	object {
-		x="315"
-		y="397"
+		x="306"
+		y="464"
 		width="179"
 		height="26"
 		groupid="0"
