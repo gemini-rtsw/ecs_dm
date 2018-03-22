@@ -825,3 +825,21 @@ CP screens : Add direct access to Carousel Faults on Main Screen (RTUPG-244)
 CP screens : Show status of drives on main DM screen, after REL-2623 SOS
 		have a urgent need to see the status of this here.
 M ecsApp/adl/CP/ECS_Master.adl
+
+------------------------------------+------------------------------------
+                                 V3-6-5 CP&MK
+CP screens : Colors for Skew limits at CP shutter (REL-3289) + several 
+			minor changes described here.
+M ecsApp/adl/CP/ventgates.adl: Added close and abort close shutters buttons,
+       park removed as it wasn't working and red color for stop button.
+M ecsApp/adl/CP/shutters.adl : Same as ventgates and added skew alarm-colors.
+M ecsApp/adl/CP/ECS_Master.adl : From 'Motion control' submenu, access to 
+      Park DM screen was removed as this is not working.
+M ecsApp/adl/CP/dome.adl : Changed stop button color to red for consistency.
+M ecsApp/adl/MK/dome.adl : Idem
+M ecsApp/adl/MK/shutters.adl : Idem
+M ecsApp/adl/MK/ventgates.adl : Idem
+M ecsApp/adl/MK/ECS_Master.adl : Added direct access to 'Carousel Faults' as
+	 at GS. Relocated the Top Shutter Brake failure message.
+
+
