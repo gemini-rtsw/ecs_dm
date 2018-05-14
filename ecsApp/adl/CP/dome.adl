@@ -1544,22 +1544,22 @@ display {
 	display[0] {
 		label="dome status"
 		name="devStat.dl"
-		args="top=$(top),dev=dome,fld=Dome.B,units=(degrees)"
+		args="top=$(top),dev=dome,devv=dm,fld=Dome.B,units=(degrees)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="motor record"
+		name="motRecord.dl"
+		args="top=$(top),motor=domemotor,title=Dome"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="handshake"
+		name="motHandshakeVms.dl"
+		args="top=$(top),hin=domemotor.HINP,hout=domemotor.HSTA,title=Dome"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="motor i/o"
+		name="motIo.dl"
+		args="top=$(top),dev=dm,title=Dome"
 	}
 	display[4] {
 		label=""

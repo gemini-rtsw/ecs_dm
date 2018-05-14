@@ -1631,22 +1631,22 @@ display {
 	display[0] {
 		label="WVG status"
 		name="devStat.dl"
-		args="top=$(top),dev=westVentGate,fld=Vgates.C,units=(percent_open)"
+		args="top=$(top),dev=westVentGate,devv=wv,fld=Vgates.C,units=(percent_open)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="motor record"
+		name="motRecord.dl"
+		args="top=$(top),motor=westVentGatemotor,title=WestVentGate"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="handshake"
+		name="motHandshakeNoVms.dl"
+		args="top=$(top),hin=westVentGatemotor.HINP,hout=westVentGatemotor.HSTA,title=WestVentGate"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="motor i/o"
+		name="motIo.dl"
+		args="top=$(top),dev=wv,title=WestVentGate"
 	}
 	display[4] {
 		label=""
@@ -1765,22 +1765,22 @@ display {
 	display[0] {
 		label="EVG status"
 		name="devStat.dl"
-		args="top=$(top),dev=eastVentGate,fld=Vgates.B,units=(percent_open)"
+		args="top=$(top),dev=eastVentGate,devv=ev,fld=Vgates.B,units=(percent_open)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="motor record"
+		name="motRecord.dl"
+		args="top=$(top),motor=eastVentGatemotor,title=EastVentGate"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="handshake"
+		name="motHandshakeNoVms.dl"
+		args="top=$(top),hin=eastVentGatemotor.HINP,hout=eastVentGatemotor.HSTA,title=EastVentGate"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="motor i/o"
+		name="motIo.dl"
+		args="top=$(top),dev=ev,title=EastVentGate"
 	}
 	display[4] {
 		label=""
