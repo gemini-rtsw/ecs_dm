@@ -7,8 +7,8 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="59"
-	nstr="73"
-	ndynamic="58"
+	nstr="74"
+	ndynamic="57"
 	nplot="0"
 	nrd="0"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5770"
-	nwords_sta="524"
+	nwords_dspy="5688"
+	nwords_sta="500"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1930"
-	osta="1406"
-	odynamic="1930"
-	oplot="5758"
-	ord="5758"
-	oes="5758"
-	okd="5758"
-	opd="5770"
-	opo="5770"
+	odyng="1914"
+	osta="1414"
+	odynamic="1914"
+	oplot="5676"
+	ord="5676"
+	oes="5676"
+	okd="5676"
+	opd="5688"
+	opo="5688"
 	opc="68"
 	ostr="820"
-	ocmap="1406"
-	ocrules="1406"
+	ocmap="1414"
+	ocrules="1414"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="1920"
+	pixwid="3200"
 	pixht="1200"
-	mmwid="524"
-	mmht="321"
+	mmwid="847"
+	mmht="318"
 }
 "<<basic attribute>>" {
 	attr {
@@ -207,17 +207,6 @@ display {
 	}
 	textix="Bottom"
 	align="horiz. centered"
-}
-"text" {
-	object {
-		x="0"
-		y="571"
-		width="80"
-		height="16"
-		groupid="0"
-	}
-	textix="Thermal"
-	align="horiz. right"
 }
 "text" {
 	object {
@@ -539,17 +528,6 @@ display {
 }
 "text" {
 	object {
-		x="11"
-		y="584"
-		width="69"
-		height="16"
-		groupid="0"
-	}
-	textix="State"
-	align="horiz. right"
-}
-"text" {
-	object {
 		x="266"
 		y="620"
 		width="70"
@@ -723,52 +701,6 @@ display {
 		convertParams=""
 	}
 	align="horiz. right"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="90"
-		y="571"
-		width="157"
-		height="27"
-		groupid="0"
-	}
-	monitor {
-		chan="$(sad)thermalM"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
 	format="decimal"
 }
 "text update" {
