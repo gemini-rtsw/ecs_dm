@@ -7,7 +7,7 @@ display {
 	mnrv="4"
 	ndyng="0"
 	npc="33"
-	nstr="80"
+	nstr="79"
 	ndynamic="32"
 	nplot="0"
 	nrd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="4202"
+	nwords_dspy="4190"
 	nwords_sta="728"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2078"
-	osta="1350"
-	odynamic="2078"
-	oplot="4190"
-	ord="4190"
-	oes="4190"
-	okd="4190"
-	opd="4202"
-	opo="4202"
+	odyng="2066"
+	osta="1338"
+	odynamic="2066"
+	oplot="4178"
+	ord="4178"
+	oes="4178"
+	okd="4178"
+	opd="4190"
+	opo="4190"
 	opc="68"
 	ostr="518"
-	ocmap="1350"
-	ocrules="1350"
+	ocmap="1338"
+	ocrules="1338"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -1149,7 +1149,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="decimal"
+	format="hexadecimal"
 }
 "text entry" {
 	object {
@@ -1194,7 +1194,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="decimal"
+	format="hexadecimal"
 }
 "text entry" {
 	object {
@@ -1239,7 +1239,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="decimal"
+	format="hexadecimal"
 }
 "text update" {
 	object {

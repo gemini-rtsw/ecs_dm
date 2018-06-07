@@ -6,9 +6,9 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="8"
-	nstr="54"
-	ndynamic="7"
+	npc="11"
+	nstr="53"
+	ndynamic="8"
 	nplot="0"
 	nrd="0"
 	nes="0"
@@ -18,28 +18,28 @@ display {
 	object {
 		x="0"
 		y="0"
-		width="496"
-		height="401"
+		width="494"
+		height="441"
 	}
 	clr="0"
 	bclr="5"
-	nwords_dspy="1324"
-	nwords_sta="272"
+	nwords_dspy="1434"
+	nwords_sta="288"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="850"
-	osta="578"
-	odynamic="850"
-	oplot="1312"
-	ord="1312"
-	oes="1312"
-	okd="1312"
-	opd="1324"
-	opo="1324"
+	odyng="894"
+	osta="606"
+	odynamic="894"
+	oplot="1422"
+	ord="1422"
+	oes="1422"
+	okd="1422"
+	opd="1434"
+	opo="1434"
 	opc="68"
-	ostr="166"
-	ocmap="578"
-	ocrules="578"
+	ostr="210"
+	ocmap="606"
+	ocrules="606"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -157,7 +157,7 @@ display {
 "text" {
 	object {
 		x="27"
-		y="231"
+		y="229"
 		width="182"
 		height="20"
 		groupid="0"
@@ -168,12 +168,12 @@ display {
 "text" {
 	object {
 		x="27"
-		y="267"
+		y="264"
 		width="241"
 		height="20"
 		groupid="0"
 	}
-	textix="Handshake out"
+	textix="New position"
 	align="horiz. left"
 }
 "<<basic attribute>>" {
@@ -187,7 +187,7 @@ display {
 "rectangle" {
 	object {
 		x="14"
-		y="204"
+		y="202"
 		width="468"
 		height="20"
 		groupid="0"
@@ -204,9 +204,9 @@ display {
 "rectangle" {
 	object {
 		x="13"
-		y="204"
+		y="202"
 		width="470"
-		height="93"
+		height="131"
 		groupid="0"
 	}
 }
@@ -221,7 +221,7 @@ display {
 "text" {
 	object {
 		x="131"
-		y="207"
+		y="205"
 		width="241"
 		height="15"
 		groupid="0"
@@ -250,8 +250,8 @@ display {
 }
 "text" {
 	object {
-		x="29"
-		y="338"
+		x="27"
+		y="372"
 		width="241"
 		height="20"
 		groupid="0"
@@ -269,8 +269,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="16"
-		y="310"
+		x="14"
+		y="344"
 		width="468"
 		height="20"
 		groupid="0"
@@ -286,8 +286,8 @@ display {
 }
 "rectangle" {
 	object {
-		x="15"
-		y="310"
+		x="13"
+		y="344"
 		width="470"
 		height="82"
 		groupid="0"
@@ -303,8 +303,8 @@ display {
 }
 "text" {
 	object {
-		x="133"
-		y="313"
+		x="131"
+		y="347"
 		width="241"
 		height="15"
 		groupid="0"
@@ -322,8 +322,8 @@ display {
 }
 "text" {
 	object {
-		x="29"
-		y="363"
+		x="27"
+		y="397"
 		width="241"
 		height="20"
 		groupid="0"
@@ -386,9 +386,28 @@ display {
 	textix="$(title) I/O"
 	align="horiz. centered"
 }
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="27"
+		y="300"
+		width="241"
+		height="20"
+		groupid="0"
+	}
+	textix="Drive enable"
+	align="horiz. left"
+}
 "text entry" {
 	object {
-		x="375"
+		x="374"
 		y="92"
 		width="90"
 		height="24"
@@ -433,7 +452,7 @@ display {
 }
 "text entry" {
 	object {
-		x="375"
+		x="374"
 		y="123"
 		width="90"
 		height="24"
@@ -478,8 +497,8 @@ display {
 }
 "text update" {
 	object {
-		x="375"
-		y="229"
+		x="374"
+		y="227"
 		width="90"
 		height="24"
 		groupid="0"
@@ -524,14 +543,14 @@ display {
 }
 "text update" {
 	object {
-		x="375"
-		y="264"
+		x="374"
+		y="262"
 		width="90"
 		height="24"
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)HsOut"
+		chan="$(top)$(dev)NewPosition"
 		clr="0"
 		bclr="10"
 		label="none"
@@ -570,7 +589,7 @@ display {
 }
 "text entry" {
 	object {
-		x="375"
+		x="374"
 		y="155"
 		width="90"
 		height="24"
@@ -615,8 +634,8 @@ display {
 }
 "text update" {
 	object {
-		x="377"
-		y="334"
+		x="374"
+		y="368"
 		width="90"
 		height="24"
 		groupid="0"
@@ -661,8 +680,8 @@ display {
 }
 "text update" {
 	object {
-		x="377"
-		y="361"
+		x="374"
+		y="395"
 		width="90"
 		height="24"
 		groupid="0"
@@ -704,6 +723,52 @@ display {
 	}
 	align="horiz. left"
 	format="decimal"
+}
+"text update" {
+	object {
+		x="374"
+		y="297"
+		width="90"
+		height="24"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(dev)DrvEnable"
+		clr="0"
+		bclr="10"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="1"
+		rulecolorfg="1"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="hexadecimal"
 }
 "kill display" {
 	object {
