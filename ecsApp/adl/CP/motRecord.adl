@@ -970,7 +970,7 @@ display {
 	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="383"
 		y="252"
@@ -978,7 +978,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).HINP"
 		clr="0"
 		bclr="10"
@@ -1013,7 +1013,8 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="hexadecimal"
+	align="horiz. left"
+	format="decimal"
 }
 "text update" {
 	object {
@@ -1061,7 +1062,7 @@ display {
 	align="horiz. left"
 	format="hexadecimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="854"
 		y="466"
@@ -1069,7 +1070,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).PSCA"
 		clr="0"
 		bclr="10"
@@ -1104,9 +1105,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="363"
@@ -1114,7 +1116,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).FLT"
 		clr="0"
 		bclr="10"
@@ -1149,9 +1151,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="hexadecimal"
+	align="horiz. left"
+	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="394"
@@ -1159,7 +1162,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).LLS"
 		clr="0"
 		bclr="10"
@@ -1194,9 +1197,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="hexadecimal"
+	align="horiz. left"
+	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="425"
@@ -1204,7 +1208,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).HLS"
 		clr="0"
 		bclr="10"
@@ -1239,7 +1243,8 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="hexadecimal"
+	align="horiz. left"
+	format="decimal"
 }
 "text update" {
 	object {
@@ -1517,7 +1522,7 @@ display {
 	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="468"
@@ -1525,7 +1530,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).LLM"
 		clr="0"
 		bclr="10"
@@ -1560,9 +1565,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="499"
@@ -1570,7 +1576,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).HLM"
 		clr="0"
 		bclr="10"
@@ -1605,6 +1611,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
 "text update" {
@@ -1653,7 +1660,7 @@ display {
 	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="854"
 		y="522"
@@ -1661,7 +1668,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).MDBD"
 		clr="0"
 		bclr="10"
@@ -1696,9 +1703,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="854"
 		y="435"
@@ -1706,7 +1714,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).VMS"
 		clr="0"
 		bclr="10"
@@ -1741,9 +1749,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="530"
@@ -1751,7 +1760,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).LOPR"
 		clr="0"
 		bclr="10"
@@ -1786,9 +1795,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="376"
 		y="561"
@@ -1796,7 +1806,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).HOPR"
 		clr="0"
 		bclr="10"
@@ -1831,6 +1841,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
 "text update" {
@@ -1925,7 +1936,7 @@ display {
 	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="860"
 		y="592"
@@ -1933,7 +1944,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).DBUG"
 		clr="0"
 		bclr="10"
@@ -1968,9 +1979,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="860"
 		y="622"
@@ -1978,7 +1990,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).SIMM"
 		clr="0"
 		bclr="10"
@@ -2013,9 +2025,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="854"
 		y="493"
@@ -2023,7 +2036,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(motor).VSCA"
 		clr="0"
 		bclr="10"
@@ -2058,6 +2071,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
 "text update" {

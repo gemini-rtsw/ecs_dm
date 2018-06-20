@@ -6,8 +6,8 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="0"
-	npc="11"
-	nstr="53"
+	npc="9"
+	nstr="52"
 	ndynamic="8"
 	nplot="0"
 	nrd="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="0"
 	bclr="5"
-	nwords_dspy="1434"
+	nwords_dspy="1398"
 	nwords_sta="288"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="894"
-	osta="606"
-	odynamic="894"
-	oplot="1422"
-	ord="1422"
-	oes="1422"
-	okd="1422"
-	opd="1434"
-	opo="1434"
+	odyng="858"
+	osta="570"
+	odynamic="858"
+	oplot="1386"
+	ord="1386"
+	oes="1386"
+	okd="1386"
+	opd="1398"
+	opo="1398"
 	opc="68"
-	ostr="210"
-	ocmap="606"
-	ocrules="606"
+	ostr="184"
+	ocmap="570"
+	ocrules="570"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -405,7 +405,7 @@ display {
 	textix="Drive enable"
 	align="horiz. left"
 }
-"text entry" {
+"text update" {
 	object {
 		x="374"
 		y="92"
@@ -413,7 +413,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(dev)Encoder"
 		clr="0"
 		bclr="10"
@@ -448,9 +448,10 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="374"
 		y="123"
@@ -458,7 +459,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(dev)PosDmdFb"
 		clr="0"
 		bclr="10"
@@ -493,6 +494,7 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
+	align="horiz. left"
 	format="decimal"
 }
 "text update" {
@@ -587,7 +589,7 @@ display {
 	align="horiz. left"
 	format="hexadecimal"
 }
-"text entry" {
+"text update" {
 	object {
 		x="374"
 		y="155"
@@ -595,7 +597,7 @@ display {
 		height="24"
 		groupid="0"
 	}
-	control {
+	monitor {
 		chan="$(top)$(dev)HsIn"
 		clr="0"
 		bclr="10"
@@ -630,7 +632,8 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="hexadecimal"
+	align="horiz. left"
+	format="decimal"
 }
 "text update" {
 	object {
