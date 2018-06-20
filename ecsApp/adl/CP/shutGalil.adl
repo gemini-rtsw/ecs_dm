@@ -176,7 +176,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALA"
+		chan="$(top)shutGalilTopProc.VALA"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -222,7 +222,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALB"
+		chan="$(top)shutGalilTopProc.VALB"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -268,7 +268,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALC"
+		chan="$(top)shutGalilTopProc.VALC"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -314,7 +314,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALD"
+		chan="$(top)shutGalilTopProc.VALD"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -360,7 +360,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALE"
+		chan="$(top)shutGalilTopProc.VALE"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -406,7 +406,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALF"
+		chan="$(top)shutGalilTopProc.VALF"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -452,7 +452,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALG"
+		chan="$(top)shutGalilTopProc.VALG"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -498,7 +498,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALH"
+		chan="$(top)shutGalilTopProc.VALH"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -544,7 +544,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALI"
+		chan="$(top)shutGalilTopProc.VALI"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -590,7 +590,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALJ"
+		chan="$(top)shutGalilTopProc.VALJ"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -636,7 +636,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALK"
+		chan="$(top)shutGalilTopProc.VALK"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -682,7 +682,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilTopProc.VALL"
+		chan="$(top)shutGalilTopProc.VALL"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -728,7 +728,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALA"
+		chan="$(top)shutGalilBotProc.VALA"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -774,7 +774,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALB"
+		chan="$(top)shutGalilBotProc.VALB"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -820,7 +820,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALC"
+		chan="$(top)shutGalilBotProc.VALC"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -866,7 +866,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALD"
+		chan="$(top)shutGalilBotProc.VALD"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -912,7 +912,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALE"
+		chan="$(top)shutGalilBotProc.VALE"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -958,7 +958,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALF"
+		chan="$(top)shutGalilBotProc.VALF"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1004,7 +1004,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALG"
+		chan="$(top)shutGalilBotProc.VALG"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1050,7 +1050,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALH"
+		chan="$(top)shutGalilBotProc.VALH"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1096,7 +1096,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALI"
+		chan="$(top)shutGalilBotProc.VALI"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1142,7 +1142,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALJ"
+		chan="$(top)shutGalilBotProc.VALJ"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1188,7 +1188,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALK"
+		chan="$(top)shutGalilBotProc.VALK"
 		clr="0"
 		bclr="7"
 		label="none"
@@ -1234,7 +1234,7 @@ display {
 		groupid="2"
 	}
 	monitor {
-		chan="ec:shutGalilBotProc.VALL"
+		chan="$(top)shutGalilBotProc.VALL"
 		clr="0"
 		bclr="7"
 		label="none"

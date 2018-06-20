@@ -1649,22 +1649,22 @@ display {
 	display[0] {
 		label="botShtr status"
 		name="devStat.dl"
-		args="top=$(top),dev=botShtr,fld=Shtrs.C,units=(degrees)"
+		args="top=$(top),dev=botShtr,devv=bs,fld=Shtrs.C,units=(degrees)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="bot shutter motor"
+		name="motRecord.dl"
+		args="top=$(top),motor=botShtrmotor,title=BotShutter"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="bot handshake"
+		name="motHandshakeNoVms.dl"
+		args="top=$(top),hin=botShtrmotor.HINP,hout=botShtrmotor.HSTA,title=BotShutter"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="bot motor io"
+		name="motIo.dl"
+		args="top=$(top),dev=bs,title=BotShutter"
 	}
 	display[4] {
 		label=""
@@ -1783,22 +1783,22 @@ display {
 	display[0] {
 		label="topShtr status"
 		name="devStat.dl"
-		args="top=$(top),dev=topShtr,fld=Shtrs.B,units=(degrees)"
+		args="top=$(top),dev=topShtr,devv=ts,fld=Shtrs.B,units=(degrees)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="top shutter motor"
+		name="motRecord.dl"
+		args="top=$(top),motor=topShtrmotor,title=TopShutter"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="top handshake"
+		name="motHandshakeNoVms.dl"
+		args="top=$(top),hin=topShtrmotor.HINP,hout=topShtrmotor.HSTA,title=TopShutter"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="bot motor io"
+		name="motIo.dl"
+		args="top=$(top),dev=ts,title=TopShutter"
 	}
 	display[4] {
 		label=""
@@ -1917,7 +1917,7 @@ display {
 	display[0] {
 		label="Galil"
 		name="shutGalil.dl"
-		args=""
+		args="top=$(top)"
 	}
 	display[1] {
 		label=""
