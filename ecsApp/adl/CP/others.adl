@@ -5,10 +5,10 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="15"
+	ndyng="11"
 	npc="46"
-	nstr="85"
-	ndynamic="36"
+	nstr="86"
+	ndynamic="28"
 	nplot="0"
 	nrd="1"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5034"
+	nwords_dspy="4262"
 	nwords_sta="240"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1548"
-	osta="1308"
-	odynamic="2444"
-	oplot="4862"
-	ord="4862"
-	oes="5022"
-	okd="5022"
-	opd="5034"
-	opo="5034"
+	odyng="1556"
+	osta="1316"
+	odynamic="2212"
+	oplot="4090"
+	ord="4090"
+	oes="4250"
+	okd="4250"
+	opd="4262"
+	opo="4262"
 	opc="68"
 	ostr="610"
-	ocmap="1308"
-	ocrules="1308"
+	ocmap="1316"
+	ocrules="1316"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="1920"
-	pixht="1200"
-	mmwid="524"
-	mmht="321"
+	pixwid="3840"
+	pixht="1080"
+	mmwid="1016"
+	mmht="286"
 }
 "<<basic attribute>>" {
 	attr {
@@ -341,106 +341,6 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)datum"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs="C=$(top)datum"
-		}
-	}
-}
-"text" {
-	object {
-		x="321"
-		y="87"
-		width="100"
-		height="23"
-		groupid="0"
-	}
-	textix="ACCEPT"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)datum"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs="C=$(top)datum"
-		}
-	}
-}
-"text" {
-	object {
-		x="321"
-		y="87"
-		width="101"
-		height="23"
-		groupid="0"
-	}
-	textix="REJECT"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="11"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
 			chan="$(top)debug"
 			rulechan[0] = ""
 			rulechan[1] = ""
@@ -465,8 +365,8 @@ display {
 }
 "text" {
 	object {
-		x="322"
-		y="125"
+		x="321"
+		y="99"
 		width="98"
 		height="23"
 		groupid="0"
@@ -515,8 +415,8 @@ display {
 }
 "text" {
 	object {
-		x="322"
-		y="125"
+		x="321"
+		y="99"
 		width="98"
 		height="23"
 		groupid="0"
@@ -565,8 +465,8 @@ display {
 }
 "text" {
 	object {
-		x="322"
-		y="164"
+		x="321"
+		y="149"
 		width="98"
 		height="23"
 		groupid="0"
@@ -615,8 +515,8 @@ display {
 }
 "text" {
 	object {
-		x="322"
-		y="164"
+		x="321"
+		y="149"
 		width="99"
 		height="23"
 		groupid="0"
@@ -741,106 +641,6 @@ display {
 		param {
 			rulecolorfg="0"
 			rulecolorbg="0"
-			chan="$(top)reboot"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs="C=$(top)reboot"
-		}
-	}
-}
-"text" {
-	object {
-		x="322"
-		y="245"
-		width="99"
-		height="23"
-		groupid="0"
-	}
-	textix="ACCEPT"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)reboot"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs="C=$(top)reboot"
-		}
-	}
-}
-"text" {
-	object {
-		x="322"
-		y="245"
-		width="99"
-		height="23"
-		groupid="0"
-	}
-	textix="REJECT"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="11"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
 			chan="$(top)simulate"
 			rulechan[0] = ""
 			rulechan[1] = ""
@@ -866,7 +666,7 @@ display {
 "text" {
 	object {
 		x="322"
-		y="285"
+		y="263"
 		width="98"
 		height="23"
 		groupid="0"
@@ -916,7 +716,7 @@ display {
 "text" {
 	object {
 		x="322"
-		y="285"
+		y="263"
 		width="99"
 		height="23"
 		groupid="0"
@@ -1074,8 +874,8 @@ display {
 }
 "message button" {
 	object {
-		x="210"
-		y="118"
+		x="209"
+		y="92"
 		width="110"
 		height="35"
 		groupid="0"
@@ -1122,8 +922,8 @@ display {
 }
 "text update" {
 	object {
-		x="421"
-		y="127"
+		x="420"
+		y="101"
 		width="250"
 		height="19"
 		groupid="0"
@@ -1168,8 +968,8 @@ display {
 }
 "text update" {
 	object {
-		x="736"
-		y="128"
+		x="735"
+		y="102"
 		width="250"
 		height="19"
 		groupid="0"
@@ -1214,8 +1014,8 @@ display {
 }
 "choice button" {
 	object {
-		x="29"
-		y="122"
+		x="28"
+		y="96"
 		width="160"
 		height="26"
 		groupid="0"
@@ -1259,8 +1059,8 @@ display {
 }
 "text update" {
 	object {
-		x="679"
-		y="125"
+		x="678"
+		y="99"
 		width="50"
 		height="23"
 		groupid="0"
@@ -1306,7 +1106,7 @@ display {
 "text update" {
 	object {
 		x="736"
-		y="288"
+		y="266"
 		width="250"
 		height="19"
 		groupid="0"
@@ -1352,7 +1152,7 @@ display {
 "message button" {
 	object {
 		x="210"
-		y="278"
+		y="256"
 		width="110"
 		height="35"
 		groupid="0"
@@ -1400,7 +1200,7 @@ display {
 "choice button" {
 	object {
 		x="11"
-		y="282"
+		y="260"
 		width="197"
 		height="26"
 		groupid="0"
@@ -1445,7 +1245,7 @@ display {
 "text update" {
 	object {
 		x="421"
-		y="287"
+		y="265"
 		width="250"
 		height="19"
 		groupid="0"
@@ -1491,7 +1291,7 @@ display {
 "text update" {
 	object {
 		x="679"
-		y="285"
+		y="263"
 		width="50"
 		height="23"
 		groupid="0"
@@ -1536,8 +1336,8 @@ display {
 }
 "message button" {
 	object {
-		x="210"
-		y="158"
+		x="209"
+		y="143"
 		width="110"
 		height="35"
 		groupid="0"
@@ -1584,8 +1384,8 @@ display {
 }
 "text update" {
 	object {
-		x="421"
-		y="167"
+		x="420"
+		y="152"
 		width="250"
 		height="19"
 		groupid="0"
@@ -1630,8 +1430,8 @@ display {
 }
 "text update" {
 	object {
-		x="736"
-		y="168"
+		x="735"
+		y="153"
 		width="250"
 		height="19"
 		groupid="0"
@@ -1676,8 +1476,8 @@ display {
 }
 "text update" {
 	object {
-		x="679"
-		y="165"
+		x="678"
+		y="150"
 		width="50"
 		height="23"
 		groupid="0"
@@ -1706,192 +1506,6 @@ display {
 		rulechan[15] = ""
 		clrrule="flashifbusy"
 		clrargs="C=$(top)initC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"message button" {
-	object {
-		x="210"
-		y="80"
-		width="110"
-		height="35"
-		groupid="0"
-	}
-	control {
-		chan="$(top)datum.DIR"
-		clr="1"
-		bclr="4"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="greyifnotbusy"
-		clrargs="C=$(top)softC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="outward"
-		convertFunc=""
-		convertParams=""
-	}
-	inactive_label="DATUM"
-	pressed_label="DATUM"
-	press_msg="MARK"
-	release_msg="START"
-}
-"text update" {
-	object {
-		x="421"
-		y="89"
-		width="250"
-		height="19"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)datum.MESS"
-		clr="2"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="736"
-		y="90"
-		width="250"
-		height="19"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)datumC.OMSS"
-		clr="2"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="679"
-		y="87"
-		width="50"
-		height="23"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)datumC.VAL"
-		clr="11"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)datumC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"
@@ -2123,192 +1737,6 @@ display {
 		rulechan[15] = ""
 		clrrule="flashifbusy"
 		clrargs="C=$(top)logC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"message button" {
-	object {
-		x="210"
-		y="238"
-		width="110"
-		height="35"
-		groupid="0"
-	}
-	control {
-		chan="$(top)reboot.DIR"
-		clr="1"
-		bclr="4"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="greyifbusy"
-		clrargs="C=$(top)softC"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="outward"
-		convertFunc=""
-		convertParams=""
-	}
-	inactive_label="REBOOT"
-	pressed_label="REBOOT"
-	press_msg="MARK"
-	release_msg="START"
-}
-"text update" {
-	object {
-		x="421"
-		y="247"
-		width="250"
-		height="19"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)reboot.MESS"
-		clr="2"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="736"
-		y="248"
-		width="250"
-		height="19"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)rebootC.OMSS"
-		clr="2"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="679"
-		y="245"
-		width="50"
-		height="23"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)rebootC.VAL"
-		clr="11"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="flashifbusy"
-		clrargs="C=$(top)rebootC"
 		rulecolorbg="0"
 		rulecolorfg="0"
 		hdl="0"

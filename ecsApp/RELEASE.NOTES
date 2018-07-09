@@ -843,3 +843,9 @@ M ecsApp/adl/MK/ECS_Master.adl : Added direct access to 'Carousel Faults' as
 	 at GS. Relocated the Top Shutter Brake failure message.
 
 
+------------------------------------+------------------------------------
+                                 V3-6-7 CP
+CP screens : Minor fixes for first RTEMS release
+M       adl/CP/others.adl   : Removed DATUM and REBOOT commands
+M       adl/CP/shutters.adl : syntax fix
+
