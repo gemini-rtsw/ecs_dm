@@ -6,9 +6,9 @@ display {
 	majv="2"
 	mnrv="4"
 	ndyng="18"
-	npc="49"
-	nstr="105"
-	ndynamic="18"
+	npc="38"
+	nstr="100"
+	ndynamic="16"
 	nplot="0"
 	nrd="4"
 	nes="0"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="5066"
-	nwords_sta="500"
+	nwords_dspy="4636"
+	nwords_sta="440"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="2206"
-	osta="1706"
-	odynamic="3226"
-	oplot="4414"
-	ord="4414"
-	oes="5054"
-	okd="5054"
-	opd="5066"
-	opo="5066"
+	odyng="1908"
+	osta="1468"
+	odynamic="2928"
+	oplot="3984"
+	ord="3984"
+	oes="4624"
+	okd="4624"
+	opd="4636"
+	opo="4636"
 	opc="68"
-	ostr="766"
-	ocmap="1706"
-	ocrules="1706"
+	ostr="584"
+	ocmap="1468"
+	ocrules="1468"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="3840"
-	pixht="1080"
-	mmwid="1016"
-	mmht="285"
+	pixwid="3200"
+	pixht="1200"
+	mmwid="847"
+	mmht="318"
 }
 "<<basic attribute>>" {
 	attr {
@@ -258,17 +258,6 @@ display {
 	textix="Carousel"
 	align="horiz. right"
 }
-"text" {
-	object {
-		x="25"
-		y="274"
-		width="41"
-		height="15"
-		groupid="0"
-	}
-	textix="PCS"
-	align="horiz. right"
-}
 "<<basic attribute>>" {
 	attr {
 		clr="1"
@@ -276,17 +265,6 @@ display {
 		fill="outline"
 		width="0"
 	}
-}
-"text" {
-	object {
-		x="31"
-		y="307"
-		width="35"
-		height="15"
-		groupid="0"
-	}
-	textix="GWS"
-	align="horiz. right"
 }
 "text" {
 	object {
@@ -468,51 +446,6 @@ display {
 		height="169"
 		groupid="0"
 	}
-}
-"rectangle" {
-	object {
-		x="14"
-		y="252"
-		width="174"
-		height="89"
-		groupid="0"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="5"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"rectangle" {
-	object {
-		x="19"
-		y="239"
-		width="131"
-		height="26"
-		groupid="6"
-	}
-}
-"<<basic attribute>>" {
-	attr {
-		clr="1"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"text" {
-	object {
-		x="21"
-		y="243"
-		width="126"
-		height="20"
-		groupid="6"
-	}
-	textix="Other IOCs"
-	align="horiz. left"
 }
 "<<basic attribute>>" {
 	attr {
@@ -2032,98 +1965,6 @@ display {
 		convertParams=""
 	}
 	align="horiz. left"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="74"
-		y="266"
-		width="98"
-		height="27"
-		groupid="0"
-	}
-	monitor {
-		chan="$(m1)present"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
-	format="decimal"
-}
-"text update" {
-	object {
-		x="74"
-		y="301"
-		width="98"
-		height="27"
-		groupid="0"
-	}
-	monitor {
-		chan="$(gws)present"
-		clr="0"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs="R"
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. centered"
 	format="decimal"
 }
 "text update" {

@@ -5,9 +5,9 @@ display {
 	magic="305419896"
 	majv="2"
 	mnrv="4"
-	ndyng="8"
+	ndyng="6"
 	npc="24"
-	nstr="79"
+	nstr="96"
 	ndynamic="15"
 	nplot="0"
 	nrd="5"
@@ -23,23 +23,23 @@ display {
 	}
 	clr="12"
 	bclr="5"
-	nwords_dspy="3646"
+	nwords_dspy="3852"
 	nwords_sta="292"
 	nwords_cmap="0"
 	nwords_crules="0"
-	odyng="1354"
-	osta="1062"
-	odynamic="1826"
-	oplot="2834"
-	ord="2834"
-	oes="3634"
-	okd="3634"
-	opd="3646"
-	opo="3646"
+	odyng="1674"
+	osta="1382"
+	odynamic="2026"
+	oplot="3040"
+	ord="3040"
+	oes="3840"
+	okd="3840"
+	opd="3852"
+	opo="3852"
 	opc="68"
-	ostr="376"
-	ocmap="1062"
-	ocrules="1062"
+	ostr="382"
+	ocmap="1382"
+	ocrules="1382"
 	style="solid"
 	fill="outline"
 	width="0"
@@ -49,10 +49,10 @@ display {
 	clrrule="alarm"
 	pv=""
 	cmap="colorsCP.dl"
-	pixwid="1920"
-	pixht="1200"
-	mmwid="524"
-	mmht="321"
+	pixwid="3840"
+	pixht="1080"
+	mmwid="1016"
+	mmht="286"
 }
 "<<basic attribute>>" {
 	attr {
@@ -583,106 +583,6 @@ display {
 }
 "<<basic attribute>>" {
 	attr {
-		clr="11"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)parkShtrs"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs="C=$(top)parkShtrs"
-		}
-	}
-}
-"text" {
-	object {
-		x="20"
-		y="305"
-		width="80"
-		height="23"
-		groupid="0"
-	}
-	textix="ACCEPT:"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
-		clr="2"
-		style="solid"
-		fill="solid"
-		width="0"
-	}
-}
-"<<dynamic attribute>>" {
-	attr {
-		mod {
-			clrmod="static"
-			vis="if not zero"
-		}
-		param {
-			rulecolorfg="0"
-			rulecolorbg="0"
-			chan="$(top)parkShtrs"
-			rulechan[0] = ""
-			rulechan[1] = ""
-			rulechan[2] = ""
-			rulechan[3] = ""
-			rulechan[4] = ""
-			rulechan[5] = ""
-			rulechan[6] = ""
-			rulechan[7] = ""
-			rulechan[8] = ""
-			rulechan[9] = ""
-			rulechan[10] = ""
-			rulechan[11] = ""
-			rulechan[12] = ""
-			rulechan[13] = ""
-			rulechan[14] = ""
-			rulechan[15] = ""
-			clrrule="alarm"
-			clrargs="C=$(top)parkShtrs"
-		}
-	}
-}
-"text" {
-	object {
-		x="20"
-		y="305"
-		width="81"
-		height="23"
-		groupid="0"
-	}
-	textix="REJECT:"
-	align="horiz. centered"
-}
-"<<basic attribute>>" {
-	attr {
 		clr="0"
 		style="solid"
 		fill="solid"
@@ -923,7 +823,7 @@ display {
 	control {
 		chan="$(top)stopShtrs.DIR"
 		clr="1"
-		bclr="4"
+		bclr="2"
 		label="none"
 		clrmod="static"
 		rulechan[0] = ""
@@ -1049,100 +949,6 @@ display {
 		convertFunc=""
 		convertParams=""
 	}
-	format="decimal"
-}
-"message button" {
-	object {
-		x="14"
-		y="253"
-		width="87"
-		height="46"
-		groupid="0"
-	}
-	control {
-		chan="$(top)parkShtrs.DIR"
-		clr="1"
-		bclr="4"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="greyifbusy"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="outward"
-		convertFunc=""
-		convertParams=""
-	}
-	inactive_label="PARK"
-	pressed_label="MARK"
-	press_msg="MARK"
-	release_msg="START"
-}
-"text update" {
-	object {
-		x="105"
-		y="305"
-		width="383"
-		height="19"
-		groupid="0"
-	}
-	monitor {
-		chan="$(top)parkShtrs.MESS"
-		clr="2"
-		bclr="7"
-		label="none"
-		clrmod="static"
-		rulechan[0] = ""
-		rulechan[1] = ""
-		rulechan[2] = ""
-		rulechan[3] = ""
-		rulechan[4] = ""
-		rulechan[5] = ""
-		rulechan[6] = ""
-		rulechan[7] = ""
-		rulechan[8] = ""
-		rulechan[9] = ""
-		rulechan[10] = ""
-		rulechan[11] = ""
-		rulechan[12] = ""
-		rulechan[13] = ""
-		rulechan[14] = ""
-		rulechan[15] = ""
-		clrrule="alarm"
-		clrargs=""
-		rulecolorbg="0"
-		rulecolorfg="0"
-		hdl="0"
-		ldl="0"
-		prec="-1"
-		newunits=""
-		units="none"
-		decorate="none"
-		convertFunc=""
-		convertParams=""
-	}
-	align="horiz. left"
 	format="decimal"
 }
 "text update" {
@@ -1434,6 +1240,52 @@ display {
 		clr="0"
 		bclr="7"
 		label="none"
+		clrmod="rule"
+		rulechan[0] = "$(top)botShtrSkewEnc.SEVR"
+		rulechan[1] = "$(top)botShtrSkewEnc.SEVR"
+		rulechan[2] = "$(top)botShtrSkewEnc.SEVR"
+		rulechan[3] = "$(top)botShtrSkewEnc.SEVR"
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs="C=$(top)botShtrSkewEnc"
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	align="horiz. left"
+	format="decimal"
+}
+"message button" {
+	object {
+		x="17"
+		y="270"
+		width="231"
+		height="34"
+		groupid="0"
+	}
+	control {
+		chan="$(top)closeSH.PROC"
+		clr="1"
+		bclr="4"
+		label="none"
 		clrmod="static"
 		rulechan[0] = ""
 		rulechan[1] = ""
@@ -1451,7 +1303,7 @@ display {
 		rulechan[13] = ""
 		rulechan[14] = ""
 		rulechan[15] = ""
-		clrrule="alarm"
+		clrrule="greyifbusy"
 		clrargs=""
 		rulecolorbg="0"
 		rulecolorfg="0"
@@ -1460,12 +1312,62 @@ display {
 		prec="-1"
 		newunits=""
 		units="none"
-		decorate="none"
+		decorate="outward"
 		convertFunc=""
 		convertParams=""
 	}
-	align="horiz. left"
-	format="decimal"
+	inactive_label="CLOSE SHUTTERS"
+	pressed_label="START"
+	press_msg=""
+	release_msg="1"
+}
+"message button" {
+	object {
+		x="255"
+		y="269"
+		width="236"
+		height="35"
+		groupid="0"
+	}
+	control {
+		chan="$(top)abortCloseSH.PROC"
+		clr="1"
+		bclr="2"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="greyifbusy"
+		clrargs=""
+		rulecolorbg="0"
+		rulecolorfg="0"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="outward"
+		convertFunc=""
+		convertParams=""
+	}
+	inactive_label="ABORT CLOSE SHTRS"
+	pressed_label="START"
+	press_msg=""
+	release_msg="1"
 }
 "related display" {
 	object {
@@ -1747,22 +1649,22 @@ display {
 	display[0] {
 		label="botShtr status"
 		name="devStat.dl"
-		args="top=$(top),dev=botShtr,fld=Shtrs.C,units=(degrees)"
+		args="top=$(top),dev=botShtr,devv=bs,fld=Shtrs.C,units=(degrees)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="bot shutter motor"
+		name="motRecord.dl"
+		args="top=$(top),motor=botShtrmotor,title=BotShutter"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="bot handshake"
+		name="motHandshakeNoVms.dl"
+		args="top=$(top),hin=botShtrmotor.HINP,hout=botShtrmotor.HSTA,title=BotShutter"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="bot motor io"
+		name="motIo.dl"
+		args="top=$(top),dev=bs,title=BotShutter"
 	}
 	display[4] {
 		label=""
@@ -1881,22 +1783,22 @@ display {
 	display[0] {
 		label="topShtr status"
 		name="devStat.dl"
-		args="top=$(top),dev=topShtr,fld=Shtrs.B,units=(degrees)"
+		args="top=$(top),dev=topShtr,devv=ts,fld=Shtrs.B,units=(degrees)"
 	}
 	display[1] {
-		label=""
-		name=""
-		args=""
+		label="top shutter motor"
+		name="motRecord.dl"
+		args="top=$(top),motor=topShtrmotor,title=TopShutter"
 	}
 	display[2] {
-		label=""
-		name=""
-		args=""
+		label="top handshake"
+		name="motHandshakeNoVms.dl"
+		args="top=$(top),hin=topShtrmotor.HINP,hout=topShtrmotor.HSTA,title=TopShutter"
 	}
 	display[3] {
-		label=""
-		name=""
-		args=""
+		label="top motor io"
+		name="motIo.dl"
+		args="top=$(top),dev=ts,title=TopShutter"
 	}
 	display[4] {
 		label=""
@@ -2015,7 +1917,7 @@ display {
 	display[0] {
 		label="Galil"
 		name="shutGalil.dl"
-		args=""
+		args="top=$(top)"
 	}
 	display[1] {
 		label=""

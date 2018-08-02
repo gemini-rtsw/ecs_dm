@@ -1,0 +1,733 @@
+file {
+	name="motHandshakeNoVms.dl"
+}
+display {
+	magic="305419896"
+	majv="2"
+	mnrv="4"
+	ndyng="0"
+	npc="3"
+	nstr="62"
+	ndynamic="2"
+	nplot="0"
+	nrd="0"
+	nes="0"
+	nkd="1"
+	npd="0"
+	npo="0"
+	object {
+		x="0"
+		y="0"
+		width="968"
+		height="396"
+	}
+	clr="0"
+	bclr="5"
+	nwords_dspy="1320"
+	nwords_sta="540"
+	nwords_cmap="0"
+	nwords_crules="0"
+	odyng="1176"
+	osta="636"
+	odynamic="1176"
+	oplot="1308"
+	ord="1308"
+	oes="1308"
+	okd="1308"
+	opd="1320"
+	opo="1320"
+	opc="68"
+	ostr="92"
+	ocmap="636"
+	ocrules="636"
+	style="solid"
+	fill="outline"
+	width="0"
+	clrmod="static"
+	vismod="static"
+	precision="-1"
+	clrrule="alarm"
+	pv=""
+	cmap="colorsCP.dl"
+	pixwid="3200"
+	pixht="1200"
+	mmwid="847"
+	mmht="318"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="14"
+		y="5"
+		width="78"
+		height="40"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="1"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="204"
+		y="15"
+		width="564"
+		height="22"
+		groupid="0"
+	}
+	textix="$(title) Handshake (NO VMS)"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="8"
+		style="solid"
+		fill="outline"
+		width="3"
+	}
+}
+"rectangle" {
+	object {
+		x="14"
+		y="6"
+		width="944"
+		height="39"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="12"
+		y="60"
+		width="470"
+		height="325"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="13"
+		y="61"
+		width="468"
+		height="20"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="99"
+		y="64"
+		width="257"
+		height="15"
+		groupid="0"
+	}
+	textix="Handshake in (no vms)"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="12"
+		style="solid"
+		fill="outline"
+		width="2"
+	}
+}
+"rectangle" {
+	object {
+		x="490"
+		y="60"
+		width="470"
+		height="325"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="9"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"rectangle" {
+	object {
+		x="491"
+		y="61"
+		width="468"
+		height="20"
+		groupid="0"
+	}
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="577"
+		y="64"
+		width="241"
+		height="15"
+		groupid="0"
+	}
+	textix="Handshake out (no vms)"
+	align="horiz. centered"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="542"
+		y="91"
+		width="299"
+		height="15"
+		groupid="0"
+	}
+	textix="15 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="108"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix="14 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="125"
+		width="322"
+		height="15"
+		groupid="0"
+	}
+	textix="13 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="143"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix="12 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="160"
+		width="346"
+		height="15"
+		groupid="0"
+	}
+	textix="11 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="177"
+		width="314"
+		height="15"
+		groupid="0"
+	}
+	textix="10 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="195"
+		width="314"
+		height="15"
+		groupid="0"
+	}
+	textix=" 9 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="212"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 8 ---"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="15"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="542"
+		y="229"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 7 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="247"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 6 New position"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="264"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 5 Drive enable"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="281"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 4 Power on"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="542"
+		y="299"
+		width="299"
+		height="15"
+		groupid="0"
+	}
+	textix=" 3 In position"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="316"
+		width="361"
+		height="15"
+		groupid="0"
+	}
+	textix=" 2 Position acknowledge/valid"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="333"
+		width="380"
+		height="15"
+		groupid="0"
+	}
+	textix=" 1 Drive acknowledge"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="542"
+		y="351"
+		width="330"
+		height="15"
+		groupid="0"
+	}
+	textix=" 0 Power acknowledge"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="90"
+		width="299"
+		height="15"
+		groupid="0"
+	}
+	textix="15 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="107"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix="14 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="124"
+		width="322"
+		height="15"
+		groupid="0"
+	}
+	textix="13 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="142"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix="12 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="159"
+		width="346"
+		height="15"
+		groupid="0"
+	}
+	textix="11 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="176"
+		width="314"
+		height="15"
+		groupid="0"
+	}
+	textix="10 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="194"
+		width="314"
+		height="15"
+		groupid="0"
+	}
+	textix=" 9 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="211"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 8 ---"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="15"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="63"
+		y="228"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 7 ---"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="246"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 6 New position"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="263"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 5 Drive enable"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="280"
+		width="268"
+		height="15"
+		groupid="0"
+	}
+	textix=" 4 Power on"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="10"
+		style="solid"
+		fill="outline"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="63"
+		y="298"
+		width="299"
+		height="15"
+		groupid="0"
+	}
+	textix=" 3 In position"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="315"
+		width="361"
+		height="15"
+		groupid="0"
+	}
+	textix=" 2 Position acknowledge/valid"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="332"
+		width="380"
+		height="15"
+		groupid="0"
+	}
+	textix=" 1 Drive acknowledge"
+	align="horiz. left"
+}
+"text" {
+	object {
+		x="63"
+		y="350"
+		width="330"
+		height="15"
+		groupid="0"
+	}
+	textix=" 0 Power acknowledge"
+	align="horiz. left"
+}
+"<<basic attribute>>" {
+	attr {
+		clr="13"
+		style="solid"
+		fill="solid"
+		width="0"
+	}
+}
+"text" {
+	object {
+		x="23"
+		y="8"
+		width="105"
+		height="38"
+		groupid="0"
+	}
+	textix="ECS"
+	align="horiz. left"
+}
+"byte" {
+	object {
+		x="504"
+		y="90"
+		width="30"
+		height="275"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(hout)"
+		clr="24"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="1"
+		rulecolorfg="1"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	sbit="0"
+	ebit="15"
+	direction="up"
+}
+"byte" {
+	object {
+		x="25"
+		y="89"
+		width="30"
+		height="275"
+		groupid="0"
+	}
+	monitor {
+		chan="$(top)$(hin)"
+		clr="24"
+		bclr="13"
+		label="none"
+		clrmod="static"
+		rulechan[0] = ""
+		rulechan[1] = ""
+		rulechan[2] = ""
+		rulechan[3] = ""
+		rulechan[4] = ""
+		rulechan[5] = ""
+		rulechan[6] = ""
+		rulechan[7] = ""
+		rulechan[8] = ""
+		rulechan[9] = ""
+		rulechan[10] = ""
+		rulechan[11] = ""
+		rulechan[12] = ""
+		rulechan[13] = ""
+		rulechan[14] = ""
+		rulechan[15] = ""
+		clrrule="alarm"
+		clrargs=""
+		rulecolorbg="1"
+		rulecolorfg="1"
+		hdl="0"
+		ldl="0"
+		prec="-1"
+		newunits=""
+		units="none"
+		decorate="none"
+		convertFunc=""
+		convertParams=""
+	}
+	sbit="0"
+	ebit="15"
+	direction="up"
+}
+"kill display" {
+	object {
+		x="840"
+		y="10"
+		width="109"
+		height="32"
+		groupid="0"
+	}
+	label="QUIT"
+	clr="1"
+	bclr="9"
+	decorate="outward"
+}
