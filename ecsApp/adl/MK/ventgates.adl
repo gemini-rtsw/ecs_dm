@@ -1631,7 +1631,7 @@ display {
 	display[0] {
 		label="WVG status"
 		name="devStat.dl"
-		args="top=$(top),dev=westVentGate,fld=Vgates.C,units=(percent_open)"
+		args="top=$(top),dev=westVentGate,devv=wv,fld=Vgates.C,units=(percent_open)"
 	}
 	display[1] {
 		label=""
@@ -1765,7 +1765,7 @@ display {
 	display[0] {
 		label="EVG status"
 		name="devStat.dl"
-		args="top=$(top),dev=eastVentGate,fld=Vgates.B,units=(percent_open)"
+		args="top=$(top),dev=eastVentGate,devv=ev,fld=Vgates.B,units=(percent_open)"
 	}
 	display[1] {
 		label=""

@@ -688,7 +688,7 @@ display {
 		groupid="0"
 	}
 	monitor {
-		chan="$(top)$(dev)ProcCtr"
+		chan="$(top)$(devv)ProcCtr"
 		clr="11"
 		bclr="13"
 		label="none"
