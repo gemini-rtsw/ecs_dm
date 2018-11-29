@@ -1544,7 +1544,7 @@ display {
 	display[0] {
 		label="dome status"
 		name="devStat.dl"
-		args="top=$(top),dev=dome,fld=Dome.B,units=(degrees)"
+		args="top=$(top),dev=dome,devv=dm,fld=Dome.B,units=(degrees)"
 	}
 	display[1] {
 		label=""

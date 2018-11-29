@@ -1569,7 +1569,7 @@ display {
 	display[6] {
 		label="Display Summary"
 		name="ECS_Display.dl"
-		args="top=$(top), m1=$(m1), gws=$(gws)"
+		args="top=$(top), m1=$(m1), sad=$(sad), gws=$(gws)"
 	}
 	display[7] {
 		label="Auto-Close"

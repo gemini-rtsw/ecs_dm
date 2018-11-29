@@ -2,7 +2,7 @@
 %define gemopt opt
 %define name ecs
 %define version 3.1
-%define release 30
+%define release 31
 %define repository gemini
 %define debug_package %{nil}
 

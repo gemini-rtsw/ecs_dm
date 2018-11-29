@@ -1649,7 +1649,7 @@ display {
 	display[0] {
 		label="botShtr status"
 		name="devStat.dl"
-		args="top=$(top),dev=botShtr,fld=Shtrs.C,units=(degrees)"
+		args="top=$(top),dev=botShtr,devv=bs,fld=Shtrs.C,units=(degrees)"
 	}
 	display[1] {
 		label=""
@@ -1783,7 +1783,7 @@ display {
 	display[0] {
 		label="topShtr status"
 		name="devStat.dl"
-		args="top=$(top),dev=topShtr,fld=Shtrs.B,units=(degrees)"
+		args="top=$(top),dev=topShtr,devv=ts,fld=Shtrs.B,units=(degrees)"
 	}
 	display[1] {
 		label=""
