@@ -2848,7 +2848,7 @@ display {
 		newunits=""
 		units="none"
 		decorate="none"
-		convertFunc=""
+		convertFunc="dmCalcIn = A / 10.0"
 		convertParams=""
 	}
 	align="horiz. right"
