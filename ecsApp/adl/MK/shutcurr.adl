@@ -2845,10 +2845,10 @@ display {
 		hdl="0"
 		ldl="0"
 		prec="2"
-		newunits=""
+		newunits="none"
 		units="none"
 		decorate="none"
-		convertFunc="dmCalcIn = A / 10.0"
+		convertFunc="dmCalcIn = A/10.0"
 		convertParams=""
 	}
 	align="horiz. right"
